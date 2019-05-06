@@ -17,6 +17,6 @@ Objectives:
 2) Optimize;
 3) Secure.
 
-Please make sent a pull request or link to your repository with the solution.
+Please send a link to your repository with the solution.
 
 Thanks
