@@ -1,0 +1,125 @@
+import { readFileSync, writeFileSync, mkdtempSync, existsSync, statSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const cards = JSON.parse(readFileSync(join(root, "src/data/cards.json"), "utf8"));
+const parts = JSON.parse(readFileSync(join(root, "src/data/bodyParts.json"), "utf8"));
+const conditions = JSON.parse(readFileSync(join(root, "src/data/conditions.json"), "utf8"));
+const conditionName = new Map(conditions.map((item) => [item.id, item.nameUk]));
+const kindLabel = {
+  recipe: "Рецепт",
+  protocol: "Протокол",
+  recommendation: "Рекомендація",
+};
+const disclaimer =
+  "Це освітня компіляція публічних описів відео, а не медична порада. Доктор Берг — хіропрактик, не лікар. Рішення щодо здоров’я ухвалюйте разом із лікарем.";
+
+function esc(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function cardHtml(card) {
+  const foods = card.foods.map((item) => `<li>${esc(item)}</li>`).join("");
+  const supplements = card.supplements.map((item) => `<li>${esc(item)}</li>`).join("");
+  const steps = card.steps.map((item) => `<li>${esc(item)}</li>`).join("");
+  const states = card.conditions.map((id) => conditionName.get(id) ?? id).join(", ");
+  return `<article class="card">
+    <p class="kind">${kindLabel[card.kind]}</p>
+    <h3>${esc(card.titleUk)}</h3>
+    <p>${esc(card.summaryUk)}</p>
+    ${foods ? `<h4>Продукти</h4><ul>${foods}</ul>` : ""}
+    ${supplements ? `<h4>Добавки</h4><ul>${supplements}</ul>` : ""}
+    ${steps ? `<h4>${card.kind === "recipe" ? "Кроки" : "Режим"}</h4><ol>${steps}</ol>` : ""}
+    ${states ? `<p>Стани: ${esc(states)}</p>` : ""}
+    <p>English: ${esc(card.titleEn)}</p>
+    ${card.publishedAt ? `<p>${esc(card.publishedAt)}</p>` : ""}
+    <p><a href="${esc(card.url)}">Дивитися відео на YouTube</a></p>
+  </article>`;
+}
+
+const chapters = [];
+for (const part of parts) {
+  const inPart = cards.filter((card) => card.bodyParts.includes(part.id));
+  if (inPart.length === 0) continue;
+  const groups = new Map();
+  const loose = [];
+  for (const card of inPart) {
+    if (card.conditions.length === 0) loose.push(card);
+    for (const conditionId of card.conditions) {
+      if (!groups.has(conditionId)) groups.set(conditionId, []);
+      groups.get(conditionId).push(card);
+    }
+  }
+  const ordered = [...groups.entries()].sort((a, b) =>
+    (conditionName.get(a[0]) ?? a[0]).localeCompare(conditionName.get(b[0]) ?? b[0], "uk"),
+  );
+  const blocks = ordered
+    .map(
+      ([id, group]) =>
+        `<h2>${esc(conditionName.get(id) ?? id)}</h2>${group.map(cardHtml).join("")}`,
+    )
+    .join("");
+  const rest = loose.length
+    ? `<h2>Без окремого стану</h2>${loose.map(cardHtml).join("")}`
+    : "";
+  chapters.push(`<section><h1>${esc(part.nameUk)}</h1>${blocks}${rest}</section>`);
+}
+
+const html = `<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <title>Енциклопедія рецептів доктора Берга</title>
+  <style>
+    body { font-family: "Liberation Serif", "Noto Serif", "DejaVu Serif", Georgia, serif; color: #1c1915; margin: 0; }
+    main { padding: 24px 36px 48px; }
+    h1 { break-before: page; font-size: 22pt; }
+    section:first-of-type h1 { break-before: auto; }
+    h2 { font-size: 15pt; margin-top: 1.2em; }
+    h3 { font-size: 13pt; margin-bottom: 0.2em; }
+    .card { break-inside: avoid; margin: 0.8em 0 1em; padding-bottom: 0.6em; border-bottom: 1px solid #ddd; }
+    .kind { letter-spacing: 0.06em; text-transform: uppercase; font-size: 9pt; color: #5e564c; }
+    a { color: #1d4a38; }
+    .note { background: #f6f0e4; padding: 12px 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Енциклопедія рецептів доктора Берга</h1>
+    <p class="note">${esc(disclaimer)}</p>
+    <p>Картки згруповано за частиною тіла, далі за станом. Кожне посилання відкриває відео на YouTube.</p>
+    ${chapters.join("\n")}
+  </main>
+</body>
+</html>`;
+
+const dir = mkdtempSync(join(tmpdir(), "berg-pdf-"));
+const htmlPath = join(dir, "guide.html");
+const pdfPath = join(root, "public/berg-dovidnyk.pdf");
+writeFileSync(htmlPath, html);
+try {
+  execFileSync(
+    "timeout",
+    [
+      "90",
+      "google-chrome",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--no-pdf-header-footer",
+      `--print-to-pdf=${pdfPath}`,
+      htmlPath,
+    ],
+    { stdio: "inherit" },
+  );
+} catch (error) {
+  if (!existsSync(pdfPath) || statSync(pdfPath).size < 1000) throw error;
+}
+console.log(pdfPath);

@@ -1,0 +1,16 @@
+{
+  "channel": "https://www.youtube.com/@DrEricBerg",
+  "indexed": 2827,
+  "kept": 878,
+  "byKind": {
+    "recommendation": 771,
+    "protocol": 48,
+    "recipe": 59
+  },
+  "dropped": {
+    "no-recipe-protocol-or-recommendation": 1934,
+    "too-little-text": 14
+  },
+  "conditions": 56,
+  "cardsWithRussianLetters": 383
+}

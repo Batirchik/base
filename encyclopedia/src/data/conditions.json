@@ -1,0 +1,226 @@
+[
+  {
+    "id": "insulin-resistance",
+    "nameUk": "Інсулінорезистентність"
+  },
+  {
+    "id": "acne",
+    "nameUk": "Акне"
+  },
+  {
+    "id": "anemia",
+    "nameUk": "Анемія"
+  },
+  {
+    "id": "arrhythmia",
+    "nameUk": "Аритмія"
+  },
+  {
+    "id": "arthritis",
+    "nameUk": "Артрит"
+  },
+  {
+    "id": "osteoarthritis",
+    "nameUk": "Артроз"
+  },
+  {
+    "id": "asthma",
+    "nameUk": "Астма"
+  },
+  {
+    "id": "insomnia",
+    "nameUk": "Безсоння"
+  },
+  {
+    "id": "pregnancy",
+    "nameUk": "Вагітність"
+  },
+  {
+    "id": "varicose",
+    "nameUk": "Варикоз"
+  },
+  {
+    "id": "hair-loss",
+    "nameUk": "Випадіння волосся"
+  },
+  {
+    "id": "adrenal-fatigue",
+    "nameUk": "Виснаження наднирників"
+  },
+  {
+    "id": "high-blood-pressure",
+    "nameUk": "Високий тиск"
+  },
+  {
+    "id": "high-cholesterol",
+    "nameUk": "Високий холестерин"
+  },
+  {
+    "id": "high-blood-sugar",
+    "nameUk": "Високий цукор у крові"
+  },
+  {
+    "id": "high-insulin",
+    "nameUk": "Високий інсулін"
+  },
+  {
+    "id": "visceral-fat",
+    "nameUk": "Вісцеральний жир"
+  },
+  {
+    "id": "gastritis",
+    "nameUk": "Гастрит"
+  },
+  {
+    "id": "headache",
+    "nameUk": "Головний біль"
+  },
+  {
+    "id": "fasting",
+    "nameUk": "Голодування"
+  },
+  {
+    "id": "nail-fungus",
+    "nameUk": "Грибок нігтів"
+  },
+  {
+    "id": "hyperthyroid",
+    "nameUk": "Гіпертиреоз"
+  },
+  {
+    "id": "hypothyroid",
+    "nameUk": "Гіпотиреоз"
+  },
+  {
+    "id": "dementia",
+    "nameUk": "Деменція"
+  },
+  {
+    "id": "depression",
+    "nameUk": "Депресія"
+  },
+  {
+    "id": "vitamin-d-deficiency",
+    "nameUk": "Дефіцит вітаміну D"
+  },
+  {
+    "id": "magnesium-deficiency",
+    "nameUk": "Дефіцит магнію"
+  },
+  {
+    "id": "eczema",
+    "nameUk": "Екзема"
+  },
+  {
+    "id": "fatty-liver",
+    "nameUk": "Жирова хвороба печінки"
+  },
+  {
+    "id": "gallstones",
+    "nameUk": "Жовчнокам'яна хвороба"
+  },
+  {
+    "id": "overweight",
+    "nameUk": "Зайва вага"
+  },
+  {
+    "id": "inflammation",
+    "nameUk": "Запалення"
+  },
+  {
+    "id": "constipation",
+    "nameUk": "Запор"
+  },
+  {
+    "id": "cold",
+    "nameUk": "Застуда"
+  },
+  {
+    "id": "bloating",
+    "nameUk": "Здуття"
+  },
+  {
+    "id": "kidney-stones",
+    "nameUk": "Камені в нирках"
+  },
+  {
+    "id": "candida",
+    "nameUk": "Кандида"
+  },
+  {
+    "id": "keto-flu",
+    "nameUk": "Кетогрип"
+  },
+  {
+    "id": "menopause",
+    "nameUk": "Менопауза"
+  },
+  {
+    "id": "migraine",
+    "nameUk": "Мігрень"
+  },
+  {
+    "id": "edema",
+    "nameUk": "Набряки"
+  },
+  {
+    "id": "osteoporosis",
+    "nameUk": "Остеопороз"
+  },
+  {
+    "id": "pancreatitis",
+    "nameUk": "Панкреатит"
+  },
+  {
+    "id": "gerd",
+    "nameUk": "Печія і рефлюкс"
+  },
+  {
+    "id": "gout",
+    "nameUk": "Подагра"
+  },
+  {
+    "id": "prostatitis",
+    "nameUk": "Простатит"
+  },
+  {
+    "id": "psoriasis",
+    "nameUk": "Псоріаз"
+  },
+  {
+    "id": "leaky-gut",
+    "nameUk": "Підвищена проникність кишечника"
+  },
+  {
+    "id": "sibo",
+    "nameUk": "СІБР"
+  },
+  {
+    "id": "pcos",
+    "nameUk": "СПКЯ"
+  },
+  {
+    "id": "ibs",
+    "nameUk": "Синдром подразненого кишечника"
+  },
+  {
+    "id": "cramps",
+    "nameUk": "Судоми"
+  },
+  {
+    "id": "hashimoto",
+    "nameUk": "Тиреоїдит Хашимото"
+  },
+  {
+    "id": "anxiety",
+    "nameUk": "Тривога"
+  },
+  {
+    "id": "uti",
+    "nameUk": "Цистит"
+  },
+  {
+    "id": "diabetes",
+    "nameUk": "Цукровий діабет"
+  }
+]
