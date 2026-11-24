@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export function NotFoundPage() {
   return (
     <div>
-      <h1>Сторінку не знайдено</h1>
+      <h1>Страница не найдена</h1>
       <p>
-        <Link to="/">Повернутися на головну</Link>
+        <Link to="/">Вернуться на главную</Link>
       </p>
     </div>
   );

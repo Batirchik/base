@@ -12,5 +12,6 @@
     "too-little-text": 14
   },
   "conditions": 56,
-  "cardsWithRussianLetters": 383
+  "cardsWithUkrainianLetters": 0,
+  "titlesStillMostlyLatin": 0
 }

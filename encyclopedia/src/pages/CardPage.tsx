@@ -10,7 +10,7 @@ export function CardPage() {
   return (
     <div>
       <p className="crumbs no-print">
-        <Link to="/">Головна</Link>
+        <Link to="/">Главная</Link>
         {card.bodyParts[0] && (
           <>
             {" / "}

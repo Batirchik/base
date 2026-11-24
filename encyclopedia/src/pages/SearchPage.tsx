@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { CardList } from "../components/CardList";
 import { kindFromParam, KindFilter } from "../components/KindFilter";
-import { searchCards, type KindFilter as KindValue } from "../lib/model";
+import { ruPlural, searchCards, type KindFilter as KindValue } from "../lib/model";
 
 export function SearchPage() {
   const [params, setParams] = useSearchParams();
@@ -18,11 +18,11 @@ export function SearchPage() {
 
   return (
     <div>
-      <h1>Пошук</h1>
+      <h1>Поиск</h1>
       <p className="lede">
         {q
-          ? `Запит «${q}»: ${found.length} карток.`
-          : "Введіть назву, продукт, добавку або стан."}
+          ? `Запрос «${q}»: ${found.length} ${ruPlural(found.length, "карточка", "карточки", "карточек")}.`
+          : "Введите название, продукт, добавку или состояние."}
       </p>
       <KindFilter value={kind} onChange={setKind} />
       <CardList cards={found} />

@@ -4,18 +4,18 @@ import { KIND_LABEL, type Card } from "../types";
 
 export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
   const title = linked ? (
-    <Link to={`/card/${card.id}`}>{card.titleUk}</Link>
+    <Link to={`/card/${card.id}`}>{card.titleRu}</Link>
   ) : (
-    card.titleUk
+    card.titleRu
   );
   return (
     <article className="card" id={`card-${card.id}`} data-kind={card.kind}>
       <p className="kind">{KIND_LABEL[card.kind]}</p>
       <h2>{title}</h2>
-      <p className="summary">{card.summaryUk}</p>
+      <p className="summary">{card.summaryRu}</p>
       {card.foods.length > 0 && (
         <section>
-          <h3>Продукти</h3>
+          <h3>Продукты</h3>
           <ul className="chips">
             {card.foods.map((food) => (
               <li key={food}>{food}</li>
@@ -35,7 +35,7 @@ export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
       )}
       {card.steps.length > 0 && (
         <section>
-          <h3>{card.kind === "recipe" ? "Кроки" : "Режим"}</h3>
+          <h3>{card.kind === "recipe" ? "Шаги" : "Режим"}</h3>
           <ol>
             {card.steps.map((step) => (
               <li key={step}>{step}</li>
@@ -46,7 +46,7 @@ export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
       <div className="meta">
         {card.bodyParts.length > 0 && (
           <p>
-            Частини тіла:{" "}
+            Части тела:{" "}
             {card.bodyParts.map((id, index) => (
               <span key={id}>
                 {index > 0 && ", "}
@@ -57,7 +57,7 @@ export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
         )}
         {card.conditions.length > 0 && (
           <p>
-            Стани:{" "}
+            Состояния:{" "}
             {card.conditions.map((id, index) => (
               <span key={id}>
                 {index > 0 && ", "}
@@ -66,10 +66,10 @@ export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
             ))}
           </p>
         )}
-        <p>Англійська назва: {card.titleEn}</p>
+        {card.titleEn && <p>Английское название: {card.titleEn}</p>}
         {card.publishedAt && <p>Дата: {formatDate(card.publishedAt)}</p>}
         <p>
-          <a href={card.url}>Дивитися відео на YouTube</a>
+          <a href={card.url}>Смотреть видео на YouTube</a>
         </p>
       </div>
     </article>

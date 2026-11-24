@@ -1,226 +1,226 @@
 [
   {
-    "id": "insulin-resistance",
-    "nameUk": "Інсулінорезистентність"
-  },
-  {
     "id": "acne",
-    "nameUk": "Акне"
+    "nameRu": "Акне"
   },
   {
     "id": "anemia",
-    "nameUk": "Анемія"
+    "nameRu": "Анемия"
   },
   {
     "id": "arrhythmia",
-    "nameUk": "Аритмія"
+    "nameRu": "Аритмия"
   },
   {
     "id": "arthritis",
-    "nameUk": "Артрит"
+    "nameRu": "Артрит"
   },
   {
     "id": "osteoarthritis",
-    "nameUk": "Артроз"
+    "nameRu": "Артроз"
   },
   {
     "id": "asthma",
-    "nameUk": "Астма"
-  },
-  {
-    "id": "insomnia",
-    "nameUk": "Безсоння"
+    "nameRu": "Астма"
   },
   {
     "id": "pregnancy",
-    "nameUk": "Вагітність"
+    "nameRu": "Беременность"
+  },
+  {
+    "id": "insomnia",
+    "nameRu": "Бессонница"
   },
   {
     "id": "varicose",
-    "nameUk": "Варикоз"
-  },
-  {
-    "id": "hair-loss",
-    "nameUk": "Випадіння волосся"
-  },
-  {
-    "id": "adrenal-fatigue",
-    "nameUk": "Виснаження наднирників"
-  },
-  {
-    "id": "high-blood-pressure",
-    "nameUk": "Високий тиск"
-  },
-  {
-    "id": "high-cholesterol",
-    "nameUk": "Високий холестерин"
-  },
-  {
-    "id": "high-blood-sugar",
-    "nameUk": "Високий цукор у крові"
-  },
-  {
-    "id": "high-insulin",
-    "nameUk": "Високий інсулін"
-  },
-  {
-    "id": "visceral-fat",
-    "nameUk": "Вісцеральний жир"
-  },
-  {
-    "id": "gastritis",
-    "nameUk": "Гастрит"
-  },
-  {
-    "id": "headache",
-    "nameUk": "Головний біль"
-  },
-  {
-    "id": "fasting",
-    "nameUk": "Голодування"
-  },
-  {
-    "id": "nail-fungus",
-    "nameUk": "Грибок нігтів"
-  },
-  {
-    "id": "hyperthyroid",
-    "nameUk": "Гіпертиреоз"
-  },
-  {
-    "id": "hypothyroid",
-    "nameUk": "Гіпотиреоз"
-  },
-  {
-    "id": "dementia",
-    "nameUk": "Деменція"
-  },
-  {
-    "id": "depression",
-    "nameUk": "Депресія"
-  },
-  {
-    "id": "vitamin-d-deficiency",
-    "nameUk": "Дефіцит вітаміну D"
-  },
-  {
-    "id": "magnesium-deficiency",
-    "nameUk": "Дефіцит магнію"
-  },
-  {
-    "id": "eczema",
-    "nameUk": "Екзема"
-  },
-  {
-    "id": "fatty-liver",
-    "nameUk": "Жирова хвороба печінки"
-  },
-  {
-    "id": "gallstones",
-    "nameUk": "Жовчнокам'яна хвороба"
-  },
-  {
-    "id": "overweight",
-    "nameUk": "Зайва вага"
-  },
-  {
-    "id": "inflammation",
-    "nameUk": "Запалення"
-  },
-  {
-    "id": "constipation",
-    "nameUk": "Запор"
-  },
-  {
-    "id": "cold",
-    "nameUk": "Застуда"
+    "nameRu": "Варикоз"
   },
   {
     "id": "bloating",
-    "nameUk": "Здуття"
+    "nameRu": "Вздутие"
   },
   {
-    "id": "kidney-stones",
-    "nameUk": "Камені в нирках"
+    "id": "visceral-fat",
+    "nameRu": "Висцеральный жир"
   },
   {
-    "id": "candida",
-    "nameUk": "Кандида"
+    "id": "inflammation",
+    "nameRu": "Воспаление"
   },
   {
-    "id": "keto-flu",
-    "nameUk": "Кетогрип"
+    "id": "hair-loss",
+    "nameRu": "Выпадение волос"
   },
   {
-    "id": "menopause",
-    "nameUk": "Менопауза"
+    "id": "high-insulin",
+    "nameRu": "Высокий инсулин"
   },
   {
-    "id": "migraine",
-    "nameUk": "Мігрень"
+    "id": "high-blood-sugar",
+    "nameRu": "Высокий сахар в крови"
   },
   {
-    "id": "edema",
-    "nameUk": "Набряки"
+    "id": "high-cholesterol",
+    "nameRu": "Высокий холестерин"
   },
   {
-    "id": "osteoporosis",
-    "nameUk": "Остеопороз"
+    "id": "high-blood-pressure",
+    "nameRu": "Высокое давление"
   },
   {
-    "id": "pancreatitis",
-    "nameUk": "Панкреатит"
+    "id": "gastritis",
+    "nameRu": "Гастрит"
+  },
+  {
+    "id": "hyperthyroid",
+    "nameRu": "Гипертиреоз"
+  },
+  {
+    "id": "hypothyroid",
+    "nameRu": "Гипотиреоз"
+  },
+  {
+    "id": "headache",
+    "nameRu": "Головная боль"
+  },
+  {
+    "id": "fasting",
+    "nameRu": "Голодание"
+  },
+  {
+    "id": "nail-fungus",
+    "nameRu": "Грибок ногтей"
+  },
+  {
+    "id": "dementia",
+    "nameRu": "Деменция"
+  },
+  {
+    "id": "depression",
+    "nameRu": "Депрессия"
+  },
+  {
+    "id": "vitamin-d-deficiency",
+    "nameRu": "Дефицит витамина D"
+  },
+  {
+    "id": "magnesium-deficiency",
+    "nameRu": "Дефицит магния"
+  },
+  {
+    "id": "gallstones",
+    "nameRu": "Желчнокаменная болезнь"
+  },
+  {
+    "id": "fatty-liver",
+    "nameRu": "Жировая болезнь печени"
+  },
+  {
+    "id": "constipation",
+    "nameRu": "Запор"
   },
   {
     "id": "gerd",
-    "nameUk": "Печія і рефлюкс"
+    "nameRu": "Изжога и рефлюкс"
+  },
+  {
+    "id": "insulin-resistance",
+    "nameRu": "Инсулинорезистентность"
+  },
+  {
+    "id": "adrenal-fatigue",
+    "nameRu": "Истощение надпочечников"
+  },
+  {
+    "id": "kidney-stones",
+    "nameRu": "Камни в почках"
+  },
+  {
+    "id": "candida",
+    "nameRu": "Кандида"
+  },
+  {
+    "id": "keto-flu",
+    "nameRu": "Кетогрипп"
+  },
+  {
+    "id": "overweight",
+    "nameRu": "Лишний вес"
+  },
+  {
+    "id": "menopause",
+    "nameRu": "Менопауза"
+  },
+  {
+    "id": "migraine",
+    "nameRu": "Мигрень"
+  },
+  {
+    "id": "osteoporosis",
+    "nameRu": "Остеопороз"
+  },
+  {
+    "id": "edema",
+    "nameRu": "Отёки"
+  },
+  {
+    "id": "pancreatitis",
+    "nameRu": "Панкреатит"
   },
   {
     "id": "gout",
-    "nameUk": "Подагра"
+    "nameRu": "Подагра"
   },
   {
     "id": "prostatitis",
-    "nameUk": "Простатит"
+    "nameRu": "Простатит"
+  },
+  {
+    "id": "cold",
+    "nameRu": "Простуда"
   },
   {
     "id": "psoriasis",
-    "nameUk": "Псоріаз"
-  },
-  {
-    "id": "leaky-gut",
-    "nameUk": "Підвищена проникність кишечника"
+    "nameRu": "Псориаз"
   },
   {
     "id": "sibo",
-    "nameUk": "СІБР"
+    "nameRu": "СИБР"
   },
   {
     "id": "pcos",
-    "nameUk": "СПКЯ"
-  },
-  {
-    "id": "ibs",
-    "nameUk": "Синдром подразненого кишечника"
-  },
-  {
-    "id": "cramps",
-    "nameUk": "Судоми"
-  },
-  {
-    "id": "hashimoto",
-    "nameUk": "Тиреоїдит Хашимото"
-  },
-  {
-    "id": "anxiety",
-    "nameUk": "Тривога"
-  },
-  {
-    "id": "uti",
-    "nameUk": "Цистит"
+    "nameRu": "СПКЯ"
   },
   {
     "id": "diabetes",
-    "nameUk": "Цукровий діабет"
+    "nameRu": "Сахарный диабет"
+  },
+  {
+    "id": "leaky-gut",
+    "nameRu": "Синдром дырявого кишечника"
+  },
+  {
+    "id": "ibs",
+    "nameRu": "Синдром раздражённого кишечника"
+  },
+  {
+    "id": "cramps",
+    "nameRu": "Судороги"
+  },
+  {
+    "id": "hashimoto",
+    "nameRu": "Тиреоидит Хашимото"
+  },
+  {
+    "id": "anxiety",
+    "nameRu": "Тревога"
+  },
+  {
+    "id": "uti",
+    "nameRu": "Цистит"
+  },
+  {
+    "id": "eczema",
+    "nameRu": "Экзема"
   }
 ]

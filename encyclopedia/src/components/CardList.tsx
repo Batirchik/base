@@ -3,7 +3,7 @@ import { KIND_LABEL, type Card } from "../types";
 
 export function CardList({ cards }: { cards: Card[] }) {
   if (cards.length === 0) {
-    return <p className="empty">У цьому доборі немає карток.</p>;
+    return <p className="empty">В этой подборке нет карточек.</p>;
   }
   return (
     <ul className="list screen-only">
@@ -11,8 +11,8 @@ export function CardList({ cards }: { cards: Card[] }) {
         <li key={card.id}>
           <Link to={`/card/${card.id}`} data-kind={card.kind}>
             <span className="kind">{KIND_LABEL[card.kind]}</span>
-            <strong>{card.titleUk}</strong>
-            <em>{card.summaryUk}</em>
+            <strong>{card.titleRu}</strong>
+            <em>{card.summaryRu}</em>
           </Link>
         </li>
       ))}

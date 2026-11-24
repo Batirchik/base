@@ -12,18 +12,18 @@ const partById = new Map(bodyParts.map((item) => [item.id, item]));
 const cardById = new Map(cards.map((card) => [card.id, card]));
 
 const MONTHS = [
-  "січня",
-  "лютого",
-  "березня",
-  "квітня",
-  "травня",
-  "червня",
-  "липня",
-  "серпня",
-  "вересня",
-  "жовтня",
-  "листопада",
-  "грудня",
+  "января",
+  "февраля",
+  "марта",
+  "апреля",
+  "мая",
+  "июня",
+  "июля",
+  "августа",
+  "сентября",
+  "октября",
+  "ноября",
+  "декабря",
 ];
 
 export function fold(value: string): string {
@@ -42,16 +42,14 @@ export function fold(value: string): string {
 
 function blob(card: Card): string {
   const conditionNames = card.conditions
-    .map((id) => conditionById.get(id)?.nameUk ?? "")
+    .map((id) => conditionById.get(id)?.nameRu ?? "")
     .join(" ");
-  const partNames = card.bodyParts
-    .map((id) => partById.get(id)?.nameUk ?? "")
-    .join(" ");
+  const partNames = card.bodyParts.map((id) => partById.get(id)?.nameRu ?? "").join(" ");
   return fold(
     [
-      card.titleUk,
+      card.titleRu,
       card.titleEn,
-      card.summaryUk,
+      card.summaryRu,
       card.foods.join(" "),
       card.supplements.join(" "),
       conditionNames,
@@ -75,11 +73,11 @@ export function getCondition(id: string): Condition | undefined {
 }
 
 export function conditionName(id: string): string {
-  return conditionById.get(id)?.nameUk ?? id;
+  return conditionById.get(id)?.nameRu ?? id;
 }
 
 export function partName(id: string): string {
-  return partById.get(id)?.nameUk ?? id;
+  return partById.get(id)?.nameRu ?? id;
 }
 
 export type KindFilter = Kind | "all";
@@ -89,9 +87,7 @@ function byKind(card: Card, kind: KindFilter): boolean {
 }
 
 export function cardsForPart(partId: string, kind: KindFilter): Card[] {
-  return cards.filter(
-    (card) => card.bodyParts.includes(partId) && byKind(card, kind),
-  );
+  return cards.filter((card) => card.bodyParts.includes(partId) && byKind(card, kind));
 }
 
 export function cardsForCondition(conditionId: string, kind: KindFilter): Card[] {
@@ -131,4 +127,12 @@ export function kindCounts(): Record<Kind, number> {
     protocol: cards.filter((card) => card.kind === "protocol").length,
     recommendation: cards.filter((card) => card.kind === "recommendation").length,
   };
+}
+
+export function ruPlural(count: number, one: string, few: string, many: string): string {
+  const n10 = count % 10;
+  const n100 = count % 100;
+  if (n10 === 1 && n100 !== 11) return one;
+  if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
+  return many;
 }

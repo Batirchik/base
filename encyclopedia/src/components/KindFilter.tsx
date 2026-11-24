@@ -2,7 +2,7 @@ import type { KindFilter } from "../lib/model";
 import { KIND_LABEL, type Kind } from "../types";
 
 const OPTIONS: Array<{ id: KindFilter; label: string }> = [
-  { id: "all", label: "Усі" },
+  { id: "all", label: "Все" },
   { id: "recipe", label: KIND_LABEL.recipe },
   { id: "protocol", label: KIND_LABEL.protocol },
   { id: "recommendation", label: KIND_LABEL.recommendation },
@@ -16,7 +16,7 @@ export function KindFilter({
   onChange: (kind: KindFilter) => void;
 }) {
   return (
-    <div className="kinds no-print" role="group" aria-label="Тип картки">
+    <div className="kinds no-print" role="group" aria-label="Тип карточки">
       {OPTIONS.map((option) => (
         <button
           key={option.id}

@@ -4,10 +4,10 @@ import { bodyParts, countForPart } from "../lib/model";
 export function BodyPartsPage() {
   return (
     <div>
-      <h1>Частини тіла</h1>
+      <h1>Части тела</h1>
       <p className="lede">
-        Словник частин тіла фіксований. Картка потрапляє в розділ, якщо опис
-        відео стосується цієї частини.
+        Список частей тела фиксированный. Карточка попадает в раздел, если описание
+        видео касается этой части.
       </p>
       <ul className="index-grid">
         {bodyParts.map((part) => {
@@ -15,8 +15,8 @@ export function BodyPartsPage() {
           return (
             <li key={part.id}>
               <Link to={`/body/${part.id}`} aria-disabled={count === 0}>
-                <strong>{part.nameUk}</strong>
-                <span>{count === 0 ? "немає карток" : `${count}`}</span>
+                <strong>{part.nameRu}</strong>
+                <span>{count === 0 ? "нет карточек" : `${count}`}</span>
               </Link>
             </li>
           );

@@ -2,18 +2,18 @@ export type Kind = "recipe" | "protocol" | "recommendation";
 
 export interface BodyPart {
   id: string;
-  nameUk: string;
+  nameRu: string;
 }
 
 export interface Condition {
   id: string;
-  nameUk: string;
+  nameRu: string;
 }
 
 export interface Card {
   id: string;
-  titleUk: string;
-  summaryUk: string;
+  titleRu: string;
+  summaryRu: string;
   kind: Kind;
   foods: string[];
   supplements: string[];
@@ -28,8 +28,8 @@ export interface Card {
 export const KIND_LABEL: Record<Kind, string> = {
   recipe: "Рецепт",
   protocol: "Протокол",
-  recommendation: "Рекомендація",
+  recommendation: "Рекомендация",
 };
 
 export const DISCLAIMER =
-  "Це освітня компіляція публічних описів відео, а не медична порада. Доктор Берг — хіропрактик, не лікар. Рішення щодо здоров’я ухвалюйте разом із лікарем.";
+  "Это образовательная подборка публичных описаний видео, а не медицинский совет. Доктор Берг — хиропрактик, не врач. Решения о здоровье принимайте вместе с врачом.";

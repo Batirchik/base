@@ -18,14 +18,14 @@ export function SearchBox() {
 
   return (
     <form className="search no-print" onSubmit={onSubmit} role="search">
-      <label htmlFor="site-search">Пошук</label>
+      <label htmlFor="site-search">Поиск</label>
       <input
         id="site-search"
         value={value}
         onChange={(event) => setValue(event.target.value)}
-        placeholder="Назва, продукт, добавка або стан"
+        placeholder="Название, продукт, добавка или состояние"
       />
-      <button type="submit">Знайти</button>
+      <button type="submit">Найти</button>
     </form>
   );
 }

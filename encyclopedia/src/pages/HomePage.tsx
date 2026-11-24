@@ -6,8 +6,8 @@ import {
   countForCondition,
   countForPart,
   kindCounts,
+  ruPlural,
 } from "../lib/model";
-import { KIND_LABEL } from "../types";
 
 export function HomePage() {
   const counts = kindCounts();
@@ -23,55 +23,60 @@ export function HomePage() {
   return (
     <div className="home">
       <section className="hero">
-        <p className="eyebrow">Довідник за описами відео</p>
-        <h1>Енциклопедія рецептів доктора Берга</h1>
+        <p className="eyebrow">Справочник по описаниям видео</p>
+        <h1>Энциклопедия рецептов доктора Берга</h1>
         <p className="lede">
-          {cards.length} карток українською: страви, режими прийому і конкретні
-          рекомендації. Пояснювальні ролики без таких пунктів сюди не входять.
+          {cards.length}{" "}
+          {ruPlural(cards.length, "карточка", "карточки", "карточек")} на русском:
+          блюда, режимы приёма и конкретные рекомендации. Поясняющие ролики без
+          таких пунктов сюда не входят.
         </p>
         <ul className="stats">
           <li>
-            <b>{counts.recipe}</b> {KIND_LABEL.recipe.toLowerCase()}ів
+            <b>{counts.recipe}</b>{" "}
+            {ruPlural(counts.recipe, "рецепт", "рецепта", "рецептов")}
           </li>
           <li>
-            <b>{counts.protocol}</b> протоколів
+            <b>{counts.protocol}</b>{" "}
+            {ruPlural(counts.protocol, "протокол", "протокола", "протоколов")}
           </li>
           <li>
-            <b>{counts.recommendation}</b> рекомендацій
+            <b>{counts.recommendation}</b>{" "}
+            {ruPlural(counts.recommendation, "рекомендация", "рекомендации", "рекомендаций")}
           </li>
         </ul>
       </section>
       <section className="doors">
         <article>
-          <h2>За частиною тіла</h2>
+          <h2>По части тела</h2>
           <ul>
             {parts.slice(0, 8).map(({ part, count }) => (
               <li key={part.id}>
                 <Link to={`/body/${part.id}`}>
-                  {part.nameUk}
+                  {part.nameRu}
                   <span>{count}</span>
                 </Link>
               </li>
             ))}
           </ul>
           <Link className="more" to="/body">
-            Усі частини тіла
+            Все части тела
           </Link>
         </article>
         <article>
-          <h2>За станом</h2>
+          <h2>По состоянию</h2>
           <ul>
             {states.map(({ item, count }) => (
               <li key={item.id}>
                 <Link to={`/condition/${item.id}`}>
-                  {item.nameUk}
+                  {item.nameRu}
                   <span>{count}</span>
                 </Link>
               </li>
             ))}
           </ul>
           <Link className="more" to="/conditions">
-            Усі стани
+            Все состояния
           </Link>
         </article>
       </section>

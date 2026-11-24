@@ -8,6 +8,7 @@ import {
   cardsForPart,
   getCondition,
   getPart,
+  ruPlural,
   type KindFilter as KindValue,
 } from "../lib/model";
 import { NotFoundPage } from "./NotFoundPage";
@@ -18,11 +19,10 @@ export function SectionPage({ mode }: { mode: "body" | "condition" }) {
   const kind = kindFromParam(query.get("kind"));
   const key = mode === "body" ? params.partId : params.conditionId;
   const title =
-    mode === "body" ? getPart(key ?? "")?.nameUk : getCondition(key ?? "")?.nameUk;
+    mode === "body" ? getPart(key ?? "")?.nameRu : getCondition(key ?? "")?.nameRu;
   if (!key || !title) return <NotFoundPage />;
 
-  const found =
-    mode === "body" ? cardsForPart(key, kind) : cardsForCondition(key, kind);
+  const found = mode === "body" ? cardsForPart(key, kind) : cardsForCondition(key, kind);
 
   function setKind(next: KindValue) {
     const nextQuery = new URLSearchParams(query);
@@ -33,15 +33,16 @@ export function SectionPage({ mode }: { mode: "body" | "condition" }) {
 
   return (
     <div>
-      <p className="eyebrow print-only">Енциклопедія Берга</p>
+      <p className="eyebrow print-only">Энциклопедия Берга</p>
       <h1>{title}</h1>
       <p className="lede no-print">
-        {found.length} карток. Друк розділу зберігає посилання на відео.
+        {found.length} {ruPlural(found.length, "карточка", "карточки", "карточек")}. Печать
+        раздела сохраняет ссылки на видео.
       </p>
       <div className="toolbar no-print">
         <KindFilter value={kind} onChange={setKind} />
         <button type="button" onClick={() => window.print()}>
-          Зберегти розділ як PDF
+          Сохранить раздел как PDF
         </button>
       </div>
       <div className="print-only">
