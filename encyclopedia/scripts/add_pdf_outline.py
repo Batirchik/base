@@ -57,6 +57,7 @@ def main() -> None:
     parts = json.loads((ROOT / "src/data/bodyParts.json").read_text(encoding="utf-8"))
     conditions = json.loads((ROOT / "src/data/conditions.json").read_text(encoding="utf-8"))
     condition_name = {item["id"]: item["nameRu"] for item in conditions}
+    allow = {item["id"]: set(item.get("bodyParts") or []) for item in conditions}
 
     reader = PdfReader(str(pdf_path))
     targets = destination_map(reader)
@@ -80,9 +81,10 @@ def main() -> None:
         groups: dict[str, list] = {}
         loose = False
         for card in in_part:
-            if not card["conditions"]:
+            related = [cid for cid in card["conditions"] if part["id"] in allow.get(cid, ())]
+            if not related:
                 loose = True
-            for condition_id in card["conditions"]:
+            for condition_id in related:
                 groups.setdefault(condition_id, []).append(card)
         ordered = sorted(groups, key=lambda cid: condition_name.get(cid, cid))
         for condition_id in ordered:

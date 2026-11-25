@@ -27,9 +27,10 @@
       "gerd"
     ],
     "bodyParts": [
+      "general",
+      "hormones",
       "heart",
-      "stomach",
-      "hormones"
+      "stomach"
     ],
     "titleEn": "Hidden heart fat can affect even thin people. Why is it dangerous?",
     "publishedAt": "2026-11-23",
@@ -58,10 +59,11 @@
       "cramps"
     ],
     "bodyParts": [
-      "stomach",
-      "gut",
       "hormones",
-      "muscles"
+      "general",
+      "muscles",
+      "stomach",
+      "gut"
     ],
     "titleEn": "Why Magnesium Isn't Working: 3 Mistakes When Taking Magnesium",
     "publishedAt": "2026-11-20",
@@ -95,10 +97,10 @@
     ],
     "bodyParts": [
       "liver",
+      "general",
+      "hormones",
       "blood",
-      "gums",
-      "heart",
-      "hormones"
+      "gums"
     ],
     "titleEn": "The scale lies: what fat burns first on keto and fasting",
     "publishedAt": "2026-11-13",
@@ -125,9 +127,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "teeth",
       "pancreas",
-      "brain"
+      "brain",
+      "general",
+      "teeth"
     ],
     "titleEn": "The Hidden Cause of Poor Sleep Doctors Don't Tell You About",
     "publishedAt": "2026-11-10",
@@ -204,10 +207,10 @@
       "depression"
     ],
     "bodyParts": [
+      "brain",
       "liver",
       "gut",
-      "stomach",
-      "brain"
+      "stomach"
     ],
     "titleEn": "Throw a clove in your coffee and this is what happens",
     "publishedAt": "2026-10-26",
@@ -237,8 +240,8 @@
     ],
     "bodyParts": [
       "hormones",
-      "stomach",
-      "brain"
+      "brain",
+      "stomach"
     ],
     "titleEn": "Hunger on a Diet: How to Stop Thinking About Food",
     "publishedAt": "2026-10-23",
@@ -298,10 +301,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "hormones",
       "vessels",
-      "nerves",
-      "pancreas"
+      "nerves"
     ],
     "titleEn": "Why do feet go numb and burn: the main cause and solution",
     "publishedAt": "2026-10-22",
@@ -328,9 +332,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "hormones",
       "blood",
-      "muscles",
-      "hormones"
+      "muscles"
     ],
     "titleEn": "What Actually Happens to Your Body When You Take Statins for Years",
     "publishedAt": "2026-10-19",
@@ -357,9 +361,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "hormones",
       "blood",
-      "muscles",
-      "hormones"
+      "muscles"
     ],
     "titleEn": "Taking Statins for Years? Here Is What Is Actually Happening to Your Body",
     "publishedAt": "2026-10-16",
@@ -384,9 +388,9 @@
       "diabetes"
     ],
     "bodyParts": [
+      "pancreas",
       "ears",
-      "brain",
-      "pancreas"
+      "brain"
     ],
     "titleEn": "Do you have ringing in your ears? Check yourself for a deficiency of this vitamin.",
     "publishedAt": "2026-10-15",
@@ -412,8 +416,8 @@
       "hair-loss"
     ],
     "bodyParts": [
-      "hair",
-      "hormones"
+      "hormones",
+      "hair"
     ],
     "titleEn": "Hair loss? This might be the reason!",
     "publishedAt": "2026-10-15",
@@ -441,10 +445,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "brain",
+      "general",
       "gut",
       "hormones",
-      "heart",
-      "brain"
+      "heart"
     ],
     "titleEn": "This Deficiency Keeps Millions From Sleeping: How to Improve Your Sleep",
     "publishedAt": "2026-10-13",
@@ -504,11 +509,11 @@
       "pregnancy"
     ],
     "bodyParts": [
-      "hormones",
-      "reproductive",
-      "skin",
       "thyroid",
-      "hair"
+      "skin",
+      "hair",
+      "reproductive",
+      "hormones"
     ],
     "titleEn": "Iodine Deficiency or Excess? What Is Actually Happening in the Body",
     "publishedAt": "2026-10-01",
@@ -574,6 +579,7 @@
       "cramps"
     ],
     "bodyParts": [
+      "general",
       "muscles",
       "blood",
       "nerves"
@@ -688,10 +694,10 @@
       "migraine"
     ],
     "bodyParts": [
+      "blood",
       "brain",
       "hormones",
-      "vessels",
-      "blood"
+      "vessels"
     ],
     "titleEn": "How to Stop a Migraine Before It Starts: 3 Main Remedies",
     "publishedAt": "2026-09-18",
@@ -722,9 +728,9 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "pancreas",
-      "hormones",
-      "heart"
+      "hormones"
     ],
     "titleEn": "Extreme Weight Loss: How to Burn Maximum Fat",
     "publishedAt": "2026-09-11",
@@ -778,10 +784,10 @@
       "osteoarthritis"
     ],
     "bodyParts": [
+      "blood",
       "joints",
       "brain",
-      "muscles",
-      "blood"
+      "muscles"
     ],
     "titleEn": "How to Relieve Knee Pain in 2 Minutes Without Getting Out of Bed",
     "publishedAt": "2026-09-04",
@@ -809,6 +815,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "immune",
       "bones"
     ],
@@ -834,11 +841,11 @@
       "edema"
     ],
     "bodyParts": [
+      "pancreas",
+      "vessels",
       "hormones",
       "heart",
-      "kidneys",
-      "pancreas",
-      "vessels"
+      "kidneys"
     ],
     "titleEn": "The Main Cause of Edema and Nighttime Bathroom Trips",
     "publishedAt": "2026-09-02",
@@ -863,9 +870,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "blood",
       "hormones",
-      "kidneys",
-      "blood"
+      "kidneys"
     ],
     "titleEn": "The ONLY SAFE carbohydrate: you'll be surprised",
     "publishedAt": "2026-09-01",
@@ -921,10 +928,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "blood",
-      "muscles",
       "pancreas",
-      "vessels"
+      "blood",
+      "vessels",
+      "muscles"
     ],
     "titleEn": "Why Berberine Is Better Than Ozempic: 4-Week Results",
     "publishedAt": "2026-07-26",
@@ -960,8 +967,8 @@
       "diabetes"
     ],
     "bodyParts": [
-      "blood",
-      "pancreas"
+      "pancreas",
+      "blood"
     ],
     "titleEn": "How to Beat Type 2 Diabetes: A Scientifically Proven Method",
     "publishedAt": "2026-07-26",
@@ -1044,10 +1051,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "kidneys",
       "bones",
+      "general",
       "hormones",
-      "vessels",
-      "kidneys"
+      "vessels"
     ],
     "titleEn": "Osteoporosis is NOT a Calcium Deficiency! The Hidden Truth About Your Bones",
     "publishedAt": "2026-07-18",
@@ -1076,6 +1084,7 @@
       "cramps"
     ],
     "bodyParts": [
+      "general",
       "muscles",
       "liver",
       "brain"
@@ -1146,10 +1155,10 @@
       "insomnia"
     ],
     "bodyParts": [
+      "pancreas",
       "brain",
       "muscles",
-      "hormones",
-      "pancreas"
+      "hormones"
     ],
     "titleEn": "Sleeping Less Than 5 Hours a Night? What Happens to Your Body in 2 Weeks?",
     "publishedAt": "2026-07-13",
@@ -1182,10 +1191,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "muscles",
       "heart",
-      "teeth",
-      "brain"
+      "brain",
+      "general",
+      "muscles",
+      "teeth"
     ],
     "titleEn": "Constantly tense muscles? It's NOT stress related",
     "publishedAt": "2026-07-12",
@@ -1216,11 +1226,11 @@
       "depression"
     ],
     "bodyParts": [
-      "gut",
-      "immune",
-      "hormones",
       "vessels",
-      "brain"
+      "gut",
+      "brain",
+      "immune",
+      "hormones"
     ],
     "titleEn": "Stress Kills More Than Just Your Sleep and Immunity: 8 Shocking Facts",
     "publishedAt": "2026-07-10",
@@ -1423,10 +1433,10 @@
       "dementia"
     ],
     "bodyParts": [
-      "brain",
-      "blood",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "brain"
     ],
     "titleEn": "Poor Memory Is NOT About Age! How Not to Miss the Signs of Dementia?",
     "publishedAt": "2026-07-06",
@@ -1458,6 +1468,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "gut",
       "nerves",
       "immune"
@@ -1489,11 +1500,11 @@
       "diabetes"
     ],
     "bodyParts": [
-      "hormones",
-      "gut",
-      "bladder",
       "joints",
-      "pancreas"
+      "hormones",
+      "pancreas",
+      "gut",
+      "bladder"
     ],
     "titleEn": "Gout Will Be Gone Forever: Do THIS Every Day",
     "publishedAt": "2026-07-05",
@@ -1566,10 +1577,10 @@
       "anemia"
     ],
     "bodyParts": [
-      "kidneys",
-      "eyes",
+      "pancreas",
       "blood",
-      "pancreas"
+      "kidneys",
+      "eyes"
     ],
     "titleEn": "Kidneys can fail by 90% without symptoms: look at your eyes",
     "publishedAt": "2026-06-28",
@@ -1692,10 +1703,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "liver",
+      "general",
       "hormones",
-      "heart",
-      "blood"
+      "blood",
+      "liver",
+      "heart"
     ],
     "titleEn": "7 Foods That Ruin Your Metabolism",
     "publishedAt": "2026-06-21",
@@ -1731,10 +1743,10 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "liver",
       "hormones",
-      "muscles",
-      "heart"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2026-06-20",
@@ -1812,8 +1824,9 @@
     ],
     "bodyParts": [
       "brain",
-      "nerves",
-      "muscles"
+      "general",
+      "muscles",
+      "nerves"
     ],
     "titleEn": "The BIGGEST mistake everyone makes when taking magnesium",
     "publishedAt": "2026-06-14",
@@ -1916,8 +1929,7 @@
     "bodyParts": [
       "skin",
       "hair",
-      "bones",
-      "gut"
+      "bones"
     ],
     "titleEn": "Collagen is SO MUCH more than just a skin and hair product",
     "publishedAt": "2026-06-08",
@@ -1946,8 +1958,7 @@
     "bodyParts": [
       "joints",
       "skin",
-      "blood",
-      "hair"
+      "blood"
     ],
     "titleEn": "A hidden deficiency that affects the skin, joints, and blood vessels.",
     "publishedAt": "2026-06-05",
@@ -1999,9 +2010,9 @@
       "gallstones"
     ],
     "bodyParts": [
-      "gallbladder",
+      "blood",
       "gut",
-      "blood"
+      "gallbladder"
     ],
     "titleEn": "Bile Stasis? How to improve bile flow and gallbladder function",
     "publishedAt": "2026-06-05",
@@ -2115,10 +2126,10 @@
       "diabetes"
     ],
     "bodyParts": [
-      "liver",
-      "bones",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "liver",
+      "bones"
     ],
     "titleEn": "",
     "publishedAt": "2026-05-29",
@@ -2144,9 +2155,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
       "pancreas",
-      "blood"
+      "blood",
+      "hormones"
     ],
     "titleEn": "The REAL cause of diabetes and how to fix it",
     "publishedAt": "2026-05-27",
@@ -2178,11 +2189,12 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "vessels",
+      "thyroid",
+      "general",
       "gums",
       "joints",
-      "gallbladder",
-      "vessels",
-      "thyroid"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2026-05-24",
@@ -2251,11 +2263,12 @@
       "cramps"
     ],
     "bodyParts": [
-      "heart",
-      "hormones",
       "blood",
       "brain",
-      "muscles"
+      "general",
+      "muscles",
+      "heart",
+      "hormones"
     ],
     "titleEn": "Heart palpitations? It's not your heart, it's THIS",
     "publishedAt": "2026-05-21",
@@ -2371,10 +2384,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "blood",
+      "general",
       "hormones",
-      "teeth",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2026-05-14",
@@ -2433,8 +2447,8 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "gut",
-      "blood"
+      "blood",
+      "gut"
     ],
     "titleEn": "The richest potassium product in the world",
     "publishedAt": "2026-05-12",
@@ -2483,10 +2497,10 @@
       "bloating"
     ],
     "bodyParts": [
+      "pancreas",
       "gut",
       "muscles",
-      "kidneys",
-      "pancreas"
+      "kidneys"
     ],
     "titleEn": "The MAIN sign of potassium deficiency that is underestimated",
     "publishedAt": "2026-05-07",
@@ -2516,10 +2530,10 @@
       "menopause"
     ],
     "bodyParts": [
+      "brain",
       "reproductive",
       "adrenals",
-      "hormones",
-      "brain"
+      "hormones"
     ],
     "titleEn": "Menopause at 40: How to Ease Symptoms and Improve Health",
     "publishedAt": "2026-05-06",
@@ -2545,8 +2559,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "hormones",
-      "heart"
+      "general",
+      "hormones"
     ],
     "titleEn": "How to burn belly fat as fast as possible?",
     "publishedAt": "2026-05-01",
@@ -2573,8 +2587,8 @@
       "ibs"
     ],
     "bodyParts": [
-      "gut",
-      "immune"
+      "immune",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2026-04-27",
@@ -2605,10 +2619,10 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "blood",
-      "teeth",
-      "heart"
+      "teeth"
     ],
     "titleEn": "How to burn belly fat as quickly as possible?",
     "publishedAt": "2026-04-26",
@@ -2644,11 +2658,12 @@
       "gout"
     ],
     "bodyParts": [
+      "blood",
+      "kidneys",
       "joints",
       "skin",
       "hair",
-      "gut",
-      "blood"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2026-04-24",
@@ -2719,9 +2734,9 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "gut",
-      "heart"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2026-04-17",
@@ -2756,10 +2771,10 @@
       "bloating"
     ],
     "bodyParts": [
-      "joints",
+      "general",
       "gut",
-      "skin",
-      "heart"
+      "joints",
+      "skin"
     ],
     "titleEn": "Test: 5 Days on Sardines – What Will Happen to Your Body?",
     "publishedAt": "2026-04-10",
@@ -2781,9 +2796,9 @@
       "arthritis"
     ],
     "bodyParts": [
+      "joints",
       "gallbladder",
-      "liver",
-      "joints"
+      "liver"
     ],
     "titleEn": "Neck Pain: What Really Causes It?",
     "publishedAt": "2026-04-07",
@@ -2810,10 +2825,10 @@
       "gallstones"
     ],
     "bodyParts": [
-      "gallbladder",
+      "blood",
       "stomach",
-      "muscles",
-      "blood"
+      "gallbladder",
+      "muscles"
     ],
     "titleEn": "How to get rid of gallstones and bile reflux?",
     "publishedAt": "2026-04-06",
@@ -2840,9 +2855,9 @@
       "gallstones"
     ],
     "bodyParts": [
-      "gallbladder",
       "liver",
-      "blood"
+      "blood",
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2026-04-03",
@@ -2908,10 +2923,10 @@
       "headache"
     ],
     "bodyParts": [
+      "brain",
       "immune",
       "nerves",
-      "lungs",
-      "brain"
+      "lungs"
     ],
     "titleEn": "How to boost your immune system and fight fatigue?",
     "publishedAt": "2026-03-31",
@@ -2938,11 +2953,13 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "blood",
+      "brain",
+      "general",
       "immune",
       "kidneys",
-      "liver",
-      "pancreas",
-      "blood"
+      "liver"
     ],
     "titleEn": "The Hidden Truth About Vitamin D They Don't Tell You",
     "publishedAt": "2026-03-26",
@@ -3071,10 +3088,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "blood",
-      "liver",
+      "pancreas",
       "hormones",
-      "pancreas"
+      "blood",
+      "liver"
     ],
     "titleEn": "Diabetes? Here are 3 supplements that really help!",
     "publishedAt": "2026-03-16",
@@ -3127,8 +3144,8 @@
       "headache"
     ],
     "bodyParts": [
-      "liver",
-      "brain"
+      "brain",
+      "liver"
     ],
     "titleEn": "Glutathione is the king of detox. But without THIS, it's useless.",
     "publishedAt": "2026-03-08",
@@ -3155,8 +3172,8 @@
     ],
     "bodyParts": [
       "blood",
-      "hormones",
-      "brain"
+      "brain",
+      "hormones"
     ],
     "titleEn": "Since when did cholesterol become a disease? The whole truth about cholesterol...",
     "publishedAt": "2026-03-06",
@@ -3183,8 +3200,8 @@
       "depression"
     ],
     "bodyParts": [
-      "hormones",
-      "brain"
+      "brain",
+      "hormones"
     ],
     "titleEn": "How to Reduce Anxiety and Improve Sleep: 3 Key Steps",
     "publishedAt": "2026-03-03",
@@ -3231,9 +3248,9 @@
     ],
     "bodyParts": [
       "liver",
+      "general",
       "hormones",
-      "gums",
-      "heart"
+      "gums"
     ],
     "titleEn": "The most harmful morning routine: you do it every day",
     "publishedAt": "2026-02-27",
@@ -3362,8 +3379,8 @@
       "depression"
     ],
     "bodyParts": [
-      "brain",
       "blood",
+      "brain",
       "bones"
     ],
     "titleEn": "The Hidden Truth About Vitamin D: How We've Been Deceived for Decades",
@@ -3391,9 +3408,9 @@
       "leaky-gut"
     ],
     "bodyParts": [
+      "gut",
       "brain",
-      "liver",
-      "gut"
+      "liver"
     ],
     "titleEn": "Omega-3 that restores the brain—and it's not fish oil",
     "publishedAt": "2026-02-13",
@@ -3419,6 +3436,7 @@
       "adrenal-fatigue"
     ],
     "bodyParts": [
+      "general",
       "adrenals",
       "brain"
     ],
@@ -3444,10 +3462,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "nerves",
-      "vessels",
       "hormones",
-      "blood"
+      "blood",
+      "nerves",
+      "vessels"
     ],
     "titleEn": "Burning and numbness in your feet? It's not a nerve issue.",
     "publishedAt": "2026-02-06",
@@ -3495,9 +3513,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "liver",
+      "pancreas",
       "blood",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "For 40 years we've been taught incorrectly: the food pyramid is broken",
     "publishedAt": "2026-02-01",
@@ -3554,10 +3572,10 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "blood",
+      "liver",
       "hormones",
-      "kidneys",
-      "liver"
+      "blood",
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2026-01-29",
@@ -3584,8 +3602,8 @@
       "hashimoto"
     ],
     "bodyParts": [
-      "immune",
       "thyroid",
+      "immune",
       "hormones"
     ],
     "titleEn": "The biggest mistake almost everyone makes with hypothyroidism",
@@ -3609,8 +3627,8 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
-      "blood"
+      "blood",
+      "hormones"
     ],
     "titleEn": "The Biggest Diet Mistake: Why Cutting Calories Doesn't Work",
     "publishedAt": "2026-01-27",
@@ -3638,11 +3656,11 @@
       "pcos"
     ],
     "bodyParts": [
-      "hair",
-      "skin",
-      "gut",
       "hormones",
-      "reproductive"
+      "hair",
+      "reproductive",
+      "skin",
+      "gut"
     ],
     "titleEn": "How to deal with hair loss and dandruff?",
     "publishedAt": "2026-01-26",
@@ -3668,10 +3686,10 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "muscles",
-      "brain",
-      "heart"
+      "brain"
     ],
     "titleEn": "One cup at night and your belly will go away better than on a diet",
     "publishedAt": "2026-01-25",
@@ -3768,8 +3786,8 @@
       "headache"
     ],
     "bodyParts": [
-      "immune",
-      "brain"
+      "brain",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2026-01-15",
@@ -3793,8 +3811,8 @@
     ],
     "bodyParts": [
       "liver",
-      "pancreas",
-      "hormones"
+      "hormones",
+      "pancreas"
     ],
     "titleEn": "How to Get Rid of Liver Fat in 2 Weeks: A Simple Solution",
     "publishedAt": "2026-01-14",
@@ -3819,10 +3837,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "vessels",
+      "pancreas",
       "blood",
-      "joints",
-      "pancreas"
+      "vessels",
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2026-01-13",
@@ -3846,8 +3864,7 @@
     "bodyParts": [
       "vessels",
       "blood",
-      "muscles",
-      "nerves"
+      "muscles"
     ],
     "titleEn": "How potassium helps lower blood pressure and improve vascular health",
     "publishedAt": "2026-01-12",
@@ -3924,8 +3941,8 @@
       "inflammation"
     ],
     "bodyParts": [
-      "gums",
-      "immune"
+      "immune",
+      "gums"
     ],
     "titleEn": "",
     "publishedAt": "2026-01-02",
@@ -4051,8 +4068,8 @@
       "headache"
     ],
     "bodyParts": [
-      "liver",
-      "brain"
+      "brain",
+      "liver"
     ],
     "titleEn": "Are you suffering from migraines? Here's what really helps, besides pills.",
     "publishedAt": "2025-12-18",
@@ -4101,8 +4118,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "blood",
-      "vessels"
+      "vessels",
+      "blood"
     ],
     "titleEn": "Just one cup of this drink a day will keep your blood vessels healthy",
     "publishedAt": "2025-12-07",
@@ -4160,8 +4177,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "muscles",
       "blood",
+      "muscles",
       "joints"
     ],
     "titleEn": "What happens if you eat eggs every day?",
@@ -4217,6 +4234,7 @@
     ],
     "bodyParts": [
       "heart",
+      "general",
       "muscles",
       "nerves"
     ],
@@ -4263,8 +4281,8 @@
       "sibo"
     ],
     "bodyParts": [
-      "gallbladder",
       "gut",
+      "gallbladder",
       "pancreas"
     ],
     "titleEn": "I had my gallbladder removed and now I'm having digestive problems.",
@@ -4363,6 +4381,7 @@
     ],
     "bodyParts": [
       "vessels",
+      "general",
       "heart",
       "blood"
     ],
@@ -4390,6 +4409,7 @@
       "cramps"
     ],
     "bodyParts": [
+      "general",
       "muscles"
     ],
     "titleEn": "Restless legs syndrome drink this.",
@@ -4456,11 +4476,11 @@
       "dementia"
     ],
     "bodyParts": [
+      "pancreas",
+      "brain",
       "heart",
       "kidneys",
-      "gut",
-      "vessels",
-      "pancreas"
+      "gut"
     ],
     "titleEn": "FOOD #1 for heart, kidney, and diabetes problems",
     "publishedAt": "2025-10-10",
@@ -4509,10 +4529,10 @@
       "menopause"
     ],
     "bodyParts": [
-      "hormones",
+      "blood",
       "reproductive",
-      "adrenals",
-      "blood"
+      "hormones",
+      "adrenals"
     ],
     "titleEn": "How to regulate hormones during perimenopause?",
     "publishedAt": "2025-10-07",
@@ -4540,10 +4560,10 @@
       "dementia"
     ],
     "bodyParts": [
-      "brain",
       "hormones",
+      "pancreas",
       "blood",
-      "pancreas"
+      "brain"
     ],
     "titleEn": "The truth about sugar: it kills your brain",
     "publishedAt": "2025-10-05",
@@ -4572,9 +4592,9 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "kidneys",
       "bones",
-      "blood",
-      "kidneys"
+      "blood"
     ],
     "titleEn": "Be careful when taking vitamin D3",
     "publishedAt": "2025-10-01",
@@ -4603,11 +4623,11 @@
       "migraine"
     ],
     "bodyParts": [
-      "gut",
-      "heart",
-      "muscles",
       "pancreas",
-      "brain"
+      "heart",
+      "gut",
+      "brain",
+      "muscles"
     ],
     "titleEn": "Are you lacking magnesium? Here's what's happening to your body",
     "publishedAt": "2025-09-25",
@@ -4729,10 +4749,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "blood",
       "heart",
+      "general",
       "gut",
-      "muscles",
-      "blood"
+      "muscles"
     ],
     "titleEn": "Atrial fibrillation due to deficiency of THIS nutrient...",
     "publishedAt": "2025-09-16",
@@ -4875,8 +4896,8 @@
       "arthritis"
     ],
     "bodyParts": [
-      "skin",
       "joints",
+      "skin",
       "hair"
     ],
     "titleEn": "Castor oil Botox for the face. How to increase the effect tenfold?",
@@ -4955,11 +4976,11 @@
       "pregnancy"
     ],
     "bodyParts": [
+      "pancreas",
+      "reproductive",
       "nails",
       "immune",
-      "liver",
-      "pancreas",
-      "reproductive"
+      "liver"
     ],
     "titleEn": "4 FATAL Mistakes Associated with Taking Zinc",
     "publishedAt": "2025-07-28",
@@ -4988,8 +5009,8 @@
       "insomnia"
     ],
     "bodyParts": [
-      "gut",
-      "brain"
+      "brain",
+      "gut"
     ],
     "titleEn": "How to solve sleep problems and achieve PERFECT sleep?",
     "publishedAt": "2025-07-27",
@@ -5018,11 +5039,12 @@
       "hashimoto"
     ],
     "bodyParts": [
-      "immune",
-      "blood",
-      "joints",
       "pancreas",
-      "kidneys"
+      "kidneys",
+      "joints",
+      "thyroid",
+      "immune",
+      "blood"
     ],
     "titleEn": "Home DANGER of vitamin D3",
     "publishedAt": "2025-07-26",
@@ -5054,10 +5076,10 @@
       "hypothyroid"
     ],
     "bodyParts": [
-      "gut",
-      "liver",
+      "blood",
       "thyroid",
-      "blood"
+      "gut",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2025-07-25",
@@ -5133,8 +5155,9 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "heart",
+      "general",
       "hormones",
+      "heart",
       "vessels"
     ],
     "titleEn": "The #1 Cause of Heart Disease (And It's Not What You Think!)",
@@ -5194,11 +5217,13 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "heart",
+      "kidneys",
+      "brain",
+      "general",
       "muscles",
       "blood",
-      "bones",
-      "heart",
-      "kidneys"
+      "bones"
     ],
     "titleEn": "Unlock the POWER of Magnesium Top 3 Hidden Benefits",
     "publishedAt": "2025-07-10",
@@ -5300,8 +5325,8 @@
       "acne"
     ],
     "bodyParts": [
-      "skin",
       "hormones",
+      "skin",
       "liver"
     ],
     "titleEn": "This is THIS why you can't get rid of acne and pimples",
@@ -5332,8 +5357,8 @@
     "bodyParts": [
       "stomach",
       "gut",
-      "pancreas",
-      "kidneys"
+      "kidneys",
+      "pancreas"
     ],
     "titleEn": "Don't Take Baking Soda Until You Watch This Video!",
     "publishedAt": "2025-07-04",
@@ -5389,7 +5414,7 @@
       "visceral-fat"
     ],
     "bodyParts": [
-      "heart"
+      "general"
     ],
     "titleEn": "Drink 1 glass of this drink a day to burn belly fat",
     "publishedAt": "2025-07-01",
@@ -5413,10 +5438,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "nerves",
       "gut",
-      "vessels",
-      "pancreas"
+      "vessels"
     ],
     "titleEn": "Autonomic diabetic neuropathy what to do?",
     "publishedAt": "2025-07-01",
@@ -5473,6 +5499,7 @@
       "varicose"
     ],
     "bodyParts": [
+      "general",
       "vessels",
       "muscles",
       "heart"
@@ -5579,11 +5606,12 @@
       "gout"
     ],
     "bodyParts": [
-      "gut",
-      "vessels",
       "blood",
       "gallbladder",
-      "kidneys"
+      "kidneys",
+      "joints",
+      "gut",
+      "vessels"
     ],
     "titleEn": "Add THIS to lemon water and drink it every morning!",
     "publishedAt": "2025-06-20",
@@ -5608,9 +5636,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "blood",
       "muscles",
-      "hormones",
-      "blood"
+      "hormones"
     ],
     "titleEn": "You Won't Build Muscle Without This Nutrient!",
     "publishedAt": "2025-06-17",
@@ -5639,10 +5667,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "blood",
       "hormones",
-      "nerves",
-      "heart"
+      "nerves"
     ],
     "titleEn": "THIS will switch you to fat burning faster",
     "publishedAt": "2025-06-13",
@@ -5697,8 +5725,8 @@
       "osteoarthritis"
     ],
     "bodyParts": [
-      "skin",
       "joints",
+      "skin",
       "vessels"
     ],
     "titleEn": "The #1 collagen source NO ONE talks about!",
@@ -5722,6 +5750,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "blood"
     ],
     "titleEn": "What level of vitamin D3 increases the risk of developing tumors?",
@@ -5752,10 +5781,10 @@
       "hashimoto"
     ],
     "bodyParts": [
+      "hormones",
       "thyroid",
       "immune",
-      "gut",
-      "hormones"
+      "gut"
     ],
     "titleEn": "How to Lose Weight with Hashimoto's Disease? Thyroid Problems",
     "publishedAt": "2025-06-06",
@@ -5805,8 +5834,8 @@
       "cramps"
     ],
     "bodyParts": [
-      "gut",
-      "muscles"
+      "muscles",
+      "gut"
     ],
     "titleEn": "Heel spurs and heel pain. Plantar fasciitis what to do?",
     "publishedAt": "2025-06-02",
@@ -5880,9 +5909,9 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "blood",
-      "heart"
+      "blood"
     ],
     "titleEn": "How to lose weight WITHOUT dieting or changing your diet?",
     "publishedAt": "2025-05-23",
@@ -5959,10 +5988,10 @@
       "dementia"
     ],
     "bodyParts": [
-      "brain",
       "hormones",
+      "pancreas",
       "blood",
-      "pancreas"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2025-05-18",
@@ -5997,10 +6026,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "blood",
       "hormones",
-      "muscles",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "muscles"
     ],
     "titleEn": "Want to be healthy? Drink THIS before bed",
     "publishedAt": "2025-05-16",
@@ -6054,8 +6083,8 @@
       "gallstones"
     ],
     "bodyParts": [
-      "gut",
       "stomach",
+      "gut",
       "gallbladder"
     ],
     "titleEn": "THIS Is the Root Cause of All Your Digestive Problems",
@@ -6080,8 +6109,8 @@
       "constipation"
     ],
     "bodyParts": [
-      "gallbladder",
       "gut",
+      "gallbladder",
       "stomach"
     ],
     "titleEn": "Gallbladder removed? Take this",
@@ -6136,10 +6165,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "nerves",
-      "immune",
+      "pancreas",
       "blood",
-      "pancreas"
+      "general",
+      "nerves",
+      "immune"
     ],
     "titleEn": "Nerve damage? 1 vitamin that can help you",
     "publishedAt": "2025-04-25",
@@ -6194,9 +6224,9 @@
     ],
     "bodyParts": [
       "blood",
+      "brain",
       "liver",
-      "hormones",
-      "brain"
+      "hormones"
     ],
     "titleEn": "Waking up in the middle of the night and can't get back to sleep? Fix it",
     "publishedAt": "2025-04-18",
@@ -6226,10 +6256,11 @@
       "asthma"
     ],
     "bodyParts": [
-      "lungs",
       "stomach",
-      "blood",
-      "reproductive"
+      "general",
+      "reproductive",
+      "lungs",
+      "blood"
     ],
     "titleEn": "How to get rid of a cough in 5 minutes?",
     "publishedAt": "2025-04-18",
@@ -6255,6 +6286,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "joints",
       "gut"
     ],
@@ -6281,6 +6313,7 @@
     ],
     "bodyParts": [
       "vessels",
+      "general",
       "muscles",
       "brain"
     ],
@@ -6313,9 +6346,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "blood",
       "heart",
       "vessels",
-      "blood",
       "liver"
     ],
     "titleEn": "More than 80% of heart attacks and strokes are caused by this!",
@@ -6346,9 +6379,9 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "hormones",
       "blood",
       "vessels",
-      "hormones",
       "heart"
     ],
     "titleEn": "The best food for cleansing blood vessels!",
@@ -6378,11 +6411,12 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "gut",
+      "brain",
+      "general",
       "blood",
       "bones",
-      "muscles",
-      "gut",
-      "brain"
+      "muscles"
     ],
     "titleEn": "10,000 IU of Vitamin D3 A Huge Mistake or a Miracle Cure?",
     "publishedAt": "2025-04-11",
@@ -6434,10 +6468,11 @@
     ],
     "bodyParts": [
       "vessels",
-      "blood",
+      "brain",
+      "general",
       "muscles",
-      "eyes",
-      "brain"
+      "blood",
+      "eyes"
     ],
     "titleEn": "How to get rid of hypertension? Top 3 remedies for high blood pressure",
     "publishedAt": "2025-04-09",
@@ -6465,10 +6500,10 @@
       "menopause"
     ],
     "bodyParts": [
-      "reproductive",
-      "hormones",
       "blood",
-      "bones"
+      "bones",
+      "reproductive",
+      "hormones"
     ],
     "titleEn": "How to prepare for perimenopause?",
     "publishedAt": "2025-04-08",
@@ -6521,9 +6556,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "bladder",
+      "pancreas",
       "blood",
-      "pancreas"
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2025-04-04",
@@ -6550,9 +6585,9 @@
     ],
     "bodyParts": [
       "hormones",
+      "pancreas",
       "vessels",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "How to get rid of chronic diseases in 10 weeks?",
     "publishedAt": "2025-04-04",
@@ -6576,9 +6611,9 @@
       "anemia"
     ],
     "bodyParts": [
+      "blood",
       "nails",
-      "liver",
-      "blood"
+      "liver"
     ],
     "titleEn": "What are your nails screaming about? Don't treat the symptom, look for the CAUSE.",
     "publishedAt": "2025-04-03",
@@ -6605,11 +6640,12 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "blood",
+      "general",
       "kidneys",
       "immune",
-      "hormones",
-      "pancreas",
-      "blood"
+      "hormones"
     ],
     "titleEn": "Kidney problems and autoimmune disease: what can help?",
     "publishedAt": "2025-03-26",
@@ -6665,6 +6701,7 @@
       "constipation"
     ],
     "bodyParts": [
+      "general",
       "gut"
     ],
     "titleEn": "",
@@ -6701,10 +6738,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "blood",
       "gut",
-      "stomach",
-      "heart"
+      "stomach"
     ],
     "titleEn": "THESE foods will help you reduce your appetite and lose weight easily",
     "publishedAt": "2025-03-21",
@@ -6734,9 +6771,10 @@
     ],
     "bodyParts": [
       "hormones",
+      "pancreas",
+      "general",
       "immune",
-      "reproductive",
-      "pancreas"
+      "reproductive"
     ],
     "titleEn": "How to get rid of papillomas and warts in ONE night?",
     "publishedAt": "2025-03-21",
@@ -6764,10 +6802,10 @@
       "depression"
     ],
     "bodyParts": [
-      "gallbladder",
       "blood",
-      "ears",
-      "brain"
+      "brain",
+      "gallbladder",
+      "ears"
     ],
     "titleEn": "Dispelling the myths: 10 health improvement methods that DO NOT WORK",
     "publishedAt": "2025-03-20",
@@ -6793,9 +6831,9 @@
     ],
     "bodyParts": [
       "gallbladder",
-      "liver",
+      "blood",
       "gut",
-      "blood"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2025-03-18",
@@ -6867,11 +6905,11 @@
       "insomnia"
     ],
     "bodyParts": [
-      "gut",
-      "heart",
-      "muscles",
       "blood",
-      "brain"
+      "gut",
+      "brain",
+      "heart",
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2025-03-13",
@@ -6929,8 +6967,8 @@
     ],
     "bodyParts": [
       "blood",
-      "gut",
-      "hormones"
+      "hormones",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2025-03-04",
@@ -7067,11 +7105,12 @@
       "insomnia"
     ],
     "bodyParts": [
+      "pancreas",
+      "blood",
+      "brain",
       "muscles",
       "gut",
-      "bones",
-      "pancreas",
-      "blood"
+      "bones"
     ],
     "titleEn": "How to stop muscle loss as you age? Muscle is the foundation of longevity!",
     "publishedAt": "2025-02-21",
@@ -7103,9 +7142,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "immune",
+      "pancreas",
       "blood",
-      "pancreas"
+      "immune"
     ],
     "titleEn": "Be careful! Sugar consumption depletes THESE vitamins!",
     "publishedAt": "2025-02-21",
@@ -7134,6 +7173,7 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "general",
       "muscles",
       "heart",
       "nerves"
@@ -7166,8 +7206,8 @@
     "bodyParts": [
       "blood",
       "hormones",
-      "gut",
-      "pancreas"
+      "pancreas",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2025-02-17",
@@ -7190,8 +7230,8 @@
       "visceral-fat"
     ],
     "bodyParts": [
-      "hormones",
-      "heart"
+      "general",
+      "hormones"
     ],
     "titleEn": "How to get rid of belly fat with ONE exercise?",
     "publishedAt": "2025-02-16",
@@ -7240,10 +7280,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
       "blood",
       "skin",
-      "hormones",
-      "pancreas"
+      "hormones"
     ],
     "titleEn": "7 UNEXPECTED Signs of High Blood Sugar",
     "publishedAt": "2025-02-13",
@@ -7271,9 +7311,9 @@
       "dementia"
     ],
     "bodyParts": [
-      "gut",
       "hormones",
-      "brain"
+      "brain",
+      "gut"
     ],
     "titleEn": "How to slow down the progression of Alzheimer's disease?",
     "publishedAt": "2025-02-11",
@@ -7312,9 +7352,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "kidneys",
       "hormones",
-      "blood"
+      "blood",
+      "kidneys"
     ],
     "titleEn": "The 7 BEST foods for your kidney health!",
     "publishedAt": "2025-02-07",
@@ -7357,6 +7397,7 @@
     ],
     "bodyParts": [
       "skin",
+      "general",
       "liver",
       "vessels"
     ],
@@ -7394,11 +7435,11 @@
       "insomnia"
     ],
     "bodyParts": [
-      "heart",
-      "vessels",
-      "muscles",
       "pancreas",
-      "brain"
+      "vessels",
+      "heart",
+      "brain",
+      "muscles"
     ],
     "titleEn": "Avoid These BIG Mistakes When Taking Magnesium! Magnesium Deficiency",
     "publishedAt": "2025-02-02",
@@ -7428,10 +7469,10 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "gallbladder",
       "liver",
-      "gut",
-      "heart"
+      "gut"
     ],
     "titleEn": "MAIN causes of chronic inflammation in the body",
     "publishedAt": "2025-01-31",
@@ -7487,9 +7528,9 @@
       "gerd"
     ],
     "bodyParts": [
-      "stomach",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "stomach"
     ],
     "titleEn": "Why don't vitamins work for you?!",
     "publishedAt": "2025-01-27",
@@ -7514,10 +7555,10 @@
       "anemia"
     ],
     "bodyParts": [
+      "pancreas",
       "gut",
       "blood",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "Why can too much iron ruin your health?",
     "publishedAt": "2025-01-26",
@@ -7542,11 +7583,11 @@
       "bloating"
     ],
     "bodyParts": [
+      "general",
       "hormones",
+      "pancreas",
       "gut",
-      "liver",
-      "heart",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "Why do most men in India have big bellies?! It's important to everyone!",
     "publishedAt": "2025-01-23",
@@ -7603,9 +7644,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "gut",
       "blood",
-      "reproductive"
+      "reproductive",
+      "gut"
     ],
     "titleEn": "THESE MISTAKES cost you your health (especially after 50)",
     "publishedAt": "2025-01-19",
@@ -7636,10 +7677,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "gut",
       "blood",
-      "immune",
-      "stomach"
+      "stomach",
+      "gut",
+      "general",
+      "immune"
     ],
     "titleEn": "Benefits of apple cider vinegar you didn't know about",
     "publishedAt": "2025-01-17",
@@ -7719,6 +7761,7 @@
     ],
     "bodyParts": [
       "hair",
+      "general",
       "liver",
       "gut"
     ],
@@ -7751,10 +7794,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "blood",
       "gut",
-      "skin",
-      "pancreas"
+      "skin"
     ],
     "titleEn": "You have a vitamin D deficiency and you don't know it...",
     "publishedAt": "2025-01-08",
@@ -7788,10 +7832,10 @@
       "bloating"
     ],
     "bodyParts": [
+      "gut",
       "immune",
       "gallbladder",
-      "teeth",
-      "gut"
+      "teeth"
     ],
     "titleEn": "7 Signs You Have Parasites. Natural Parasite Remedies",
     "publishedAt": "2025-01-06",
@@ -7825,11 +7869,13 @@
       "cramps"
     ],
     "bodyParts": [
+      "pancreas",
+      "joints",
+      "general",
+      "muscles",
       "blood",
       "nails",
-      "nerves",
-      "pancreas",
-      "joints"
+      "nerves"
     ],
     "titleEn": "Health Diagnosis Through Your Feet: 6 Symptoms and Solutions",
     "publishedAt": "2025-01-03",
@@ -7864,11 +7910,11 @@
       "gerd"
     ],
     "bodyParts": [
-      "stomach",
-      "hair",
       "vessels",
       "blood",
-      "heart"
+      "heart",
+      "stomach",
+      "hair"
     ],
     "titleEn": "Take THESE vitamins for specific health problems",
     "publishedAt": "2025-01-02",
@@ -7892,6 +7938,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "immune",
       "gut"
     ],
@@ -7928,6 +7975,7 @@
     ],
     "bodyParts": [
       "blood",
+      "general",
       "teeth",
       "bones"
     ],
@@ -8064,9 +8112,9 @@
       "gout"
     ],
     "bodyParts": [
+      "joints",
       "teeth",
-      "bladder",
-      "joints"
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2024-12-17",
@@ -8116,9 +8164,9 @@
       "sibo"
     ],
     "bodyParts": [
+      "gut",
       "muscles",
-      "liver",
-      "gut"
+      "liver"
     ],
     "titleEn": "Struggling to lose weight on the carnivore diet. What should I do?",
     "publishedAt": "2024-12-10",
@@ -8150,10 +8198,10 @@
       "headache"
     ],
     "bodyParts": [
-      "gut",
-      "nerves",
       "pancreas",
-      "brain"
+      "gut",
+      "brain",
+      "nerves"
     ],
     "titleEn": "You will NEVER fix a B1 deficiency while eating sugar",
     "publishedAt": "2024-12-06",
@@ -8255,9 +8303,9 @@
       "migraine"
     ],
     "bodyParts": [
-      "heart",
       "vessels",
       "blood",
+      "heart",
       "brain"
     ],
     "titleEn": "The most important nutrient for the heart and cardiovascular system!",
@@ -8299,6 +8347,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "liver",
       "hormones",
       "muscles"
@@ -8349,8 +8398,8 @@
       "high-insulin"
     ],
     "bodyParts": [
-      "brain",
       "hormones",
+      "brain",
       "liver"
     ],
     "titleEn": "This ONE thing could replace our entire healthcare system!",
@@ -8382,11 +8431,11 @@
       "ibs"
     ],
     "bodyParts": [
-      "joints",
-      "vessels",
-      "gut",
       "pancreas",
-      "blood"
+      "vessels",
+      "blood",
+      "gut",
+      "joints"
     ],
     "titleEn": "Drink Turmeric Water EVERY DAY, Here's Why",
     "publishedAt": "2024-11-20",
@@ -8442,10 +8491,10 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "vessels",
       "heart",
       "teeth",
-      "gums",
-      "vessels"
+      "gums"
     ],
     "titleEn": "14 Habits That Can Ruin Your Heart Heart Health",
     "publishedAt": "2024-11-17",
@@ -8474,11 +8523,12 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "blood",
-      "gut",
-      "bones",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "general",
+      "gut",
+      "bones"
     ],
     "titleEn": "The Main DANGER of Vitamin D You Need to Know",
     "publishedAt": "2024-11-15",
@@ -8510,10 +8560,10 @@
     ],
     "bodyParts": [
       "liver",
+      "general",
       "hormones",
-      "blood",
-      "heart",
-      "pancreas"
+      "pancreas",
+      "blood"
     ],
     "titleEn": "7 Bad Habits That Can Destroy Your Liver",
     "publishedAt": "2024-11-15",
@@ -8562,7 +8612,8 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "liver"
+      "liver",
+      "general"
     ],
     "titleEn": "The best form of magnesium! 80% absorption",
     "publishedAt": "2024-11-12",
@@ -8590,10 +8641,11 @@
       "pcos"
     ],
     "bodyParts": [
-      "hormones",
+      "pancreas",
       "vessels",
+      "general",
       "reproductive",
-      "pancreas"
+      "hormones"
     ],
     "titleEn": "Uterine fibroids: This vitamin will help shrink fibroidsProven!",
     "publishedAt": "2024-11-08",
@@ -8618,11 +8670,11 @@
       "menopause"
     ],
     "bodyParts": [
+      "skin",
+      "reproductive",
       "hormones",
       "immune",
-      "hair",
-      "skin",
-      "reproductive"
+      "hair"
     ],
     "titleEn": "7 Signs of Zinc Deficiency That Will Turn Your Life into Hell",
     "publishedAt": "2024-11-08",
@@ -8650,8 +8702,8 @@
       "anxiety"
     ],
     "bodyParts": [
-      "nerves",
       "brain",
+      "nerves",
       "liver"
     ],
     "titleEn": "The best nutrient for supporting the nervous system",
@@ -8682,11 +8734,11 @@
       "varicose"
     ],
     "bodyParts": [
-      "blood",
+      "pancreas",
       "vessels",
+      "blood",
       "eyes",
-      "muscles",
-      "pancreas"
+      "muscles"
     ],
     "titleEn": "How to improve blood circulation? THIS will definitely help!",
     "publishedAt": "2024-11-06",
@@ -8712,9 +8764,10 @@
       "menopause"
     ],
     "bodyParts": [
+      "general",
+      "reproductive",
       "joints",
-      "muscles",
-      "reproductive"
+      "muscles"
     ],
     "titleEn": "Joint pain during menopause. Sarcopenia. THIS will help!",
     "publishedAt": "2024-11-05",
@@ -8745,11 +8798,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "gallbladder",
       "hormones",
-      "liver",
       "pancreas",
-      "blood"
+      "blood",
+      "gallbladder",
+      "liver"
     ],
     "titleEn": "9 Lies Your Doctors Are Telling You. They're NOT Telling You the Truth!",
     "publishedAt": "2024-11-03",
@@ -8777,10 +8830,10 @@
       "anxiety"
     ],
     "bodyParts": [
-      "nerves",
-      "eyes",
       "pancreas",
-      "brain"
+      "brain",
+      "nerves",
+      "eyes"
     ],
     "titleEn": "Almost ALL Nerve Problems Are Due to a Deficiency of This Vitamin",
     "publishedAt": "2024-11-01",
@@ -8839,10 +8892,11 @@
     ],
     "bodyParts": [
       "vessels",
-      "heart",
-      "muscles",
       "kidneys",
-      "brain"
+      "brain",
+      "general",
+      "heart",
+      "muscles"
     ],
     "titleEn": "The BEST and WORST forms of magnesium How to replenish magnesium deficiency?",
     "publishedAt": "2024-10-29",
@@ -8870,9 +8924,10 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "joints",
+      "general",
       "blood",
-      "immune",
-      "joints"
+      "immune"
     ],
     "titleEn": "The required dosage of vitamin D3 for health",
     "publishedAt": "2024-10-28",
@@ -8904,6 +8959,7 @@
     ],
     "bodyParts": [
       "skin",
+      "general",
       "muscles"
     ],
     "titleEn": "How much magnesium should women take? Acne ️ What to do?",
@@ -8952,10 +9008,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "vessels",
       "heart",
+      "general",
       "muscles",
-      "stomach",
-      "vessels"
+      "stomach"
     ],
     "titleEn": "5 Heart Problems and ONE Common Solution",
     "publishedAt": "2024-10-20",
@@ -8989,8 +9046,8 @@
     ],
     "bodyParts": [
       "blood",
-      "heart",
-      "vessels"
+      "vessels",
+      "heart"
     ],
     "titleEn": "Swollen Feet? Vitamin #1 That Will Help Really Fast",
     "publishedAt": "2024-10-13",
@@ -9028,10 +9085,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "spine",
-      "muscles",
+      "pancreas",
       "joints",
-      "pancreas"
+      "general",
+      "spine",
+      "muscles"
     ],
     "titleEn": "Deficiency of THESE 3 nutrients is the cause of sciatica",
     "publishedAt": "2024-10-11",
@@ -9054,9 +9112,9 @@
       "hair-loss"
     ],
     "bodyParts": [
+      "hair",
       "eyes",
-      "gallbladder",
-      "hair"
+      "gallbladder"
     ],
     "titleEn": "Dry eyes? Fix this nutrient deficiency!",
     "publishedAt": "2024-10-10",
@@ -9082,7 +9140,8 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "heart"
+      "heart",
+      "general"
     ],
     "titleEn": "",
     "publishedAt": "2024-10-09",
@@ -9156,10 +9215,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "skin",
-      "teeth",
+      "pancreas",
       "bones",
-      "pancreas"
+      "skin",
+      "general",
+      "teeth"
     ],
     "titleEn": "Dr. Berg could be banned after this video! The whole truth about...",
     "publishedAt": "2024-09-29",
@@ -9189,10 +9249,11 @@
       "bloating"
     ],
     "bodyParts": [
-      "adrenals",
-      "immune",
+      "thyroid",
+      "general",
       "gut",
-      "thyroid"
+      "adrenals",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2024-09-27",
@@ -9217,11 +9278,11 @@
       "pregnancy"
     ],
     "bodyParts": [
+      "pancreas",
+      "reproductive",
       "skin",
       "liver",
-      "hormones",
-      "pancreas",
-      "reproductive"
+      "hormones"
     ],
     "titleEn": "A deficiency of THIS mineral causes age spots",
     "publishedAt": "2024-09-26",
@@ -9248,10 +9309,10 @@
     ],
     "bodyParts": [
       "liver",
+      "general",
+      "brain",
       "muscles",
-      "pancreas",
-      "heart",
-      "brain"
+      "pancreas"
     ],
     "titleEn": "How to get rid of belly fat? The most dangerous type of fat!",
     "publishedAt": "2024-09-20",
@@ -9280,9 +9341,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "vessels",
       "stomach",
-      "blood"
+      "blood",
+      "vessels"
     ],
     "titleEn": "How to get rid of plaques in vessels? How to get rid of GERD?",
     "publishedAt": "2024-09-16",
@@ -9308,8 +9369,8 @@
       "psoriasis"
     ],
     "bodyParts": [
-      "skin",
-      "blood"
+      "blood",
+      "skin"
     ],
     "titleEn": "",
     "publishedAt": "2024-09-13",
@@ -9337,9 +9398,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "blood",
       "gut",
-      "liver",
-      "blood"
+      "liver"
     ],
     "titleEn": "Avoid These 7 Dangerous Foods",
     "publishedAt": "2024-09-08",
@@ -9390,10 +9451,10 @@
       "diabetes"
     ],
     "bodyParts": [
+      "pancreas",
       "eyes",
       "liver",
-      "gallbladder",
-      "pancreas"
+      "gallbladder"
     ],
     "titleEn": "All eye diseases and their causes in ONE video",
     "publishedAt": "2024-07-30",
@@ -9465,7 +9526,8 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "gut"
+      "gut",
+      "general"
     ],
     "titleEn": "How to get rid of bloating forever?",
     "publishedAt": "2024-07-26",
@@ -9492,10 +9554,10 @@
       "diabetes"
     ],
     "bodyParts": [
+      "pancreas",
       "immune",
       "thyroid",
-      "adrenals",
-      "pancreas"
+      "adrenals"
     ],
     "titleEn": "How to restore your hearing at home?",
     "publishedAt": "2024-07-21",
@@ -9531,11 +9593,13 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "hormones",
+      "pancreas",
+      "brain",
+      "general",
       "blood",
       "muscles",
-      "gut",
-      "hormones",
-      "pancreas"
+      "gut"
     ],
     "titleEn": "How to replenish magnesium deficiency? Magnesium-rich foods!",
     "publishedAt": "2024-07-19",
@@ -9557,6 +9621,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "eyes",
       "immune",
       "vessels"
@@ -9632,10 +9697,10 @@
       "sibo"
     ],
     "bodyParts": [
-      "gut",
+      "general",
       "stomach",
-      "liver",
-      "heart"
+      "gut",
+      "liver"
     ],
     "titleEn": "Why do Indian men have protruding bellies? Digestive problems",
     "publishedAt": "2024-07-05",
@@ -9663,6 +9728,7 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "general",
       "vessels",
       "nerves"
     ],
@@ -9715,8 +9781,9 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "ears",
       "bones",
+      "general",
+      "ears",
       "gut"
     ],
     "titleEn": "How to get rid of dizziness? The main cause of dizziness",
@@ -9770,10 +9837,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "prostate",
-      "hormones",
+      "pancreas",
       "blood",
-      "pancreas"
+      "prostate",
+      "hormones"
     ],
     "titleEn": "Enlarged Prostate: What to Do? Is Raw Oats Beneficial?",
     "publishedAt": "2024-06-28",
@@ -9802,11 +9869,13 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "heart",
+      "gut",
+      "brain",
+      "general",
       "immune",
       "blood",
-      "muscles",
-      "heart",
-      "gut"
+      "muscles"
     ],
     "titleEn": "Vitamin D Poisoning: Myth or Reality?",
     "publishedAt": "2024-06-28",
@@ -9864,11 +9933,11 @@
       "hypothyroid"
     ],
     "bodyParts": [
-      "blood",
-      "vessels",
-      "kidneys",
       "pancreas",
-      "thyroid"
+      "blood",
+      "thyroid",
+      "vessels",
+      "kidneys"
     ],
     "titleEn": "Numb toes or fingers? Peripheral neuropathy: the solution",
     "publishedAt": "2024-06-27",
@@ -9895,9 +9964,9 @@
       "psoriasis"
     ],
     "bodyParts": [
+      "gut",
       "joints",
-      "skin",
-      "gut"
+      "skin"
     ],
     "titleEn": "The Amazing Benefits of Pine Oil. The Power of Essential Oils",
     "publishedAt": "2024-06-24",
@@ -9922,8 +9991,8 @@
       "dementia"
     ],
     "bodyParts": [
-      "nerves",
-      "brain"
+      "brain",
+      "nerves"
     ],
     "titleEn": "The real cause of tremors! Tremors what to do?",
     "publishedAt": "2024-06-23",
@@ -9952,11 +10021,12 @@
       "arthritis"
     ],
     "bodyParts": [
-      "immune",
-      "vessels",
-      "blood",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "vessels",
+      "joints",
+      "immune",
+      "blood"
     ],
     "titleEn": "Why should you take vitamin D EVERY day?",
     "publishedAt": "2024-06-22",
@@ -9986,11 +10056,11 @@
       "cold"
     ],
     "bodyParts": [
-      "liver",
       "reproductive",
-      "stomach",
       "thyroid",
-      "immune"
+      "immune",
+      "liver",
+      "stomach"
     ],
     "titleEn": "Liver fibrosis. Liver restoration. Hypothyroidism and PCOS.",
     "publishedAt": "2024-06-21",
@@ -10013,8 +10083,8 @@
       "depression"
     ],
     "bodyParts": [
-      "hormones",
-      "brain"
+      "brain",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2024-06-20",
@@ -10209,8 +10279,8 @@
     ],
     "bodyParts": [
       "vessels",
-      "reproductive",
-      "gallbladder"
+      "gallbladder",
+      "reproductive"
     ],
     "titleEn": "Hypertension. Stroke recovery. Is fasting harmful?",
     "publishedAt": "2024-06-14",
@@ -10311,8 +10381,8 @@
       "pregnancy"
     ],
     "bodyParts": [
-      "reproductive",
       "thyroid",
+      "reproductive",
       "hormones"
     ],
     "titleEn": "The incredibly beneficial properties of iodine Detox with iodine!",
@@ -10344,6 +10414,7 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "general",
       "heart",
       "skin",
       "blood"
@@ -10379,11 +10450,11 @@
       "menopause"
     ],
     "bodyParts": [
-      "bones",
-      "reproductive",
-      "hormones",
       "kidneys",
-      "brain"
+      "bones",
+      "brain",
+      "reproductive",
+      "hormones"
     ],
     "titleEn": "Eat THIS after 45",
     "publishedAt": "2024-05-31",
@@ -10413,8 +10484,9 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "heart",
-      "vessels"
+      "vessels",
+      "general",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2024-05-29",
@@ -10470,10 +10542,10 @@
       "hyperthyroid"
     ],
     "bodyParts": [
-      "thyroid",
-      "vessels",
       "hormones",
-      "blood"
+      "blood",
+      "thyroid",
+      "vessels"
     ],
     "titleEn": "The Dark Side of Ashwagandha. Side effects of Ashwagandha",
     "publishedAt": "2024-05-24",
@@ -10577,6 +10649,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "immune",
       "gut",
       "lungs"
@@ -10607,11 +10680,12 @@
       "dementia"
     ],
     "bodyParts": [
-      "liver",
-      "gallbladder",
-      "gut",
       "blood",
-      "kidneys"
+      "gallbladder",
+      "kidneys",
+      "brain",
+      "liver",
+      "gut"
     ],
     "titleEn": "Benefits of coffee you didn't know about This is why you need to drink coffee!",
     "publishedAt": "2024-05-08",
@@ -10642,7 +10716,8 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "brain"
+      "brain",
+      "general"
     ],
     "titleEn": "Sleep problems? When magnesium WON'T help? How to improve your sleep?",
     "publishedAt": "2024-04-30",
@@ -10668,9 +10743,9 @@
     ],
     "bodyParts": [
       "joints",
+      "blood",
       "muscles",
-      "immune",
-      "blood"
+      "immune"
     ],
     "titleEn": "The Best Vitamin for Arthritis (And It's NOT Vitamin D)",
     "publishedAt": "2024-04-29",
@@ -10694,6 +10769,7 @@
     ],
     "bodyParts": [
       "hormones",
+      "general",
       "skin"
     ],
     "titleEn": "Why are there no obese people in Colorado? You can't lose weight without this",
@@ -10781,11 +10857,12 @@
       "hair-loss"
     ],
     "bodyParts": [
-      "skin",
-      "hair",
-      "nails",
       "blood",
-      "gut"
+      "gut",
+      "kidneys",
+      "hair",
+      "skin",
+      "nails"
     ],
     "titleEn": "The #1 product for hair, nails and skin Collagen and more.",
     "publishedAt": "2024-04-19",
@@ -10811,9 +10888,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
+      "general",
       "blood",
-      "heart"
+      "hormones"
     ],
     "titleEn": "How to Get Rid of Belly Fat and Lose Weight as Fast as Possible? 7 Tips",
     "publishedAt": "2024-04-19",
@@ -10841,8 +10918,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "vessels",
       "hormones",
+      "vessels",
       "liver"
     ],
     "titleEn": "Top 8 Natural Remedies for Vascular Calcification",
@@ -10873,8 +10950,8 @@
       "depression"
     ],
     "bodyParts": [
-      "hormones",
-      "brain"
+      "brain",
+      "hormones"
     ],
     "titleEn": "How to Boost Glutathione? The Most Important Antioxidant",
     "publishedAt": "2024-04-17",
@@ -10989,11 +11066,12 @@
       "kidney-stones"
     ],
     "bodyParts": [
-      "vessels",
-      "blood",
-      "muscles",
       "pancreas",
-      "heart"
+      "vessels",
+      "heart",
+      "kidneys",
+      "blood",
+      "muscles"
     ],
     "titleEn": "The FIRST sign of magnesium deficiency you can't ignore!",
     "publishedAt": "2024-04-07",
@@ -11017,9 +11095,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
+      "pancreas",
       "blood",
-      "pancreas"
+      "hormones"
     ],
     "titleEn": "Lose weight and lose 3 kg of fat in 5 days. How is this possible?",
     "publishedAt": "2024-04-05",
@@ -11051,7 +11129,7 @@
       "insomnia"
     ],
     "bodyParts": [
-      "heart",
+      "general",
       "brain"
     ],
     "titleEn": "Lose Weight While You Sleep. 7 Ways to Burn Fat While You Sleep!",
@@ -11078,9 +11156,9 @@
     ],
     "bodyParts": [
       "vessels",
+      "hormones",
       "heart",
-      "muscles",
-      "hormones"
+      "muscles"
     ],
     "titleEn": "The main cause of hypertension is...",
     "publishedAt": "2024-04-04",
@@ -11126,9 +11204,10 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "hormones",
       "stomach",
-      "immune",
-      "hormones"
+      "general",
+      "immune"
     ],
     "titleEn": "You Can't Build Health Without Destruction.",
     "publishedAt": "2024-04-02",
@@ -11173,10 +11252,10 @@
       "menopause"
     ],
     "bodyParts": [
-      "hormones",
+      "brain",
       "reproductive",
-      "immune",
-      "brain"
+      "hormones",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2024-03-27",
@@ -11268,8 +11347,8 @@
       "cold"
     ],
     "bodyParts": [
-      "lungs",
       "immune",
+      "lungs",
       "liver"
     ],
     "titleEn": "How to Recover Quickly from Viral and Bacterial Infections",
@@ -11295,10 +11374,10 @@
       "psoriasis"
     ],
     "bodyParts": [
-      "skin",
+      "blood",
       "joints",
-      "liver",
-      "blood"
+      "skin",
+      "liver"
     ],
     "titleEn": "Niacin (Vitamin B3) Deficiency Symptoms That Will Shock You",
     "publishedAt": "2024-03-20",
@@ -11328,11 +11407,11 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
-      "hormones",
-      "heart",
-      "gut",
       "brain",
-      "vessels"
+      "hormones",
+      "vessels",
+      "heart",
+      "gut"
     ],
     "titleEn": "Insomnia? Can't fall asleep? The fastest way to fall asleep",
     "publishedAt": "2024-03-19",
@@ -11362,10 +11441,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "gut",
       "blood",
-      "heart"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2024-03-18",
@@ -11392,6 +11471,7 @@
     ],
     "bodyParts": [
       "kidneys",
+      "general",
       "stomach"
     ],
     "titleEn": "Avoid These Water Drinking Mistakes: The Top 10 Myths About Water",
@@ -11423,10 +11503,10 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "hormones",
       "gut",
       "immune",
-      "liver",
-      "hormones"
+      "liver"
     ],
     "titleEn": "10 Causes of Inflammation in the Body. 11 Ways to Restore It.",
     "publishedAt": "2024-03-15",
@@ -11452,6 +11532,7 @@
     ],
     "bodyParts": [
       "hormones",
+      "general",
       "liver",
       "bones"
     ],
@@ -11476,9 +11557,9 @@
       "anxiety"
     ],
     "bodyParts": [
+      "brain",
       "adrenals",
-      "nerves",
-      "brain"
+      "nerves"
     ],
     "titleEn": "Reducing anxiety to zero. Stress and anxiety under control",
     "publishedAt": "2024-03-11",
@@ -11506,9 +11587,9 @@
     ],
     "bodyParts": [
       "hair",
+      "blood",
       "liver",
-      "stomach",
-      "blood"
+      "stomach"
     ],
     "titleEn": "Hair Loss Diet: TOP 3 Foods",
     "publishedAt": "2024-03-10",
@@ -11547,11 +11628,12 @@
       "kidney-stones"
     ],
     "bodyParts": [
-      "heart",
-      "liver",
+      "pancreas",
+      "gut",
       "gallbladder",
       "kidneys",
-      "pancreas"
+      "heart",
+      "liver"
     ],
     "titleEn": "The first signs of a heart attack and 7 other illnesses. Don't miss them",
     "publishedAt": "2024-03-08",
@@ -11599,9 +11681,9 @@
       "leaky-gut"
     ],
     "bodyParts": [
-      "immune",
+      "stomach",
       "gut",
-      "stomach"
+      "immune"
     ],
     "titleEn": "The Autoimmune Disease Epidemic. How can you protect yourself?",
     "publishedAt": "2024-03-05",
@@ -11632,9 +11714,10 @@
     ],
     "bodyParts": [
       "gut",
+      "general",
+      "reproductive",
       "immune",
-      "nails",
-      "reproductive"
+      "nails"
     ],
     "titleEn": "Start doing this now and get rid of candida forever!",
     "publishedAt": "2024-02-27",
@@ -11693,9 +11776,9 @@
       "dementia"
     ],
     "bodyParts": [
-      "brain",
+      "hormones",
       "gut",
-      "hormones"
+      "brain"
     ],
     "titleEn": "10 Early Signs of Dementia Pay attention!",
     "publishedAt": "2024-02-25",
@@ -11745,10 +11828,10 @@
       "anemia"
     ],
     "bodyParts": [
-      "liver",
-      "gut",
       "blood",
-      "brain"
+      "gut",
+      "brain",
+      "liver"
     ],
     "titleEn": "Fix These 17 Nutrient Deficiencies with Superfoods",
     "publishedAt": "2024-02-23",
@@ -11775,8 +11858,8 @@
       "visceral-fat"
     ],
     "bodyParts": [
-      "gut",
-      "heart"
+      "general",
+      "gut"
     ],
     "titleEn": "The fastest way to get rid of belly fat",
     "publishedAt": "2024-02-22",
@@ -11832,10 +11915,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "liver",
       "pancreas",
-      "hormones",
-      "blood"
+      "blood",
+      "liver",
+      "hormones"
     ],
     "titleEn": "Diabetes and Alcohol A Very Bad Combination",
     "publishedAt": "2024-02-20",
@@ -11891,10 +11974,11 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "general",
+      "hormones",
       "heart",
       "vessels",
-      "blood",
-      "hormones"
+      "blood"
     ],
     "titleEn": "The most HARMFUL product for the heart!",
     "publishedAt": "2024-02-09",
@@ -11945,10 +12029,11 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "heart",
       "brain",
-      "kidneys",
-      "pancreas"
+      "kidneys"
     ],
     "titleEn": "The main symptoms of vitamin B1 deficiency: causes and consequences",
     "publishedAt": "2024-02-06",
@@ -11994,8 +12079,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "bladder",
       "hormones",
+      "bladder",
       "blood"
     ],
     "titleEn": "Tired of Waking Up to Pee at Night? The Main Cause and Solution",
@@ -12032,8 +12117,9 @@
     "bodyParts": [
       "hormones",
       "blood",
-      "gut",
-      "reproductive"
+      "general",
+      "reproductive",
+      "gut"
     ],
     "titleEn": "This is why you will always have a vitamin D deficiency when you are stressed",
     "publishedAt": "2024-02-02",
@@ -12062,11 +12148,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "eyes",
-      "blood",
-      "kidneys",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "eyes",
+      "kidneys"
     ],
     "titleEn": "How to get rid of bags under your eyes FOREVER?",
     "publishedAt": "2024-02-01",
@@ -12097,10 +12183,11 @@
       "varicose"
     ],
     "bodyParts": [
-      "liver",
+      "pancreas",
+      "general",
       "vessels",
-      "teeth",
-      "pancreas"
+      "liver",
+      "teeth"
     ],
     "titleEn": "Why you should ALWAYS take Vitamin D with Vitamin K2",
     "publishedAt": "2024-01-31",
@@ -12178,8 +12265,8 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "eyes",
       "blood",
+      "eyes",
       "vessels"
     ],
     "titleEn": "The Most Effective Natural Remedy for Cataracts",
@@ -12213,9 +12300,10 @@
     ],
     "bodyParts": [
       "vessels",
-      "immune",
       "bones",
-      "brain"
+      "brain",
+      "general",
+      "immune"
     ],
     "titleEn": "What essential vitamins does stress deprive us of?",
     "publishedAt": "2024-01-19",
@@ -12241,10 +12329,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "brain",
       "muscles",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "What happens if you only sleep 5 hours a night for 2 weeks?",
     "publishedAt": "2024-01-14",
@@ -12349,10 +12438,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "bones",
+      "pancreas",
       "blood",
-      "liver",
-      "pancreas"
+      "bones",
+      "liver"
     ],
     "titleEn": "The best foods for bone recovery after a fracture",
     "publishedAt": "2023-12-29",
@@ -12381,10 +12470,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
       "hormones",
       "blood",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "How to stop prediabetes and prevent diabetes?",
     "publishedAt": "2023-12-29",
@@ -12477,10 +12566,10 @@
     ],
     "bodyParts": [
       "stomach",
-      "spine",
-      "blood",
       "brain",
-      "lungs"
+      "blood",
+      "lungs",
+      "spine"
     ],
     "titleEn": "Short of breath? Not enough air? 4 unobvious reasons",
     "publishedAt": "2023-12-14",
@@ -12545,10 +12634,10 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "gallbladder",
       "gut",
-      "immune",
-      "heart"
+      "immune"
     ],
     "titleEn": "What Causes Inflammation in the Body? 12 Main Triggers",
     "publishedAt": "2023-12-08",
@@ -12584,10 +12673,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "muscles",
       "gut",
-      "nerves",
-      "brain"
+      "brain",
+      "general",
+      "muscles",
+      "nerves"
     ],
     "titleEn": "12 things that keep you awakeHow to improve your sleep?",
     "publishedAt": "2023-12-07",
@@ -12619,8 +12709,8 @@
     ],
     "bodyParts": [
       "gut",
-      "stomach",
-      "skin"
+      "skin",
+      "stomach"
     ],
     "titleEn": "7 Most Important Things You Need to Know About Probiotics",
     "publishedAt": "2023-12-06",
@@ -12643,6 +12733,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "spine",
       "heart"
     ],
@@ -12672,10 +12763,10 @@
       "cramps"
     ],
     "bodyParts": [
-      "nerves",
+      "pancreas",
       "muscles",
-      "heart",
-      "pancreas"
+      "nerves",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2023-12-04",
@@ -12793,7 +12884,8 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "blood"
+      "blood",
+      "general"
     ],
     "titleEn": "This Is Why You Have a Magnesium Deficiency! Where to Find Magnesium?",
     "publishedAt": "2023-11-22",
@@ -12822,8 +12914,8 @@
       "candida"
     ],
     "bodyParts": [
-      "gut",
       "blood",
+      "gut",
       "nerves"
     ],
     "titleEn": "Having trouble sleeping? Drink this drink before bed and sleep all night!",
@@ -12856,9 +12948,9 @@
     ],
     "bodyParts": [
       "thyroid",
-      "hormones",
       "hair",
-      "brain"
+      "brain",
+      "hormones"
     ],
     "titleEn": "The main cause of goiter. Thyroid problems",
     "publishedAt": "2023-11-20",
@@ -12885,9 +12977,9 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "kidneys",
       "brain",
-      "heart",
-      "kidneys"
+      "heart"
     ],
     "titleEn": "The Dark Side of Intermittent Fasting and Long-Term Fasting",
     "publishedAt": "2023-11-12",
@@ -12912,10 +13004,10 @@
       "bloating"
     ],
     "bodyParts": [
+      "pancreas",
       "gut",
       "muscles",
-      "heart",
-      "pancreas"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2023-11-10",
@@ -12946,11 +13038,13 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "hormones",
+      "pancreas",
+      "blood",
+      "kidneys",
       "gums",
       "liver",
-      "gut",
-      "hormones",
-      "pancreas"
+      "gut"
     ],
     "titleEn": "Lemons and lemon water are MUCH healthier than you think",
     "publishedAt": "2023-11-10",
@@ -12981,9 +13075,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "vessels",
       "blood",
-      "brain"
+      "brain",
+      "vessels"
     ],
     "titleEn": "The Unique Benefits of Magnesium Glycinate",
     "publishedAt": "2023-11-03",
@@ -13042,11 +13136,12 @@
       "menopause"
     ],
     "bodyParts": [
-      "liver",
-      "reproductive",
-      "gallbladder",
       "pancreas",
-      "stomach"
+      "stomach",
+      "gut",
+      "reproductive",
+      "liver",
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2023-10-30",
@@ -13105,10 +13200,10 @@
       "depression"
     ],
     "bodyParts": [
-      "hormones",
+      "vessels",
       "brain",
-      "gut",
-      "vessels"
+      "hormones",
+      "gut"
     ],
     "titleEn": "What's wrong with dopamine? Dopamine boost or dopamine detox?",
     "publishedAt": "2023-10-18",
@@ -13136,9 +13231,9 @@
       "dementia"
     ],
     "bodyParts": [
+      "hormones",
       "brain",
-      "gut",
-      "hormones"
+      "gut"
     ],
     "titleEn": "The #1 Food for Better Brain FunctionFoods That Destroy Your Brain",
     "publishedAt": "2023-10-15",
@@ -13175,6 +13270,7 @@
     ],
     "bodyParts": [
       "kidneys",
+      "general",
       "hair",
       "heart"
     ],
@@ -13225,11 +13321,11 @@
       "asthma"
     ],
     "bodyParts": [
-      "thyroid",
-      "reproductive",
-      "hormones",
       "gut",
-      "lungs"
+      "reproductive",
+      "lungs",
+      "thyroid",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2023-10-06",
@@ -13276,8 +13372,8 @@
     ],
     "bodyParts": [
       "hormones",
-      "reproductive",
-      "pancreas"
+      "pancreas",
+      "reproductive"
     ],
     "titleEn": "",
     "publishedAt": "2023-10-03",
@@ -13302,6 +13398,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "ears",
       "blood",
       "hair"
@@ -13337,9 +13434,9 @@
     ],
     "bodyParts": [
       "hair",
+      "brain",
       "gut",
-      "immune",
-      "brain"
+      "immune"
     ],
     "titleEn": "Zinc Can Cause Hair Loss Zinc for Hair",
     "publishedAt": "2023-09-29",
@@ -13370,11 +13467,11 @@
       "arrhythmia"
     ],
     "bodyParts": [
-      "vessels",
-      "muscles",
-      "heart",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "vessels",
+      "heart",
+      "muscles"
     ],
     "titleEn": "Magnesium deficiency is dangerous to health. Causes of magnesium deficiency.",
     "publishedAt": "2023-09-26",
@@ -13406,8 +13503,8 @@
     "bodyParts": [
       "hormones",
       "vessels",
-      "muscles",
-      "brain"
+      "brain",
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2023-09-25",
@@ -13489,10 +13586,10 @@
       "anemia"
     ],
     "bodyParts": [
+      "blood",
       "hormones",
       "hair",
-      "thyroid",
-      "blood"
+      "thyroid"
     ],
     "titleEn": "Major signs of trace element deficiency: zinc, iron, iodine",
     "publishedAt": "2023-09-22",
@@ -13565,11 +13662,11 @@
       "asthma"
     ],
     "bodyParts": [
-      "liver",
-      "brain",
-      "gallbladder",
       "heart",
-      "lungs"
+      "brain",
+      "lungs",
+      "liver",
+      "gallbladder"
     ],
     "titleEn": "What Happens if You Take Omega-3 Fatty Acids for 30 Days?",
     "publishedAt": "2023-09-17",
@@ -13597,10 +13694,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "muscles",
       "brain",
-      "nerves",
-      "pancreas"
+      "nerves"
     ],
     "titleEn": "Fatigue that doesn't go away even after rest? Causes and solutions",
     "publishedAt": "2023-09-14",
@@ -13689,10 +13787,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "vessels",
-      "hair",
       "pancreas",
-      "muscles"
+      "vessels",
+      "muscles",
+      "hair"
     ],
     "titleEn": "Better than Viagra! 1 glass a day for erectile dysfunction",
     "publishedAt": "2023-09-08",
@@ -13720,11 +13818,11 @@
       "gastritis"
     ],
     "bodyParts": [
-      "liver",
-      "stomach",
-      "adrenals",
       "vessels",
-      "heart"
+      "heart",
+      "stomach",
+      "liver",
+      "adrenals"
     ],
     "titleEn": "What happens if you give up coffee for a month? Caffeine withdrawal️",
     "publishedAt": "2023-09-07",
@@ -13810,6 +13908,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "heart",
       "nerves",
       "gut"
@@ -13836,10 +13935,10 @@
       "arrhythmia"
     ],
     "bodyParts": [
-      "heart",
-      "muscles",
+      "pancreas",
       "vessels",
-      "pancreas"
+      "heart",
+      "muscles"
     ],
     "titleEn": "The Hidden Cause of Heart Attacks You Don't Know About",
     "publishedAt": "2023-07-30",
@@ -13864,10 +13963,10 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "pancreas",
       "liver",
       "hormones",
-      "muscles",
-      "pancreas"
+      "muscles"
     ],
     "titleEn": "Want to eliminate diabetes? Get rid of liver fat",
     "publishedAt": "2023-07-27",
@@ -13890,6 +13989,7 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "general",
       "hormones"
     ],
     "titleEn": "",
@@ -13920,8 +14020,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "eyes",
       "hormones",
+      "eyes",
       "skin"
     ],
     "titleEn": "How to get rid of dark circles under your eyes once and for all?",
@@ -13963,11 +14063,11 @@
       "diabetes"
     ],
     "bodyParts": [
+      "hormones",
+      "pancreas",
       "kidneys",
       "blood",
-      "liver",
-      "hormones",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "If you have kidney disease, eat this",
     "publishedAt": "2023-07-15",
@@ -14030,10 +14130,10 @@
       "edema"
     ],
     "bodyParts": [
+      "vessels",
       "blood",
       "hormones",
-      "heart",
-      "vessels"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2023-07-10",
@@ -14087,8 +14187,8 @@
     ],
     "bodyParts": [
       "blood",
-      "gallbladder",
-      "gut"
+      "gut",
+      "gallbladder"
     ],
     "titleEn": "The only carbohydrate that lowers cholesterol",
     "publishedAt": "2023-07-08",
@@ -14116,10 +14216,10 @@
       "anemia"
     ],
     "bodyParts": [
-      "blood",
       "hormones",
-      "kidneys",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2023-07-06",
@@ -14147,10 +14247,10 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "blood",
-      "liver",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "liver"
     ],
     "titleEn": "Sugar facts you've never heard of",
     "publishedAt": "2023-07-04",
@@ -14213,11 +14313,12 @@
       "osteoporosis"
     ],
     "bodyParts": [
-      "skin",
-      "kidneys",
-      "immune",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "kidneys",
+      "bones",
+      "skin",
+      "immune"
     ],
     "titleEn": "Is taking 10,000 IU of vitamin D dangerous? How much vitamin D should I take?",
     "publishedAt": "2023-06-28",
@@ -14300,9 +14401,9 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "stomach",
       "kidneys",
-      "teeth",
-      "stomach"
+      "teeth"
     ],
     "titleEn": "4 Major Mistakes When Drinking Lemon Water",
     "publishedAt": "2023-06-11",
@@ -14335,10 +14436,11 @@
       "cramps"
     ],
     "bodyParts": [
-      "vessels",
-      "muscles",
       "blood",
-      "brain"
+      "brain",
+      "general",
+      "muscles",
+      "vessels"
     ],
     "titleEn": "7 Health Benefits of Magnesium You Haven't Heard About",
     "publishedAt": "2023-06-04",
@@ -14368,8 +14470,8 @@
       "sibo"
     ],
     "bodyParts": [
-      "gut",
       "stomach",
+      "gut",
       "brain"
     ],
     "titleEn": "Digestive problems are caused by a deficiency of this vitamin",
@@ -14402,11 +14504,11 @@
       "hair-loss"
     ],
     "bodyParts": [
-      "vessels",
-      "blood",
-      "bones",
       "pancreas",
-      "hair"
+      "vessels",
+      "bones",
+      "hair",
+      "blood"
     ],
     "titleEn": "9 Effective Ways to Boost Vitamin D Absorption",
     "publishedAt": "2023-05-26",
@@ -14460,6 +14562,7 @@
     ],
     "bodyParts": [
       "gut",
+      "general",
       "teeth",
       "gallbladder"
     ],
@@ -14520,9 +14623,9 @@
       "gerd"
     ],
     "bodyParts": [
-      "muscles",
       "hormones",
-      "stomach"
+      "stomach",
+      "muscles"
     ],
     "titleEn": "Without this, you won't be able to build muscle",
     "publishedAt": "2023-05-08",
@@ -14572,8 +14675,8 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "eyes",
-      "blood"
+      "blood",
+      "eyes"
     ],
     "titleEn": "Drink this every day and you won't get cataracts",
     "publishedAt": "2023-05-04",
@@ -14602,10 +14705,10 @@
       "hashimoto"
     ],
     "bodyParts": [
-      "hormones",
-      "hair",
       "gut",
-      "thyroid"
+      "thyroid",
+      "hormones",
+      "hair"
     ],
     "titleEn": "5 Important Signs You Have an Iodine Deficiency",
     "publishedAt": "2023-04-28",
@@ -14633,6 +14736,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "brain",
       "blood"
     ],
@@ -14660,11 +14764,11 @@
       "cramps"
     ],
     "bodyParts": [
+      "pancreas",
+      "muscles",
       "blood",
       "liver",
-      "brain",
-      "pancreas",
-      "muscles"
+      "brain"
     ],
     "titleEn": "Long-term fasting can be life-threatening! ️",
     "publishedAt": "2023-04-18",
@@ -14705,8 +14809,8 @@
     ],
     "bodyParts": [
       "kidneys",
-      "bladder",
-      "joints"
+      "joints",
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2023-04-17",
@@ -14732,8 +14836,8 @@
       "gastritis"
     ],
     "bodyParts": [
-      "gut",
-      "stomach"
+      "stomach",
+      "gut"
     ],
     "titleEn": "A glass of this drink a day will relieve intestinal inflammation",
     "publishedAt": "2023-04-14",
@@ -14766,9 +14870,9 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "kidneys",
       "joints",
-      "vessels",
-      "kidneys"
+      "vessels"
     ],
     "titleEn": "The main causes of calcium deposits in the body",
     "publishedAt": "2023-04-13",
@@ -14796,6 +14900,7 @@
     ],
     "bodyParts": [
       "stomach",
+      "general",
       "muscles",
       "teeth"
     ],
@@ -14849,10 +14954,10 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "pancreas",
       "vessels",
-      "bones",
       "blood",
-      "pancreas"
+      "bones"
     ],
     "titleEn": "Vascular calcification, arterial stiffness the #1 cause",
     "publishedAt": "2023-04-06",
@@ -14881,11 +14986,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "hormones",
+      "blood",
       "vessels",
       "teeth",
-      "liver",
-      "hormones",
-      "blood"
+      "liver"
     ],
     "titleEn": "Lacking strength and energy? One spoon of apple cider vinegar a day will help.",
     "publishedAt": "2023-04-02",
@@ -14911,9 +15016,9 @@
       "gout"
     ],
     "bodyParts": [
+      "joints",
       "bladder",
-      "vessels",
-      "joints"
+      "vessels"
     ],
     "titleEn": "The Mystery of Gout Revealed! What Actually Causes Gout?",
     "publishedAt": "2023-03-31",
@@ -14948,8 +15053,8 @@
     ],
     "bodyParts": [
       "kidneys",
-      "blood",
-      "pancreas"
+      "pancreas",
+      "blood"
     ],
     "titleEn": "Cleansing Kidneys of Oxalates. Preventing Kidney Stones",
     "publishedAt": "2023-03-30",
@@ -14982,8 +15087,8 @@
     ],
     "bodyParts": [
       "hormones",
-      "vessels",
-      "blood"
+      "blood",
+      "vessels"
     ],
     "titleEn": "These Facts About Insulin Will Definitely Surprise You",
     "publishedAt": "2023-03-26",
@@ -15032,10 +15137,10 @@
     ],
     "bodyParts": [
       "gut",
-      "immune",
       "joints",
       "skin",
-      "brain"
+      "brain",
+      "immune"
     ],
     "titleEn": "Does fecal microbiota transplantation really help?!",
     "publishedAt": "2023-03-24",
@@ -15063,10 +15168,10 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "kidneys",
       "liver",
       "bones",
-      "gut",
-      "kidneys"
+      "gut"
     ],
     "titleEn": "Eat Guacamole Regularly! Benefits of Avocado and More",
     "publishedAt": "2023-03-22",
@@ -15130,9 +15235,9 @@
     ],
     "bodyParts": [
       "gut",
+      "brain",
       "stomach",
-      "heart",
-      "brain"
+      "heart"
     ],
     "titleEn": "How to Stop Diarrhea. Recovery from Diarrhea",
     "publishedAt": "2023-03-10",
@@ -15161,9 +15266,9 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "vessels",
       "heart",
-      "muscles",
-      "vessels"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2023-02-27",
@@ -15242,6 +15347,7 @@
     ],
     "bodyParts": [
       "vessels",
+      "general",
       "heart",
       "kidneys"
     ],
@@ -15297,9 +15403,9 @@
       "gout"
     ],
     "bodyParts": [
+      "joints",
       "bladder",
-      "liver",
-      "joints"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2023-02-14",
@@ -15383,10 +15489,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "hormones",
+      "general",
       "immune",
       "liver",
-      "gut",
-      "hormones"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2023-02-08",
@@ -15472,11 +15579,11 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "pancreas",
+      "vessels",
       "immune",
       "gut",
-      "heart",
-      "pancreas",
-      "vessels"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2023-01-27",
@@ -15511,11 +15618,12 @@
       "insomnia"
     ],
     "bodyParts": [
-      "liver",
-      "brain",
-      "teeth",
       "vessels",
-      "blood"
+      "blood",
+      "heart",
+      "brain",
+      "liver",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2023-01-23",
@@ -15539,9 +15647,9 @@
     ],
     "bodyParts": [
       "hair",
+      "reproductive",
       "muscles",
-      "hormones",
-      "reproductive"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2023-01-20",
@@ -15587,8 +15695,8 @@
     ],
     "bodyParts": [
       "hormones",
-      "blood",
-      "brain"
+      "brain",
+      "blood"
     ],
     "titleEn": "Want to overcome Alzheimer's? Eliminate this product",
     "publishedAt": "2023-01-15",
@@ -15618,10 +15726,10 @@
       "insomnia"
     ],
     "bodyParts": [
-      "gut",
       "hormones",
-      "stomach",
-      "brain"
+      "gut",
+      "brain",
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2023-01-10",
@@ -15692,8 +15800,8 @@
       "cold"
     ],
     "bodyParts": [
-      "immune",
-      "lungs"
+      "lungs",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2023-01-03",
@@ -15724,9 +15832,9 @@
       "headache"
     ],
     "bodyParts": [
+      "brain",
       "vessels",
-      "blood",
-      "brain"
+      "blood"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-30",
@@ -15751,9 +15859,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "blood",
       "gums",
-      "teeth",
-      "blood"
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-25",
@@ -15780,9 +15888,9 @@
       "high-insulin"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "teeth",
-      "heart"
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-23",
@@ -15828,9 +15936,9 @@
       "asthma"
     ],
     "bodyParts": [
-      "nerves",
       "brain",
-      "lungs"
+      "lungs",
+      "nerves"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-20",
@@ -15871,9 +15979,9 @@
       "bloating"
     ],
     "bodyParts": [
-      "teeth",
+      "blood",
       "gut",
-      "blood"
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-18",
@@ -15900,8 +16008,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "liver",
       "gallbladder",
+      "liver",
       "blood"
     ],
     "titleEn": "",
@@ -15928,9 +16036,10 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "brain",
+      "general",
       "skin",
-      "immune",
-      "brain"
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2022-12-01",
@@ -15956,8 +16065,8 @@
       "bloating"
     ],
     "bodyParts": [
-      "gut",
-      "stomach"
+      "stomach",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-11-29",
@@ -15987,9 +16096,9 @@
       "pregnancy"
     ],
     "bodyParts": [
+      "reproductive",
       "immune",
-      "gut",
-      "reproductive"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-11-27",
@@ -16049,10 +16158,10 @@
     ],
     "bodyParts": [
       "bones",
-      "joints",
-      "gut",
       "vessels",
-      "heart"
+      "heart",
+      "gut",
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2022-11-15",
@@ -16084,8 +16193,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "hormones",
-      "heart"
+      "general",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2022-11-11",
@@ -16143,11 +16252,11 @@
       "pregnancy"
     ],
     "bodyParts": [
+      "pancreas",
+      "reproductive",
       "skin",
       "liver",
-      "hormones",
-      "pancreas",
-      "reproductive"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2022-11-04",
@@ -16255,9 +16364,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "liver",
+      "blood",
       "kidneys",
-      "blood"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-28",
@@ -16321,9 +16430,9 @@
     ],
     "bodyParts": [
       "kidneys",
+      "joints",
       "skin",
-      "vessels",
-      "joints"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-21",
@@ -16348,10 +16457,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "blood",
       "hormones",
-      "teeth",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-21",
@@ -16379,9 +16488,9 @@
     ],
     "bodyParts": [
       "reproductive",
+      "brain",
       "hormones",
-      "vessels",
-      "brain"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-20",
@@ -16448,10 +16557,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
+      "blood",
       "gut",
       "hormones",
-      "stomach",
-      "blood"
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-12",
@@ -16508,11 +16618,11 @@
       "diabetes"
     ],
     "bodyParts": [
-      "liver",
+      "general",
       "hormones",
-      "vessels",
-      "heart",
-      "pancreas"
+      "pancreas",
+      "liver",
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-10-04",
@@ -16542,9 +16652,9 @@
     ],
     "bodyParts": [
       "gut",
+      "blood",
       "gallbladder",
-      "hormones",
-      "blood"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-30",
@@ -16571,10 +16681,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "pancreas",
+      "general",
       "joints",
       "muscles",
-      "vessels",
-      "pancreas"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-28",
@@ -16651,10 +16762,10 @@
       "acne"
     ],
     "bodyParts": [
-      "hair",
       "reproductive",
       "hormones",
-      "skin"
+      "skin",
+      "hair"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-20",
@@ -16710,10 +16821,10 @@
       "anemia"
     ],
     "bodyParts": [
-      "immune",
-      "blood",
       "thyroid",
-      "brain"
+      "brain",
+      "blood",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-19",
@@ -16738,8 +16849,8 @@
       "depression"
     ],
     "bodyParts": [
-      "gut",
-      "brain"
+      "brain",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-16",
@@ -16785,8 +16896,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "immune",
       "hormones",
+      "immune",
       "skin"
     ],
     "titleEn": "",
@@ -16845,8 +16956,8 @@
       "hashimoto"
     ],
     "bodyParts": [
-      "hormones",
       "thyroid",
+      "hormones",
       "immune"
     ],
     "titleEn": "",
@@ -16872,10 +16983,10 @@
       "depression"
     ],
     "bodyParts": [
-      "brain",
       "hormones",
+      "blood",
       "vessels",
-      "blood"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-05",
@@ -16898,10 +17009,10 @@
       "candida"
     ],
     "bodyParts": [
+      "gut",
       "immune",
       "brain",
-      "lungs",
-      "gut"
+      "lungs"
     ],
     "titleEn": "",
     "publishedAt": "2022-09-02",
@@ -16984,8 +17095,9 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "gut",
-      "immune"
+      "immune",
+      "general",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-07-19",
@@ -17155,9 +17267,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "blood",
       "liver",
-      "hormones",
-      "blood"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2022-07-02",
@@ -17185,8 +17297,8 @@
     "bodyParts": [
       "blood",
       "hormones",
-      "liver",
-      "pancreas"
+      "pancreas",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-30",
@@ -17267,11 +17379,11 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "gut",
-      "stomach",
+      "general",
+      "hormones",
       "blood",
-      "heart",
-      "hormones"
+      "gut",
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-24",
@@ -17308,10 +17420,10 @@
       "anxiety"
     ],
     "bodyParts": [
-      "hormones",
-      "muscles",
       "liver",
-      "brain"
+      "hormones",
+      "brain",
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-21",
@@ -17346,10 +17458,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "gut",
       "blood",
       "brain",
-      "muscles"
+      "muscles",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-19",
@@ -17416,8 +17528,8 @@
     ],
     "bodyParts": [
       "vessels",
-      "heart",
-      "blood"
+      "blood",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-18",
@@ -17445,9 +17557,10 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "brain",
+      "general",
       "hormones",
-      "thyroid",
-      "brain"
+      "thyroid"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-17",
@@ -17501,8 +17614,8 @@
       "anemia"
     ],
     "bodyParts": [
-      "muscles",
       "blood",
+      "muscles",
       "eyes"
     ],
     "titleEn": "",
@@ -17529,8 +17642,8 @@
       "gout"
     ],
     "bodyParts": [
-      "bladder",
-      "joints"
+      "joints",
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-07",
@@ -17560,10 +17673,11 @@
     ],
     "bodyParts": [
       "joints",
-      "liver",
-      "blood",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "gut",
+      "liver",
+      "blood"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-03",
@@ -17592,10 +17706,11 @@
     ],
     "bodyParts": [
       "thyroid",
-      "hormones",
-      "hair",
       "pancreas",
-      "blood"
+      "blood",
+      "gut",
+      "hormones",
+      "hair"
     ],
     "titleEn": "",
     "publishedAt": "2022-06-03",
@@ -17618,10 +17733,10 @@
       "diabetes"
     ],
     "bodyParts": [
+      "pancreas",
       "kidneys",
       "skin",
-      "bones",
-      "pancreas"
+      "bones"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-30",
@@ -17644,10 +17759,10 @@
       "candida"
     ],
     "bodyParts": [
+      "gut",
       "teeth",
       "gums",
-      "bones",
-      "gut"
+      "bones"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-29",
@@ -17679,10 +17794,10 @@
       "pcos"
     ],
     "bodyParts": [
-      "hormones",
-      "pancreas",
       "thyroid",
-      "reproductive"
+      "reproductive",
+      "hormones",
+      "pancreas"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-27",
@@ -17712,8 +17827,8 @@
       "bloating"
     ],
     "bodyParts": [
-      "liver",
       "gut",
+      "liver",
       "kidneys"
     ],
     "titleEn": "",
@@ -17744,8 +17859,8 @@
       "hyperthyroid"
     ],
     "bodyParts": [
-      "hormones",
       "brain",
+      "hormones",
       "thyroid"
     ],
     "titleEn": "",
@@ -17828,9 +17943,9 @@
     ],
     "bodyParts": [
       "vessels",
+      "blood",
       "liver",
-      "stomach",
-      "blood"
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-09",
@@ -17857,10 +17972,10 @@
       "hair-loss"
     ],
     "bodyParts": [
+      "hair",
       "prostate",
       "hormones",
-      "bladder",
-      "hair"
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-06",
@@ -17959,9 +18074,9 @@
       "asthma"
     ],
     "bodyParts": [
-      "brain",
-      "heart",
-      "lungs"
+      "general",
+      "lungs",
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2022-05-01",
@@ -17995,9 +18110,9 @@
     ],
     "bodyParts": [
       "gut",
-      "joints",
       "skin",
-      "reproductive"
+      "reproductive",
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2022-04-29",
@@ -18028,11 +18143,11 @@
       "gastritis"
     ],
     "bodyParts": [
+      "general",
+      "blood",
       "stomach",
       "bones",
-      "gallbladder",
-      "heart",
-      "blood"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2022-04-29",
@@ -18086,11 +18201,12 @@
       "hair-loss"
     ],
     "bodyParts": [
+      "thyroid",
+      "skin",
+      "hair",
       "teeth",
       "bones",
-      "brain",
-      "thyroid",
-      "skin"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2022-04-25",
@@ -18177,8 +18293,8 @@
       "acne"
     ],
     "bodyParts": [
-      "ears",
       "skin",
+      "ears",
       "nails"
     ],
     "titleEn": "",
@@ -18213,8 +18329,8 @@
     "bodyParts": [
       "hormones",
       "blood",
-      "liver",
-      "gut"
+      "gut",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2022-04-13",
@@ -18238,9 +18354,9 @@
     ],
     "bodyParts": [
       "skin",
+      "brain",
       "thyroid",
-      "hormones",
-      "brain"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2022-04-08",
@@ -18312,8 +18428,9 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "muscles",
       "kidneys",
+      "general",
+      "muscles",
       "joints"
     ],
     "titleEn": "",
@@ -18340,9 +18457,9 @@
     ],
     "bodyParts": [
       "liver",
+      "blood",
       "hormones",
-      "vessels",
-      "blood"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-25",
@@ -18377,9 +18494,9 @@
       "inflammation"
     ],
     "bodyParts": [
+      "immune",
       "gallbladder",
-      "gut",
-      "immune"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-25",
@@ -18410,10 +18527,10 @@
       "high-insulin"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "liver",
-      "muscles",
-      "heart"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-23",
@@ -18445,10 +18562,10 @@
       "anemia"
     ],
     "bodyParts": [
+      "blood",
       "kidneys",
       "bladder",
-      "liver",
-      "blood"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-22",
@@ -18483,9 +18600,9 @@
       "adrenal-fatigue"
     ],
     "bodyParts": [
-      "adrenals",
       "hormones",
-      "brain"
+      "brain",
+      "adrenals"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-17",
@@ -18509,10 +18626,10 @@
       "cold"
     ],
     "bodyParts": [
-      "gut",
-      "lungs",
+      "brain",
       "immune",
-      "brain"
+      "gut",
+      "lungs"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-16",
@@ -18543,10 +18660,10 @@
       "hypothyroid"
     ],
     "bodyParts": [
-      "eyes",
       "hormones",
-      "pancreas",
-      "thyroid"
+      "thyroid",
+      "eyes",
+      "pancreas"
     ],
     "titleEn": "",
     "publishedAt": "2022-03-11",
@@ -18702,8 +18819,8 @@
     ],
     "bodyParts": [
       "brain",
-      "gut",
-      "blood"
+      "blood",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2022-02-15",
@@ -18819,9 +18936,9 @@
       "bloating"
     ],
     "bodyParts": [
-      "gallbladder",
+      "blood",
       "gut",
-      "blood"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2022-02-01",
@@ -18855,10 +18972,11 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "kidneys",
-      "eyes",
+      "pancreas",
       "vessels",
-      "pancreas"
+      "kidneys",
+      "general",
+      "eyes"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-30",
@@ -18885,11 +19003,12 @@
       "arthritis"
     ],
     "bodyParts": [
-      "gut",
-      "immune",
-      "blood",
       "pancreas",
-      "vessels"
+      "blood",
+      "vessels",
+      "joints",
+      "gut",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-25",
@@ -18945,11 +19064,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "bladder",
       "hormones",
-      "prostate",
       "pancreas",
-      "blood"
+      "blood",
+      "bladder",
+      "prostate"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-23",
@@ -19035,9 +19154,9 @@
       "depression"
     ],
     "bodyParts": [
-      "vessels",
       "blood",
-      "brain"
+      "brain",
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-13",
@@ -19064,9 +19183,10 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "heart",
+      "general",
       "hormones",
-      "blood"
+      "blood",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-10",
@@ -19097,9 +19217,9 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "brain",
-      "heart"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2022-01-07",
@@ -19209,8 +19329,8 @@
     "bodyParts": [
       "joints",
       "gut",
-      "immune",
-      "reproductive"
+      "reproductive",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2021-12-28",
@@ -19324,9 +19444,9 @@
     ],
     "bodyParts": [
       "thyroid",
+      "reproductive",
       "hormones",
-      "liver",
-      "reproductive"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2021-12-10",
@@ -19354,10 +19474,10 @@
       "acne"
     ],
     "bodyParts": [
-      "skin",
       "hormones",
-      "eyes",
-      "blood"
+      "blood",
+      "skin",
+      "eyes"
     ],
     "titleEn": "",
     "publishedAt": "2021-12-10",
@@ -19389,9 +19509,9 @@
     ],
     "bodyParts": [
       "bones",
+      "reproductive",
       "joints",
-      "hormones",
-      "reproductive"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-12-06",
@@ -19415,6 +19535,7 @@
       "fatty-liver"
     ],
     "bodyParts": [
+      "general",
       "liver",
       "hormones",
       "gallbladder"
@@ -19470,10 +19591,10 @@
       "pancreatitis"
     ],
     "bodyParts": [
-      "gallbladder",
-      "pancreas",
+      "hormones",
       "blood",
-      "hormones"
+      "pancreas",
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2021-11-24",
@@ -19529,11 +19650,11 @@
       "insomnia"
     ],
     "bodyParts": [
-      "hormones",
       "blood",
-      "gallbladder",
       "gut",
-      "brain"
+      "gallbladder",
+      "brain",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-11-21",
@@ -19561,8 +19682,8 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
       "blood",
+      "hormones",
       "immune"
     ],
     "titleEn": "",
@@ -19591,8 +19712,9 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "vessels",
       "hormones",
+      "vessels",
+      "general",
       "liver"
     ],
     "titleEn": "",
@@ -19650,10 +19772,10 @@
       "pregnancy"
     ],
     "bodyParts": [
-      "hormones",
+      "thyroid",
       "reproductive",
-      "immune",
-      "thyroid"
+      "hormones",
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2021-11-15",
@@ -19680,8 +19802,8 @@
       "depression"
     ],
     "bodyParts": [
-      "gut",
-      "brain"
+      "brain",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2021-11-12",
@@ -19714,7 +19836,8 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
-      "brain"
+      "brain",
+      "general"
     ],
     "titleEn": "",
     "publishedAt": "2021-11-11",
@@ -19761,6 +19884,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "immune",
       "lungs"
     ],
@@ -19787,10 +19911,10 @@
       "depression"
     ],
     "bodyParts": [
+      "brain",
       "muscles",
       "hormones",
-      "joints",
-      "brain"
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-26",
@@ -19820,10 +19944,10 @@
       "arthritis"
     ],
     "bodyParts": [
-      "liver",
-      "thyroid",
+      "immune",
       "joints",
-      "immune"
+      "liver",
+      "thyroid"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-22",
@@ -19878,10 +20002,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "blood",
       "hormones",
-      "liver",
-      "pancreas"
+      "pancreas",
+      "blood",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-20",
@@ -19939,9 +20063,9 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "heart",
+      "vessels",
       "blood",
-      "vessels"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-17",
@@ -19998,9 +20122,10 @@
       "cramps"
     ],
     "bodyParts": [
-      "teeth",
       "brain",
-      "muscles"
+      "general",
+      "muscles",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-14",
@@ -20027,9 +20152,9 @@
     ],
     "bodyParts": [
       "blood",
-      "kidneys",
+      "pancreas",
       "brain",
-      "pancreas"
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-13",
@@ -20054,9 +20179,9 @@
       "anemia"
     ],
     "bodyParts": [
+      "blood",
       "vessels",
-      "nerves",
-      "blood"
+      "nerves"
     ],
     "titleEn": "",
     "publishedAt": "2021-10-11",
@@ -20137,9 +20262,9 @@
       "arrhythmia"
     ],
     "bodyParts": [
+      "pancreas",
       "heart",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2021-09-30",
@@ -20161,10 +20286,10 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "skin",
       "liver",
-      "hormones",
-      "heart"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-09-29",
@@ -20221,6 +20346,7 @@
     ],
     "bodyParts": [
       "muscles",
+      "general",
       "eyes"
     ],
     "titleEn": "",
@@ -20283,10 +20409,10 @@
       "asthma"
     ],
     "bodyParts": [
+      "lungs",
       "immune",
       "vessels",
-      "nerves",
-      "lungs"
+      "nerves"
     ],
     "titleEn": "",
     "publishedAt": "2021-09-14",
@@ -20430,10 +20556,11 @@
       "gout"
     ],
     "bodyParts": [
-      "gums",
+      "general",
       "kidneys",
-      "bladder",
-      "joints"
+      "joints",
+      "gums",
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2021-07-16",
@@ -20486,10 +20613,10 @@
       "adrenal-fatigue"
     ],
     "bodyParts": [
-      "adrenals",
+      "vessels",
       "heart",
-      "hormones",
-      "vessels"
+      "adrenals",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-07-13",
@@ -20519,10 +20646,11 @@
       "constipation"
     ],
     "bodyParts": [
-      "muscles",
-      "gut",
+      "general",
       "hormones",
-      "heart"
+      "heart",
+      "gut",
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2021-07-11",
@@ -20641,9 +20769,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
       "hormones",
-      "blood",
-      "pancreas"
+      "blood"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-29",
@@ -20671,10 +20799,10 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "hormones",
       "muscles",
       "stomach",
-      "adrenals",
-      "hormones"
+      "adrenals"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-27",
@@ -20738,10 +20866,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "hormones",
+      "blood",
       "gallbladder",
-      "gut",
-      "blood"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-25",
@@ -20834,9 +20963,9 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "vessels",
       "stomach",
-      "gut",
-      "vessels"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-17",
@@ -20868,9 +20997,9 @@
     ],
     "bodyParts": [
       "bones",
+      "kidneys",
       "joints",
-      "gut",
-      "kidneys"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-15",
@@ -20945,9 +21074,9 @@
     ],
     "bodyParts": [
       "blood",
+      "thyroid",
       "gut",
-      "liver",
-      "thyroid"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-10",
@@ -21063,11 +21192,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
+      "blood",
       "joints",
       "vessels",
-      "gums",
-      "pancreas",
-      "blood"
+      "gums"
     ],
     "titleEn": "",
     "publishedAt": "2021-06-01",
@@ -21175,8 +21304,8 @@
     ],
     "bodyParts": [
       "gallbladder",
-      "gut",
-      "brain"
+      "brain",
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2021-05-28",
@@ -21268,11 +21397,11 @@
       "migraine"
     ],
     "bodyParts": [
-      "gut",
-      "liver",
-      "skin",
       "vessels",
-      "brain"
+      "gut",
+      "brain",
+      "liver",
+      "skin"
     ],
     "titleEn": "",
     "publishedAt": "2021-05-23",
@@ -21444,10 +21573,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "blood",
-      "kidneys",
       "pancreas",
-      "brain"
+      "blood",
+      "brain",
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2021-05-17",
@@ -21483,8 +21612,9 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "liver",
+      "general",
       "hormones",
+      "liver",
       "brain"
     ],
     "titleEn": "",
@@ -21833,10 +21963,10 @@
       "diabetes"
     ],
     "bodyParts": [
+      "pancreas",
       "kidneys",
       "heart",
-      "blood",
-      "pancreas"
+      "blood"
     ],
     "titleEn": "",
     "publishedAt": "2021-04-13",
@@ -21897,6 +22027,7 @@
       "kidney-stones"
     ],
     "bodyParts": [
+      "general",
       "kidneys"
     ],
     "titleEn": "",
@@ -21979,9 +22110,9 @@
       "varicose"
     ],
     "bodyParts": [
+      "blood",
       "kidneys",
-      "vessels",
-      "blood"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2021-04-02",
@@ -22326,10 +22457,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "bladder",
       "hormones",
+      "pancreas",
       "blood",
-      "pancreas"
+      "bladder"
     ],
     "titleEn": "Frequent urination? Here's what to do.",
     "publishedAt": "2021-02-22",
@@ -22415,10 +22546,10 @@
       "headache"
     ],
     "bodyParts": [
+      "brain",
       "stomach",
       "joints",
-      "liver",
-      "brain"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2021-01-28",
@@ -22466,10 +22597,10 @@
       "gout"
     ],
     "bodyParts": [
-      "gallbladder",
       "kidneys",
-      "hormones",
-      "joints"
+      "joints",
+      "gallbladder",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-01-15",
@@ -22497,8 +22628,8 @@
       "insulin-resistance"
     ],
     "bodyParts": [
-      "liver",
       "hormones",
+      "liver",
       "skin"
     ],
     "titleEn": "",
@@ -22550,8 +22681,9 @@
       "diabetes"
     ],
     "bodyParts": [
-      "hormones",
-      "pancreas"
+      "general",
+      "pancreas",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2021-01-07",
@@ -22593,9 +22725,9 @@
       "kidney-stones"
     ],
     "bodyParts": [
-      "spine",
       "blood",
-      "kidneys"
+      "kidneys",
+      "spine"
     ],
     "titleEn": "",
     "publishedAt": "2020-12-27",
@@ -22624,11 +22756,11 @@
       "headache"
     ],
     "bodyParts": [
-      "stomach",
-      "kidneys",
-      "liver",
       "pancreas",
-      "brain"
+      "kidneys",
+      "brain",
+      "stomach",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-12-24",
@@ -22674,9 +22806,9 @@
       "menopause"
     ],
     "bodyParts": [
+      "reproductive",
       "adrenals",
-      "muscles",
-      "reproductive"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2020-12-15",
@@ -22726,10 +22858,10 @@
       "depression"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "blood",
-      "brain",
-      "heart"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2020-12-10",
@@ -22757,6 +22889,7 @@
       "insulin-resistance"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "muscles"
     ],
@@ -22787,10 +22920,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "blood",
       "bones",
       "muscles",
-      "liver",
-      "blood"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-11-25",
@@ -22819,9 +22952,9 @@
     ],
     "bodyParts": [
       "hormones",
+      "pancreas",
       "liver",
-      "gallbladder",
-      "pancreas"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2020-11-19",
@@ -22847,10 +22980,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "joints",
       "hormones",
       "pancreas",
-      "blood"
+      "blood",
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2020-11-10",
@@ -22881,10 +23014,10 @@
     ],
     "bodyParts": [
       "hormones",
-      "liver",
-      "gut",
       "pancreas",
-      "blood"
+      "blood",
+      "gut",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-11-07",
@@ -22943,9 +23076,9 @@
       "gastritis"
     ],
     "bodyParts": [
+      "blood",
       "stomach",
-      "hormones",
-      "blood"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2020-10-24",
@@ -22967,9 +23100,9 @@
       "candida"
     ],
     "bodyParts": [
+      "gut",
       "immune",
-      "joints",
-      "gut"
+      "joints"
     ],
     "titleEn": "",
     "publishedAt": "2020-10-19",
@@ -22996,6 +23129,7 @@
     ],
     "bodyParts": [
       "immune",
+      "general",
       "gut",
       "vessels"
     ],
@@ -23081,11 +23215,12 @@
       "keto-flu"
     ],
     "bodyParts": [
+      "gut",
+      "brain",
+      "general",
       "immune",
       "muscles",
-      "adrenals",
-      "gut",
-      "brain"
+      "adrenals"
     ],
     "titleEn": "",
     "publishedAt": "2020-10-07",
@@ -23114,8 +23249,8 @@
       "cold"
     ],
     "bodyParts": [
-      "immune",
       "gut",
+      "immune",
       "stomach"
     ],
     "titleEn": "",
@@ -23172,9 +23307,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
+      "blood",
       "hormones",
-      "gut",
-      "blood"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2020-09-28",
@@ -23203,9 +23339,10 @@
       "gout"
     ],
     "bodyParts": [
+      "general",
       "kidneys",
-      "bladder",
-      "joints"
+      "joints",
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2020-09-23",
@@ -23232,9 +23369,9 @@
       "insomnia"
     ],
     "bodyParts": [
+      "brain",
       "hormones",
-      "heart",
-      "brain"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-09-19",
@@ -23260,10 +23397,10 @@
       "diabetes"
     ],
     "bodyParts": [
-      "thyroid",
       "hormones",
-      "heart",
-      "pancreas"
+      "pancreas",
+      "thyroid",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-09-18",
@@ -23290,6 +23427,7 @@
       "vitamin-d-deficiency"
     ],
     "bodyParts": [
+      "general",
       "immune"
     ],
     "titleEn": "",
@@ -23312,8 +23450,8 @@
       "anemia"
     ],
     "bodyParts": [
-      "eyes",
       "blood",
+      "eyes",
       "stomach"
     ],
     "titleEn": "",
@@ -23337,9 +23475,9 @@
       "visceral-fat"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "adrenals",
-      "heart"
+      "adrenals"
     ],
     "titleEn": "",
     "publishedAt": "2020-09-02",
@@ -23369,11 +23507,11 @@
       "eczema"
     ],
     "bodyParts": [
+      "stomach",
+      "skin",
       "immune",
       "hair",
-      "hormones",
-      "stomach",
-      "skin"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2020-07-30",
@@ -23401,6 +23539,7 @@
     ],
     "bodyParts": [
       "heart",
+      "general",
       "vessels",
       "blood"
     ],
@@ -23458,8 +23597,8 @@
     "bodyParts": [
       "gut",
       "blood",
-      "stomach",
-      "reproductive"
+      "reproductive",
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2020-07-24",
@@ -23540,7 +23679,8 @@
     ],
     "bodyParts": [
       "blood",
-      "brain"
+      "brain",
+      "general"
     ],
     "titleEn": "",
     "publishedAt": "2020-07-13",
@@ -23568,9 +23708,9 @@
     ],
     "bodyParts": [
       "gut",
+      "hormones",
       "stomach",
-      "gallbladder",
-      "hormones"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2020-07-09",
@@ -23616,10 +23756,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "hormones",
-      "muscles",
+      "general",
       "blood",
-      "heart"
+      "hormones",
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2020-07-03",
@@ -23700,8 +23840,8 @@
       "prostatitis"
     ],
     "bodyParts": [
-      "prostate",
       "hormones",
+      "prostate",
       "bladder"
     ],
     "titleEn": "",
@@ -23730,10 +23870,10 @@
       "high-insulin"
     ],
     "bodyParts": [
+      "pancreas",
       "blood",
       "hormones",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-06-18",
@@ -23760,11 +23900,13 @@
       "edema"
     ],
     "bodyParts": [
+      "hormones",
+      "pancreas",
+      "blood",
+      "vessels",
       "eyes",
       "kidneys",
-      "liver",
-      "hormones",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-06-15",
@@ -23788,8 +23930,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
-      "heart",
-      "blood"
+      "general",
+      "blood",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-06-12",
@@ -23822,10 +23965,10 @@
       "bloating"
     ],
     "bodyParts": [
-      "hormones",
       "blood",
-      "liver",
-      "gut"
+      "gut",
+      "hormones",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-06-09",
@@ -23851,11 +23994,12 @@
       "edema"
     ],
     "bodyParts": [
+      "vessels",
+      "brain",
+      "muscles",
       "blood",
       "adrenals",
-      "heart",
-      "vessels",
-      "brain"
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-06-08",
@@ -23906,6 +24050,7 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
+      "general",
       "liver",
       "hormones"
     ],
@@ -23935,10 +24080,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "blood",
-      "immune",
-      "heart"
+      "immune"
     ],
     "titleEn": "",
     "publishedAt": "2020-05-31",
@@ -24022,6 +24167,7 @@
       "overweight"
     ],
     "bodyParts": [
+      "general",
       "liver",
       "hormones"
     ],
@@ -24169,8 +24315,8 @@
     "bodyParts": [
       "gut",
       "gallbladder",
-      "stomach",
-      "brain"
+      "brain",
+      "stomach"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-29",
@@ -24200,9 +24346,10 @@
       "hair-loss"
     ],
     "bodyParts": [
-      "teeth",
+      "general",
+      "blood",
       "hair",
-      "blood"
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-27",
@@ -24228,10 +24375,10 @@
     ],
     "bodyParts": [
       "vessels",
-      "blood",
-      "heart",
       "reproductive",
-      "muscles"
+      "muscles",
+      "blood",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-25",
@@ -24292,11 +24439,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "general",
       "hormones",
+      "blood",
       "liver",
-      "brain",
-      "heart",
-      "blood"
+      "brain"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-23",
@@ -24334,10 +24481,10 @@
       "constipation"
     ],
     "bodyParts": [
-      "kidneys",
+      "pancreas",
       "blood",
       "gut",
-      "pancreas"
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-22",
@@ -24366,10 +24513,10 @@
       "edema"
     ],
     "bodyParts": [
+      "vessels",
       "blood",
       "liver",
-      "kidneys",
-      "vessels"
+      "kidneys"
     ],
     "titleEn": "",
     "publishedAt": "2020-04-21",
@@ -24471,9 +24618,9 @@
     ],
     "bodyParts": [
       "skin",
-      "hormones",
       "hair",
-      "reproductive"
+      "reproductive",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2020-03-12",
@@ -24505,10 +24652,10 @@
       "high-insulin"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "blood",
-      "muscles",
-      "heart"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2020-03-10",
@@ -24538,9 +24685,9 @@
     ],
     "bodyParts": [
       "vessels",
-      "blood",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "blood"
     ],
     "titleEn": "",
     "publishedAt": "2020-03-07",
@@ -24565,9 +24712,9 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "blood",
       "skin",
-      "hormones",
-      "blood"
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "2020-03-06",
@@ -24623,11 +24770,11 @@
       "diabetes"
     ],
     "bodyParts": [
+      "general",
       "hormones",
+      "pancreas",
       "skin",
-      "muscles",
-      "heart",
-      "pancreas"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2020-02-20",
@@ -24662,10 +24809,10 @@
       "high-insulin"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "liver",
-      "gallbladder",
-      "heart"
+      "gallbladder"
     ],
     "titleEn": "",
     "publishedAt": "2020-02-13",
@@ -24692,9 +24839,9 @@
     ],
     "bodyParts": [
       "hormones",
+      "pancreas",
       "liver",
-      "muscles",
-      "pancreas"
+      "muscles"
     ],
     "titleEn": "",
     "publishedAt": "2020-02-11",
@@ -24728,9 +24875,9 @@
     ],
     "bodyParts": [
       "hormones",
+      "kidneys",
       "joints",
-      "gut",
-      "kidneys"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2020-02-06",
@@ -24759,11 +24906,12 @@
       "dementia"
     ],
     "bodyParts": [
+      "general",
       "hormones",
-      "reproductive",
-      "adrenals",
       "blood",
-      "brain"
+      "brain",
+      "reproductive",
+      "adrenals"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-28",
@@ -24789,9 +24937,9 @@
     ],
     "bodyParts": [
       "hormones",
-      "liver",
       "pancreas",
-      "blood"
+      "blood",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-23",
@@ -24817,10 +24965,10 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
       "blood",
       "hormones",
-      "liver",
-      "pancreas"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-21",
@@ -24851,6 +24999,7 @@
     ],
     "bodyParts": [
       "gut",
+      "general",
       "stomach",
       "gallbladder"
     ],
@@ -24882,10 +25031,10 @@
     ],
     "bodyParts": [
       "liver",
-      "gut",
-      "heart",
       "vessels",
-      "blood"
+      "blood",
+      "gut",
+      "heart"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-11",
@@ -24916,10 +25065,10 @@
       "bloating"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "gut",
-      "liver",
-      "heart"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-07",
@@ -24944,11 +25093,11 @@
       "high-blood-sugar"
     ],
     "bodyParts": [
+      "pancreas",
+      "blood",
       "hormones",
       "kidneys",
-      "liver",
-      "pancreas",
-      "blood"
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2020-01-02",
@@ -24983,10 +25132,10 @@
     ],
     "bodyParts": [
       "kidneys",
-      "bladder",
-      "gallbladder",
       "pancreas",
-      "blood"
+      "blood",
+      "gallbladder",
+      "bladder"
     ],
     "titleEn": "",
     "publishedAt": "2019-12-27",
@@ -25013,6 +25162,7 @@
     ],
     "bodyParts": [
       "immune",
+      "general",
       "vessels"
     ],
     "titleEn": "",
@@ -25045,10 +25195,10 @@
       "diabetes"
     ],
     "bodyParts": [
-      "brain",
-      "liver",
       "hormones",
-      "pancreas"
+      "pancreas",
+      "brain",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2019-12-13",
@@ -25075,6 +25225,7 @@
       "high-cholesterol"
     ],
     "bodyParts": [
+      "general",
       "hormones",
       "blood",
       "brain"
@@ -25202,10 +25353,10 @@
       "anxiety"
     ],
     "bodyParts": [
+      "brain",
       "nerves",
       "gut",
-      "vessels",
-      "brain"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2019-11-03",
@@ -25230,9 +25381,9 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "vessels",
       "nerves",
-      "gut",
-      "vessels"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2019-10-28",
@@ -25279,10 +25430,10 @@
       "anxiety"
     ],
     "bodyParts": [
+      "brain",
       "nerves",
       "gut",
-      "vessels",
-      "brain"
+      "vessels"
     ],
     "titleEn": "",
     "publishedAt": "2019-10-12",
@@ -25307,9 +25458,9 @@
       "high-blood-pressure"
     ],
     "bodyParts": [
+      "vessels",
       "nerves",
-      "gut",
-      "vessels"
+      "gut"
     ],
     "titleEn": "",
     "publishedAt": "2019-10-10",
@@ -25357,10 +25508,11 @@
       "bloating"
     ],
     "bodyParts": [
-      "gut",
+      "general",
       "hormones",
-      "liver",
-      "blood"
+      "blood",
+      "gut",
+      "liver"
     ],
     "titleEn": "",
     "publishedAt": "2019-09-22",
@@ -25386,10 +25538,11 @@
       "bloating"
     ],
     "bodyParts": [
-      "gut",
+      "general",
       "hormones",
-      "teeth",
-      "blood"
+      "blood",
+      "gut",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2019-09-21",
@@ -25412,8 +25565,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "skin",
       "blood",
+      "skin",
       "hormones"
     ],
     "titleEn": "",
@@ -25437,8 +25590,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "skin",
       "blood",
+      "skin",
       "hormones"
     ],
     "titleEn": "",
@@ -25464,10 +25617,11 @@
       "migraine"
     ],
     "bodyParts": [
-      "teeth",
-      "joints",
+      "general",
       "kidneys",
-      "brain"
+      "joints",
+      "brain",
+      "teeth"
     ],
     "titleEn": "",
     "publishedAt": "2019-06-07",
@@ -25540,8 +25694,8 @@
       "high-cholesterol"
     ],
     "bodyParts": [
-      "hormones",
-      "blood"
+      "blood",
+      "hormones"
     ],
     "titleEn": "",
     "publishedAt": "",
@@ -25636,8 +25790,9 @@
       "magnesium-deficiency"
     ],
     "bodyParts": [
-      "skin",
-      "heart"
+      "heart",
+      "general",
+      "skin"
     ],
     "titleEn": "All THIS is a symptom of nutrient deficiencies",
     "publishedAt": "",

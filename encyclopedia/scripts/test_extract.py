@@ -116,6 +116,38 @@ def main() -> None:
                 assert "миндал" in joined and "псиллиум" in joined
                 break
 
+    known = set(extract.BODY_IDS)
+    forbidden = {
+        ("teeth", "acne"),
+        ("teeth", "arrhythmia"),
+        ("gums", "acne"),
+        ("gums", "arrhythmia"),
+        ("gums", "visceral-fat"),
+        ("teeth", "visceral-fat"),
+        ("skin", "arrhythmia"),
+        ("heart", "acne"),
+        ("heart", "visceral-fat"),
+        ("liver", "acne"),
+        ("eyes", "acne"),
+        ("joints", "insomnia"),
+        ("thyroid", "arrhythmia"),
+        ("kidneys", "acne"),
+        ("brain", "gastritis"),
+    }
+    for cid, allowed in extract.CONDITION_ALLOW.items():
+        assert allowed, cid
+        assert set(allowed) <= known, (cid, allowed)
+        assert allowed[0] == extract.CONDITION_PART[cid]
+    for part, cid in forbidden:
+        assert not extract.condition_fits_part(cid, part), (part, cid)
+    assert extract.condition_fits_part("acne", "skin")
+    assert extract.condition_fits_part("arrhythmia", "heart")
+    assert extract.condition_fits_part("visceral-fat", "general")
+    assert extract.condition_fits_part("fatty-liver", "liver")
+    assert extract.condition_fits_part("gout", "joints")
+    assert "teeth" not in {part for allowed in extract.CONDITION_ALLOW.values() for part in allowed}
+    assert "gums" not in {part for allowed in extract.CONDITION_ALLOW.values() for part in allowed}
+
     print("extract tests ok")
 
 

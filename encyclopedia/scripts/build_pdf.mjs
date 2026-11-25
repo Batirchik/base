@@ -9,6 +9,9 @@ const cards = JSON.parse(readFileSync(join(root, "src/data/cards.json"), "utf8")
 const parts = JSON.parse(readFileSync(join(root, "src/data/bodyParts.json"), "utf8"));
 const conditions = JSON.parse(readFileSync(join(root, "src/data/conditions.json"), "utf8"));
 const conditionName = new Map(conditions.map((item) => [item.id, item.nameRu]));
+const conditionParts = new Map(
+  conditions.map((item) => [item.id, new Set(item.bodyParts || [])]),
+);
 const kindLabel = {
   recipe: "Рецепт",
   protocol: "Протокол",
@@ -52,8 +55,9 @@ for (const part of parts) {
   const groups = new Map();
   const loose = [];
   for (const card of inPart) {
-    if (card.conditions.length === 0) loose.push(card);
-    for (const conditionId of card.conditions) {
+    const related = card.conditions.filter((id) => conditionParts.get(id)?.has(part.id));
+    if (related.length === 0) loose.push(card);
+    for (const conditionId of related) {
       if (!groups.has(conditionId)) groups.set(conditionId, []);
       groups.get(conditionId).push(card);
     }

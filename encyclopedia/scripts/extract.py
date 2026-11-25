@@ -224,69 +224,72 @@ BODY_RES: list[tuple[str, re.Pattern[str]]] = [
     ("immune", re.compile(r"иммун|\bimmune\b", re.I)),
 ]
 
-# id, Russian name, regex, implied body part
-CONDITIONS: list[tuple[str, str, re.Pattern[str], str | None]] = [
-    ("fatty-liver", "Жировая болезнь печени", re.compile(r"жиров\w+\s+(гепатоз|печен)|жир\w*\s+в\s+печен|стеатоз|fatty liver|\bnafld\b", re.I), "liver"),
-    ("visceral-fat", "Висцеральный жир", re.compile(r"висцеральн\w+\s+жир|жир\w*\s+вокруг\s+сердца|жир\w*\s+на\s+живот", re.I), "heart"),
-    ("overweight", "Лишний вес", re.compile(r"лишн\w+\s+вес|ожирен|похуде|\bobesity\b|\boverweight\b", re.I), "general"),
-    ("insulin-resistance", "Инсулинорезистентность", re.compile(r"инсулинорезист", re.I), "hormones"),
-    ("high-insulin", "Высокий инсулин", re.compile(r"избыт\w+\s+инсулин|высок\w+\s+инсулин|инсулин\w*\s+натощак", re.I), "hormones"),
-    ("diabetes", "Сахарный диабет", re.compile(r"диабет|сахарн\w+\s+диабет|\bdiabetes\b", re.I), "pancreas"),
-    ("high-blood-sugar", "Высокий сахар в крови", re.compile(r"сахар\w*\s+в\s+крови|уровен\w+\s+сахара|гликеми", re.I), "blood"),
-    ("high-blood-pressure", "Высокое давление", re.compile(r"гипертон|высок\w+\s+давлен|кровян\w+\s+давлен|\bhypertension\b", re.I), "vessels"),
-    ("high-cholesterol", "Высокий холестерин", re.compile(r"холестерин", re.I), "blood"),
-    ("arrhythmia", "Аритмия", re.compile(r"аритм|мерцательн", re.I), "heart"),
-    ("gerd", "Изжога и рефлюкс", re.compile(r"изжог|рефлюкс|\bgerd\b|heartburn|acid reflux", re.I), "stomach"),
-    ("gastritis", "Гастрит", re.compile(r"гастрит", re.I), "stomach"),
-    ("constipation", "Запор", re.compile(r"\bзапор", re.I), "gut"),
-    ("bloating", "Вздутие", re.compile(r"вздут|метеоризм|\bbloating\b", re.I), "gut"),
-    ("ibs", "Синдром раздражённого кишечника", re.compile(r"синдром\w*\s+раздраженн\w+\s+кишеч|\bibs\b", re.I), "gut"),
-    ("sibo", "СИБР", re.compile(r"\bсибр\b|\bsibo\b", re.I), "gut"),
-    ("candida", "Кандида", re.compile(r"кандид", re.I), "gut"),
-    ("leaky-gut", "Синдром дырявого кишечника", re.compile(r"дыряв\w+\s+кишеч|leaky gut", re.I), "gut"),
-    ("gallstones", "Желчнокаменная болезнь", re.compile(r"камн\w+\s+в\s+желч|желчнокамен", re.I), "gallbladder"),
-    ("kidney-stones", "Камни в почках", re.compile(r"камн\w+\s+в\s+почк|почечнокамен|kidney stones", re.I), "kidneys"),
-    ("gout", "Подагра", re.compile(r"подагр|\bgout\b", re.I), "joints"),
-    ("arthritis", "Артрит", re.compile(r"артрит|\barthritis\b", re.I), "joints"),
-    ("osteoarthritis", "Артроз", re.compile(r"артроз|остеоартр", re.I), "joints"),
-    ("osteoporosis", "Остеопороз", re.compile(r"остеопор", re.I), "bones"),
-    ("hypothyroid", "Гипотиреоз", re.compile(r"гипотиреоз", re.I), "thyroid"),
-    ("hyperthyroid", "Гипертиреоз", re.compile(r"гипертиреоз", re.I), "thyroid"),
-    ("hashimoto", "Тиреоидит Хашимото", re.compile(r"хашимото", re.I), "thyroid"),
-    ("acne", "Акне", re.compile(r"\bакне\b|прыщ", re.I), "skin"),
-    ("psoriasis", "Псориаз", re.compile(r"псориаз", re.I), "skin"),
-    ("eczema", "Экзема", re.compile(r"экзем", re.I), "skin"),
-    ("hair-loss", "Выпадение волос", re.compile(r"выпаден\w+\s+волос|облысен", re.I), "hair"),
-    ("nail-fungus", "Грибок ногтей", re.compile(r"грибок\w*\s+ногт|онихомикоз", re.I), "nails"),
-    ("insomnia", "Бессонница", re.compile(r"бессонниц|плох\w+\s+сон|\binsomnia\b", re.I), "brain"),
-    ("anxiety", "Тревога", re.compile(r"тревог|\banxiety\b", re.I), "brain"),
-    ("depression", "Депрессия", re.compile(r"депресс", re.I), "brain"),
-    ("migraine", "Мигрень", re.compile(r"мигрен", re.I), "brain"),
-    ("headache", "Головная боль", re.compile(r"головн\w+\s+бол", re.I), "brain"),
-    ("dementia", "Деменция", re.compile(r"деменц|альцгеймер", re.I), "brain"),
-    ("anemia", "Анемия", re.compile(r"анеми", re.I), "blood"),
-    ("magnesium-deficiency", "Дефицит магния", re.compile(r"дефицит\w*\s+магн|нехватк\w+\s+магн", re.I), "general"),
-    ("vitamin-d-deficiency", "Дефицит витамина D", re.compile(r"дефицит\w*\s+витамина\s*д|нехватк\w+\s+витамина\s*д", re.I), "general"),
-    ("menopause", "Менопауза", re.compile(r"менопауз", re.I), "reproductive"),
-    ("pcos", "СПКЯ", re.compile(r"спкя|\bpcos\b|поликистоз", re.I), "reproductive"),
-    ("pregnancy", "Беременность", re.compile(r"беременност", re.I), "reproductive"),
-    ("prostatitis", "Простатит", re.compile(r"простатит", re.I), "prostate"),
-    ("uti", "Цистит", re.compile(r"цистит", re.I), "bladder"),
-    ("asthma", "Астма", re.compile(r"астм", re.I), "lungs"),
-    ("cold", "Простуда", re.compile(r"простуд|\bорви\b", re.I), "immune"),
-    ("inflammation", "Воспаление", re.compile(r"воспален", re.I), "immune"),
-    ("cramps", "Судороги", re.compile(r"судорог", re.I), "muscles"),
-    ("edema", "Отёки", re.compile(r"\bотеки\b|\bотеков\b", re.I), "vessels"),
-    ("varicose", "Варикоз", re.compile(r"варикоз", re.I), "vessels"),
-    ("hemorrhoids", "Геморрой", re.compile(r"геморр", re.I), "gut"),
-    ("pancreatitis", "Панкреатит", re.compile(r"панкреатит", re.I), "pancreas"),
-    ("adrenal-fatigue", "Истощение надпочечников", re.compile(r"усталост\w+\s+надпочеч|надпочечник\w+\s+истощ", re.I), "adrenals"),
-    ("keto-flu", "Кетогрипп", re.compile(r"кето-?грип|keto flu", re.I), "general"),
-    ("fasting", "Голодание", re.compile(r"голодан", re.I), "general"),
+# id, Russian name, regex, body parts this condition may be nested under.
+# The first part is the primary: it is added to the card so the condition has a home.
+# A PDF section for another part must not list the condition just because one card mentions both.
+CONDITIONS: list[tuple[str, str, re.Pattern[str], list[str]]] = [
+    ("fatty-liver", "Жировая болезнь печени", re.compile(r"жиров\w+\s+(гепатоз|печен)|жир\w*\s+в\s+печен|стеатоз|fatty liver|\bnafld\b", re.I), ["liver"]),
+    ("visceral-fat", "Висцеральный жир", re.compile(r"висцеральн\w+\s+жир|жир\w*\s+вокруг\s+сердца|жир\w*\s+на\s+живот", re.I), ["general"]),
+    ("overweight", "Лишний вес", re.compile(r"лишн\w+\s+вес|ожирен|похуде|\bobesity\b|\boverweight\b", re.I), ["general"]),
+    ("insulin-resistance", "Инсулинорезистентность", re.compile(r"инсулинорезист", re.I), ["hormones", "pancreas"]),
+    ("high-insulin", "Высокий инсулин", re.compile(r"избыт\w+\s+инсулин|высок\w+\s+инсулин|инсулин\w*\s+натощак", re.I), ["hormones", "pancreas"]),
+    ("diabetes", "Сахарный диабет", re.compile(r"диабет|сахарн\w+\s+диабет|\bdiabetes\b", re.I), ["pancreas", "blood"]),
+    ("high-blood-sugar", "Высокий сахар в крови", re.compile(r"сахар\w*\s+в\s+крови|уровен\w+\s+сахара|гликеми", re.I), ["blood", "pancreas"]),
+    ("high-blood-pressure", "Высокое давление", re.compile(r"гипертон|высок\w+\s+давлен|кровян\w+\s+давлен|\bhypertension\b", re.I), ["vessels", "heart"]),
+    ("high-cholesterol", "Высокий холестерин", re.compile(r"холестерин", re.I), ["blood", "vessels", "heart"]),
+    ("arrhythmia", "Аритмия", re.compile(r"аритм|мерцательн", re.I), ["heart"]),
+    ("gerd", "Изжога и рефлюкс", re.compile(r"изжог|рефлюкс|\bgerd\b|heartburn|acid reflux", re.I), ["stomach"]),
+    ("gastritis", "Гастрит", re.compile(r"гастрит", re.I), ["stomach"]),
+    ("constipation", "Запор", re.compile(r"\bзапор", re.I), ["gut"]),
+    ("bloating", "Вздутие", re.compile(r"вздут|метеоризм|\bbloating\b", re.I), ["gut", "stomach"]),
+    ("ibs", "Синдром раздражённого кишечника", re.compile(r"синдром\w*\s+раздраженн\w+\s+кишеч|\bibs\b", re.I), ["gut"]),
+    ("sibo", "СИБР", re.compile(r"\bсибр\b|\bsibo\b", re.I), ["gut"]),
+    ("candida", "Кандида", re.compile(r"кандид", re.I), ["gut"]),
+    ("leaky-gut", "Синдром дырявого кишечника", re.compile(r"дыряв\w+\s+кишеч|leaky gut", re.I), ["gut"]),
+    ("gallstones", "Желчнокаменная болезнь", re.compile(r"камн\w+\s+в\s+желч|желчнокамен", re.I), ["gallbladder"]),
+    ("kidney-stones", "Камни в почках", re.compile(r"камн\w+\s+в\s+почк|почечнокамен|kidney stones", re.I), ["kidneys"]),
+    ("gout", "Подагра", re.compile(r"подагр|\bgout\b", re.I), ["joints"]),
+    ("arthritis", "Артрит", re.compile(r"артрит|\barthritis\b", re.I), ["joints"]),
+    ("osteoarthritis", "Артроз", re.compile(r"артроз|остеоартр", re.I), ["joints"]),
+    ("osteoporosis", "Остеопороз", re.compile(r"остеопор", re.I), ["bones"]),
+    ("hypothyroid", "Гипотиреоз", re.compile(r"гипотиреоз", re.I), ["thyroid"]),
+    ("hyperthyroid", "Гипертиреоз", re.compile(r"гипертиреоз", re.I), ["thyroid"]),
+    ("hashimoto", "Тиреоидит Хашимото", re.compile(r"хашимото", re.I), ["thyroid"]),
+    ("acne", "Акне", re.compile(r"\bакне\b|прыщ", re.I), ["skin"]),
+    ("psoriasis", "Псориаз", re.compile(r"псориаз", re.I), ["skin"]),
+    ("eczema", "Экзема", re.compile(r"экзем", re.I), ["skin"]),
+    ("hair-loss", "Выпадение волос", re.compile(r"выпаден\w+\s+волос|облысен", re.I), ["hair"]),
+    ("nail-fungus", "Грибок ногтей", re.compile(r"грибок\w*\s+ногт|онихомикоз", re.I), ["nails"]),
+    ("insomnia", "Бессонница", re.compile(r"бессонниц|плох\w+\s+сон|\binsomnia\b", re.I), ["brain"]),
+    ("anxiety", "Тревога", re.compile(r"тревог|\banxiety\b", re.I), ["brain"]),
+    ("depression", "Депрессия", re.compile(r"депресс", re.I), ["brain"]),
+    ("migraine", "Мигрень", re.compile(r"мигрен", re.I), ["brain"]),
+    ("headache", "Головная боль", re.compile(r"головн\w+\s+бол", re.I), ["brain"]),
+    ("dementia", "Деменция", re.compile(r"деменц|альцгеймер", re.I), ["brain"]),
+    ("anemia", "Анемия", re.compile(r"анеми", re.I), ["blood"]),
+    ("magnesium-deficiency", "Дефицит магния", re.compile(r"дефицит\w*\s+магн|нехватк\w+\s+магн", re.I), ["general"]),
+    ("vitamin-d-deficiency", "Дефицит витамина D", re.compile(r"дефицит\w*\s+витамина\s*д|нехватк\w+\s+витамина\s*д", re.I), ["general"]),
+    ("menopause", "Менопауза", re.compile(r"менопауз", re.I), ["reproductive", "hormones"]),
+    ("pcos", "СПКЯ", re.compile(r"спкя|\bpcos\b|поликистоз", re.I), ["reproductive", "hormones"]),
+    ("pregnancy", "Беременность", re.compile(r"беременност", re.I), ["reproductive"]),
+    ("prostatitis", "Простатит", re.compile(r"простатит", re.I), ["prostate"]),
+    ("uti", "Цистит", re.compile(r"цистит", re.I), ["bladder", "kidneys"]),
+    ("asthma", "Астма", re.compile(r"астм", re.I), ["lungs"]),
+    ("cold", "Простуда", re.compile(r"простуд|\bорви\b", re.I), ["immune", "lungs"]),
+    ("inflammation", "Воспаление", re.compile(r"воспален", re.I), ["immune"]),
+    ("cramps", "Судороги", re.compile(r"судорог", re.I), ["muscles"]),
+    ("edema", "Отёки", re.compile(r"\bотеки\b|\bотеков\b", re.I), ["vessels"]),
+    ("varicose", "Варикоз", re.compile(r"варикоз", re.I), ["vessels"]),
+    ("hemorrhoids", "Геморрой", re.compile(r"геморр", re.I), ["gut"]),
+    ("pancreatitis", "Панкреатит", re.compile(r"панкреатит", re.I), ["pancreas"]),
+    ("adrenal-fatigue", "Истощение надпочечников", re.compile(r"усталост\w+\s+надпочеч|надпочечник\w+\s+истощ", re.I), ["adrenals"]),
+    ("keto-flu", "Кетогрипп", re.compile(r"кето-?грип|keto flu", re.I), ["general"]),
+    ("fasting", "Голодание", re.compile(r"голодан", re.I), ["general"]),
 ]
 
-CONDITION_PART = {cid: part for cid, _name, _rx, part in CONDITIONS}
-CONDITION_NAME = {cid: name for cid, name, _rx, _part in CONDITIONS}
+CONDITION_ALLOW = {cid: parts for cid, _name, _rx, parts in CONDITIONS}
+CONDITION_PART = {cid: parts[0] for cid, parts in CONDITION_ALLOW.items()}
+CONDITION_NAME = {cid: name for cid, name, _rx, _parts in CONDITIONS}
 
 GENERIC_SUPPS = {"магний", "витамин D"}
 SPECIFIC_OF = {
@@ -411,6 +414,10 @@ def body_parts_for(title: str, text: str) -> list[str]:
 TITLE_ONLY_CONDITIONS = {"inflammation", "overweight", "fasting"}
 
 
+def condition_fits_part(condition_id: str, part_id: str) -> bool:
+    return part_id in CONDITION_ALLOW.get(condition_id, ())
+
+
 def conditions_for(title: str, text: str) -> list[str]:
     hits: list[str] = []
     title_hits: list[str] = []
@@ -515,14 +522,22 @@ def analyze(video: dict) -> dict:
     if not foods and not supps and len(steps) < 2:
         return {**base, "keep": False, "reason": "nothing-concrete-extracted"}
 
-    parts = body_parts_for(title, cleaned)
+    keyword_parts = body_parts_for(title, cleaned)
     conds = conditions_for(title, cleaned)
+    primaries: list[str] = []
     for cid in conds:
-        implied = CONDITION_PART.get(cid)
-        if implied and implied != "general" and implied not in parts:
-            parts.append(implied)
+        primary = CONDITION_PART[cid]
+        if primary not in primaries:
+            primaries.append(primary)
+    parts: list[str] = []
+    for bid in primaries + keyword_parts:
+        if bid not in parts:
+            parts.append(bid)
     if not parts:
         parts = ["general"]
+    else:
+        extra = [bid for bid in parts if bid not in primaries]
+        parts = primaries + extra[:3]
 
     return {
         **base,
@@ -533,7 +548,7 @@ def analyze(video: dict) -> dict:
         "supplements": supps[:8],
         "steps": steps,
         "conditions": conds,
-        "bodyParts": parts[:5],
+        "bodyParts": parts,
     }
 
 

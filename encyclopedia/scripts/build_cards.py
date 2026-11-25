@@ -112,7 +112,11 @@ def main() -> None:
     cards.sort(key=lambda card: (card["publishedAt"], card["titleRu"]), reverse=True)
     used = {cid for card in cards for cid in card["conditions"]}
     conditions = [
-        {"id": cid, "nameRu": extract.CONDITION_NAME[cid]}
+        {
+            "id": cid,
+            "nameRu": extract.CONDITION_NAME[cid],
+            "bodyParts": extract.CONDITION_ALLOW[cid],
+        }
         for cid in extract.CONDITION_NAME
         if cid in used
     ]
