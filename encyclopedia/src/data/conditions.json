@@ -1,0 +1,406 @@
+[
+  {
+    "id": "acne",
+    "nameRu": "Акне",
+    "bodyParts": [
+      "skin"
+    ]
+  },
+  {
+    "id": "anemia",
+    "nameRu": "Анемия",
+    "bodyParts": [
+      "blood"
+    ]
+  },
+  {
+    "id": "arrhythmia",
+    "nameRu": "Аритмия",
+    "bodyParts": [
+      "heart"
+    ]
+  },
+  {
+    "id": "arthritis",
+    "nameRu": "Артрит",
+    "bodyParts": [
+      "joints"
+    ]
+  },
+  {
+    "id": "osteoarthritis",
+    "nameRu": "Артроз",
+    "bodyParts": [
+      "joints"
+    ]
+  },
+  {
+    "id": "asthma",
+    "nameRu": "Астма",
+    "bodyParts": [
+      "lungs"
+    ]
+  },
+  {
+    "id": "pregnancy",
+    "nameRu": "Беременность",
+    "bodyParts": [
+      "reproductive"
+    ]
+  },
+  {
+    "id": "insomnia",
+    "nameRu": "Бессонница",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "varicose",
+    "nameRu": "Варикоз",
+    "bodyParts": [
+      "vessels"
+    ]
+  },
+  {
+    "id": "bloating",
+    "nameRu": "Вздутие",
+    "bodyParts": [
+      "gut",
+      "stomach"
+    ]
+  },
+  {
+    "id": "visceral-fat",
+    "nameRu": "Висцеральный жир",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "inflammation",
+    "nameRu": "Воспаление",
+    "bodyParts": [
+      "immune"
+    ]
+  },
+  {
+    "id": "hair-loss",
+    "nameRu": "Выпадение волос",
+    "bodyParts": [
+      "hair"
+    ]
+  },
+  {
+    "id": "high-insulin",
+    "nameRu": "Высокий инсулин",
+    "bodyParts": [
+      "hormones",
+      "pancreas"
+    ]
+  },
+  {
+    "id": "high-blood-sugar",
+    "nameRu": "Высокий сахар в крови",
+    "bodyParts": [
+      "blood",
+      "pancreas"
+    ]
+  },
+  {
+    "id": "high-cholesterol",
+    "nameRu": "Высокий холестерин",
+    "bodyParts": [
+      "blood",
+      "vessels",
+      "heart"
+    ]
+  },
+  {
+    "id": "high-blood-pressure",
+    "nameRu": "Высокое давление",
+    "bodyParts": [
+      "vessels",
+      "heart"
+    ]
+  },
+  {
+    "id": "gastritis",
+    "nameRu": "Гастрит",
+    "bodyParts": [
+      "stomach"
+    ]
+  },
+  {
+    "id": "hyperthyroid",
+    "nameRu": "Гипертиреоз",
+    "bodyParts": [
+      "thyroid"
+    ]
+  },
+  {
+    "id": "hypothyroid",
+    "nameRu": "Гипотиреоз",
+    "bodyParts": [
+      "thyroid"
+    ]
+  },
+  {
+    "id": "headache",
+    "nameRu": "Головная боль",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "fasting",
+    "nameRu": "Голодание",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "nail-fungus",
+    "nameRu": "Грибок ногтей",
+    "bodyParts": [
+      "nails"
+    ]
+  },
+  {
+    "id": "dementia",
+    "nameRu": "Деменция",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "depression",
+    "nameRu": "Депрессия",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "vitamin-d-deficiency",
+    "nameRu": "Дефицит витамина D",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "magnesium-deficiency",
+    "nameRu": "Дефицит магния",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "gallstones",
+    "nameRu": "Желчнокаменная болезнь",
+    "bodyParts": [
+      "gallbladder"
+    ]
+  },
+  {
+    "id": "fatty-liver",
+    "nameRu": "Жировая болезнь печени",
+    "bodyParts": [
+      "liver"
+    ]
+  },
+  {
+    "id": "constipation",
+    "nameRu": "Запор",
+    "bodyParts": [
+      "gut"
+    ]
+  },
+  {
+    "id": "gerd",
+    "nameRu": "Изжога и рефлюкс",
+    "bodyParts": [
+      "stomach"
+    ]
+  },
+  {
+    "id": "insulin-resistance",
+    "nameRu": "Инсулинорезистентность",
+    "bodyParts": [
+      "hormones",
+      "pancreas"
+    ]
+  },
+  {
+    "id": "adrenal-fatigue",
+    "nameRu": "Истощение надпочечников",
+    "bodyParts": [
+      "adrenals"
+    ]
+  },
+  {
+    "id": "kidney-stones",
+    "nameRu": "Камни в почках",
+    "bodyParts": [
+      "kidneys"
+    ]
+  },
+  {
+    "id": "candida",
+    "nameRu": "Кандида",
+    "bodyParts": [
+      "gut"
+    ]
+  },
+  {
+    "id": "keto-flu",
+    "nameRu": "Кетогрипп",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "overweight",
+    "nameRu": "Лишний вес",
+    "bodyParts": [
+      "general"
+    ]
+  },
+  {
+    "id": "menopause",
+    "nameRu": "Менопауза",
+    "bodyParts": [
+      "reproductive",
+      "hormones"
+    ]
+  },
+  {
+    "id": "migraine",
+    "nameRu": "Мигрень",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "osteoporosis",
+    "nameRu": "Остеопороз",
+    "bodyParts": [
+      "bones"
+    ]
+  },
+  {
+    "id": "edema",
+    "nameRu": "Отёки",
+    "bodyParts": [
+      "vessels"
+    ]
+  },
+  {
+    "id": "pancreatitis",
+    "nameRu": "Панкреатит",
+    "bodyParts": [
+      "pancreas"
+    ]
+  },
+  {
+    "id": "gout",
+    "nameRu": "Подагра",
+    "bodyParts": [
+      "joints"
+    ]
+  },
+  {
+    "id": "prostatitis",
+    "nameRu": "Простатит",
+    "bodyParts": [
+      "prostate"
+    ]
+  },
+  {
+    "id": "cold",
+    "nameRu": "Простуда",
+    "bodyParts": [
+      "immune",
+      "lungs"
+    ]
+  },
+  {
+    "id": "psoriasis",
+    "nameRu": "Псориаз",
+    "bodyParts": [
+      "skin"
+    ]
+  },
+  {
+    "id": "sibo",
+    "nameRu": "СИБР",
+    "bodyParts": [
+      "gut"
+    ]
+  },
+  {
+    "id": "pcos",
+    "nameRu": "СПКЯ",
+    "bodyParts": [
+      "reproductive",
+      "hormones"
+    ]
+  },
+  {
+    "id": "diabetes",
+    "nameRu": "Сахарный диабет",
+    "bodyParts": [
+      "pancreas",
+      "blood"
+    ]
+  },
+  {
+    "id": "leaky-gut",
+    "nameRu": "Синдром дырявого кишечника",
+    "bodyParts": [
+      "gut"
+    ]
+  },
+  {
+    "id": "ibs",
+    "nameRu": "Синдром раздражённого кишечника",
+    "bodyParts": [
+      "gut"
+    ]
+  },
+  {
+    "id": "cramps",
+    "nameRu": "Судороги",
+    "bodyParts": [
+      "muscles"
+    ]
+  },
+  {
+    "id": "hashimoto",
+    "nameRu": "Тиреоидит Хашимото",
+    "bodyParts": [
+      "thyroid"
+    ]
+  },
+  {
+    "id": "anxiety",
+    "nameRu": "Тревога",
+    "bodyParts": [
+      "brain"
+    ]
+  },
+  {
+    "id": "uti",
+    "nameRu": "Цистит",
+    "bodyParts": [
+      "bladder",
+      "kidneys"
+    ]
+  },
+  {
+    "id": "eczema",
+    "nameRu": "Экзема",
+    "bodyParts": [
+      "skin"
+    ]
+  }
+]

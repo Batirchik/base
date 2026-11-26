@@ -1,0 +1,93 @@
+import { Link } from "react-router-dom";
+import { formatDate, partName, conditionName } from "../lib/model";
+import { KIND_LABEL, type Card } from "../types";
+
+function Description({ text }: { text: string }) {
+  const blocks = text
+    .replaceAll("\r\n", "\n")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+  if (blocks.length === 0) return null;
+  return (
+    <div className="description">
+      {blocks.map((block, index) => (
+        <p key={`${index}-${block.slice(0, 24)}`}>{block}</p>
+      ))}
+    </div>
+  );
+}
+
+export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
+  const title = linked ? (
+    <Link to={`/card/${card.id}`}>{card.titleRu}</Link>
+  ) : (
+    card.titleRu
+  );
+  return (
+    <article className="card" id={`card-${card.id}`} data-kind={card.kind}>
+      <p className="kind">{KIND_LABEL[card.kind]}</p>
+      <h2>{title}</h2>
+      <Description text={card.description} />
+      {card.foods.length > 0 && (
+        <section>
+          <h3>Продукты</h3>
+          <ul className="chips">
+            {card.foods.map((food) => (
+              <li key={food}>{food}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {card.supplements.length > 0 && (
+        <section>
+          <h3>Добавки</h3>
+          <ul className="chips">
+            {card.supplements.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {card.steps.length > 0 && (
+        <section>
+          <h3>{card.kind === "recipe" ? "Шаги" : "Режим"}</h3>
+          <ol>
+            {card.steps.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
+        </section>
+      )}
+      <div className="meta">
+        {card.bodyParts.length > 0 && (
+          <p>
+            Части тела:{" "}
+            {card.bodyParts.map((id, index) => (
+              <span key={id}>
+                {index > 0 && ", "}
+                <Link to={`/body/${id}`}>{partName(id)}</Link>
+              </span>
+            ))}
+          </p>
+        )}
+        {card.conditions.length > 0 && (
+          <p>
+            Состояния:{" "}
+            {card.conditions.map((id, index) => (
+              <span key={id}>
+                {index > 0 && ", "}
+                <Link to={`/condition/${id}`}>{conditionName(id)}</Link>
+              </span>
+            ))}
+          </p>
+        )}
+        {card.titleEn && <p>Английское название: {card.titleEn}</p>}
+        {card.publishedAt && <p>Дата: {formatDate(card.publishedAt)}</p>}
+        <p>
+          <a href={card.url}>Смотреть видео на YouTube</a>
+        </p>
+      </div>
+    </article>
+  );
+}
