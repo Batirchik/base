@@ -165,6 +165,43 @@ def main() -> None:
     assert "teeth" not in {part for allowed in extract.CONDITION_ALLOW.values() for part in allowed}
     assert "gums" not in {part for allowed in extract.CONDITION_ALLOW.values() for part in allowed}
 
+    cookie = """
+ПРАЗДНИЧНОЕ кето-меню 💥 https://drberg.ru/menu2
+Миндальное печенье: рецепт печенья без глютена.
+_____
+Кто такой Доктор Берг 👨‍⚕️ 👉 https://drberg.ru/o-doktore
+Для приготовления понадобятся:
+– 240 г миндальной пасты;
+– 1 большое яйцо.
+Разогрейте духовку до 180 °C. Выпекайте его 10–12 минут.
+0:00 Intro
+1:23 Рецепт
+❗️Этот видеоматериал представлен исключительно в информационных целях.
+Он не должен использоваться для самодиагностики. Отношений «врач-пациент» это не создает.
+The Health & Wellness, Dr. Berg Nutritionals и Официальное представительство Доктора Берга
+не несут ответственности.
+#кето #диета
+"""
+    shown = extract.public_description(cookie)
+    assert "240 г миндальной пасты" in shown
+    assert "Выпекайте" in shown
+    assert "http" not in shown
+    assert "Кто такой" not in shown
+    assert "0:00" not in shown and "1:23" not in shown
+    assert "видеоматериал" not in shown
+    assert "Nutritionals" not in shown
+    assert "#кето" not in shown
+    parasite = extract.public_description(
+        "Кто такой паразит? Паразит – это червь.\n"
+        "Доктор Берг завтракает в 10:00–10:30.\n"
+        "ССЫЛКИ, которые упоминал Доктор Берг:\n"
+        "1) Как похудеть: последние 5 кг • Как похудеть: последние 5 кг\n"
+    )
+    assert "Кто такой паразит" in parasite
+    assert "10:00–10:30" in parasite
+    assert "ССЫЛКИ" not in parasite
+    assert "последние 5 кг" not in parasite
+
     print("extract tests ok")
 
 

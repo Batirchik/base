@@ -97,7 +97,7 @@ def main() -> None:
             "id": row["id"],
             "titleRu": ru_title,
             "summaryRu": summary(row["kind"], ru_title, foods, supplements),
-            "description": descriptions.get(row["id"], ""),
+            "description": extract.public_description(descriptions.get(row["id"], "")),
             "kind": row["kind"],
             "foods": foods,
             "supplements": supplements,

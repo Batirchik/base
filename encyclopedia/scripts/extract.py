@@ -314,6 +314,66 @@ def clean_description(text: str) -> str:
     return "\n".join(kept)
 
 
+# Published card text. Raw descriptions stay in data/raw for a rebuild.
+FOOTER_HEAD_RE = re.compile(
+    r"^(?:"
+    r"источники(?:\s+информации)?"
+    r"|ссылки,\s+которые\s+упоминал(?:\s+доктор\s+берг)?"
+    r"|все о витаминах доктора берга"
+    r"|(?:дополнительн\w+|полезн\w+)\s+(?:информац\w+|материал\w+)"
+    r"|таймкоды|chapters?"
+    r")\s*:?\s*$",
+    re.I,
+)
+HASHTAG_LINE_RE = re.compile(r"^(?:#\S+\s*)+$")
+EXTRA_DISCLAIMER_RE = re.compile(
+    r"(Этот видеоматериал представлен|This video is provided for informational|"
+    r"отношений\s+[«\"]врач|doctor-patient|Health\s*&\s*Wellness|"
+    r"Dr\.?\s*Berg Nutritionals|Официальное представительство|"
+    r"не несут ответственности)",
+    re.I,
+)
+
+
+def _related_video_line(line: str) -> bool:
+    """YouTube end-screen titles, not an ingredient or advice bullet."""
+    stripped = line.strip()
+    if "•" in stripped:
+        left, right = stripped.split("•", 1)
+        left_n = re.sub(r"^[\d).:\-\s]+", "", left)
+        left_n = re.sub(r"\s+", " ", left_n).strip().lower()
+        right_n = re.sub(r"\s+", " ", right).strip().lower()
+        if len(left_n) >= 18 and right_n.startswith(left_n[:18]):
+            return True
+    if re.match(r"^[•·]\s*\S", stripped) and re.search(r"(?:\.{3}|…)\s*$", stripped):
+        return True
+    if stripped.startswith("•") and not re.search(r"[А-Яа-яЁё]", stripped):
+        body = stripped.lstrip("•").strip()
+        if len(body) >= 25:
+            return True
+    return False
+
+
+def public_description(text: str) -> str:
+    """Recipe, protocol, or advice only. Drops the disclaimer, promo footer, and chapter times."""
+    cleaned = clean_description(text)
+    cut = EXTRA_DISCLAIMER_RE.search(cleaned)
+    if cut:
+        cleaned = cleaned[: cut.start()]
+    kept: list[str] = []
+    for line in cleaned.splitlines():
+        raw = line.strip()
+        if not raw or set(raw) <= set("_-—–• \t"):
+            continue
+        bare = re.sub(r"^[^A-Za-zА-Яа-яЁё]+", "", raw)
+        if HASHTAG_LINE_RE.match(raw) or FOOTER_HEAD_RE.match(bare):
+            continue
+        if _related_video_line(raw):
+            continue
+        kept.append(raw)
+    return "\n".join(kept)
+
+
 def published_from_text(text: str, fallback: str | None) -> str | None:
     if fallback:
         return fallback
