@@ -104,6 +104,23 @@ def main() -> None:
         "Почему хочется печенье", "печенье, печенья и печеньем на столе"
     )
     assert "liver" in extract.body_parts_for("Жир печени", "жир в печени опасен")
+    assert "teeth" not in extract.body_parts_for(
+        "Скрытые причины плохого сна",
+        "Нехватка витамина Д может вызывать скрежет зубами во сне.",
+    )
+    assert "gums" not in extract.body_parts_for(
+        "Весы врут",
+        "произойдет много чудесных изменений в печени",
+    )
+    dental = extract.body_parts_for(
+        "Как отбелить зубы дома",
+        "При дефиците витамина С могут кровоточить десны.",
+    )
+    assert "teeth" in dental and "gums" in dental
+    assert "teeth" in extract.body_parts_for(
+        "Удаление налета",
+        "Зубной налет и зубной камень снимайте содой.",
+    )
 
     raw_path = Path(__file__).resolve().parents[1] / "data" / "raw" / "videos.jsonl"
     if raw_path.exists():

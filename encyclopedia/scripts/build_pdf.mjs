@@ -28,6 +28,16 @@ function esc(value) {
     .replaceAll('"', "&quot;");
 }
 
+function descriptionHtml(text) {
+  return String(text || "")
+    .replaceAll("\r\n", "\n")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => `<p>${esc(line)}</p>`)
+    .join("");
+}
+
 function cardHtml(card) {
   const foods = card.foods.map((item) => `<li>${esc(item)}</li>`).join("");
   const supplements = card.supplements.map((item) => `<li>${esc(item)}</li>`).join("");
@@ -35,11 +45,11 @@ function cardHtml(card) {
   const states = card.conditions.map((id) => conditionName.get(id) ?? id).join(", ");
   return `<article class="card">
     <p class="kind">${kindLabel[card.kind]}</p>
-    <h3>${esc(card.titleRu)}</h3>
-    <p>${esc(card.summaryRu)}</p>
-    ${foods ? `<h4>Продукты</h4><ul>${foods}</ul>` : ""}
-    ${supplements ? `<h4>Добавки</h4><ul>${supplements}</ul>` : ""}
-    ${steps ? `<h4>${card.kind === "recipe" ? "Шаги" : "Режим"}</h4><ol>${steps}</ol>` : ""}
+    <p class="card-title">${esc(card.titleRu)}</p>
+    <div class="description">${descriptionHtml(card.description)}</div>
+    ${foods ? `<p class="label">Продукты</p><ul>${foods}</ul>` : ""}
+    ${supplements ? `<p class="label">Добавки</p><ul>${supplements}</ul>` : ""}
+    ${steps ? `<p class="label">${card.kind === "recipe" ? "Шаги" : "Режим"}</p><ol>${steps}</ol>` : ""}
     ${states ? `<p>Состояния: ${esc(states)}</p>` : ""}
     ${card.titleEn ? `<p>English: ${esc(card.titleEn)}</p>` : ""}
     ${card.publishedAt ? `<p>${esc(card.publishedAt)}</p>` : ""}
@@ -72,11 +82,8 @@ for (const part of parts) {
       return `<li><a href="#${anchor}">${esc(conditionName.get(id) ?? id)}</a></li>`;
     })
     .join("");
-  const looseItem = loose.length
-    ? `<li><a href="#${partId}--loose">Без отдельного состояния</a></li>`
-    : "";
   toc.push(
-    `<li class="toc-part"><a href="#${partId}">${esc(part.nameRu)}</a><ul>${conditionItems}${looseItem}</ul></li>`,
+    `<li class="toc-part"><a href="#${partId}">${esc(part.nameRu)}</a><ul>${conditionItems}</ul></li>`,
   );
   const blocks = ordered
     .map(
@@ -84,9 +91,7 @@ for (const part of parts) {
         `<h2 id="${partId}--${id}">${esc(conditionName.get(id) ?? id)}</h2>${group.map(cardHtml).join("")}`,
     )
     .join("");
-  const rest = loose.length
-    ? `<h2 id="${partId}--loose">Без отдельного состояния</h2>${loose.map(cardHtml).join("")}`
-    : "";
+  const rest = loose.map(cardHtml).join("");
   chapters.push(
     `<section><h1 class="part" id="${partId}">${esc(part.nameRu)}</h1>${blocks}${rest}</section>`,
   );
@@ -102,8 +107,10 @@ const html = `<!doctype html>
     main { padding: 24px 36px 48px; }
     h1.part { break-before: page; font-size: 22pt; }
     h2 { font-size: 15pt; margin-top: 1.2em; }
-    h3 { font-size: 13pt; margin-bottom: 0.2em; }
-    .card { break-inside: avoid; margin: 0.8em 0 1em; padding-bottom: 0.6em; border-bottom: 1px solid #ddd; }
+    .card { margin: 0.8em 0 1.2em; padding-bottom: 0.6em; border-bottom: 1px solid #ddd; }
+    .card-title { font-size: 13pt; font-weight: 700; margin: 0.15em 0 0.4em; }
+    .label { font-weight: 700; margin: 0.7em 0 0.2em; }
+    .description p { margin: 0.3em 0; }
     .kind { letter-spacing: 0.06em; text-transform: uppercase; font-size: 9pt; color: #5e564c; }
     a { color: #1d4a38; }
     .note { background: #f6f0e4; padding: 12px 14px; }
@@ -136,7 +143,7 @@ try {
   execFileSync(
     "timeout",
     [
-      "180",
+      "240",
       "google-chrome",
       "--headless=new",
       "--disable-gpu",

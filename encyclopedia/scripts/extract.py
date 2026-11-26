@@ -192,8 +192,8 @@ FOOD_RES: list[tuple[re.Pattern[str], str]] = [
 ]
 
 BODY_RES: list[tuple[str, re.Pattern[str]]] = [
-    ("teeth", re.compile(r"\bзуб(ы|ов|ам|ами|ах|а)?\b|кариес|\bteeth\b|\btooth\b", re.I)),
-    ("gums", re.compile(r"десн|десен|пародонт|\bgums?\b", re.I)),
+    ("teeth", re.compile(r"\bзуб(ы|ов|ам|ами|ах|а)?\b|кариес|тартар|\bteeth\b|\btooth\b", re.I)),
+    ("gums", re.compile(r"(?<!чу)д[её]сен|(?<!чу)д[её]сн|пародонт|\bgums?\b", re.I)),
     ("joints", re.compile(r"сустав|колен|артрит|артроз|\bknee\b|\bjoints?\b", re.I)),
     ("bones", re.compile(r"\bкост(ь|и|ей|ям)\b|остеопор|\bbones?\b", re.I)),
     ("muscles", re.compile(r"мышц|\bmuscles?\b", re.I)),
@@ -394,11 +394,19 @@ def dedupe(items: list[str]) -> list[str]:
     return out
 
 
+# A single "зубами" aside is not a dental video. Body text counts only for
+# plaque, tartar, cavities, or whitening. The title still uses BODY_RES.
+TEETH_TEXT_RE = re.compile(
+    r"кариес|зубн\w+\s+(нал[её]т|камень|паст)|тартар|отбел\w+.{0,16}зуб|\bteeth\b|\btooth\b",
+    re.I,
+)
+
+
 def body_parts_for(title: str, text: str) -> list[str]:
     title_hits = [bid for bid, rx in BODY_RES if rx.search(title)]
     counts: list[tuple[int, str]] = []
     for bid, rx in BODY_RES:
-        n = len(rx.findall(text))
+        n = len(TEETH_TEXT_RE.findall(text) if bid == "teeth" else rx.findall(text))
         if n:
             counts.append((n, bid))
     counts.sort(key=lambda pair: (-pair[0], BODY_IDS.index(pair[1])))

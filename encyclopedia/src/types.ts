@@ -14,6 +14,7 @@ export interface Card {
   id: string;
   titleRu: string;
   summaryRu: string;
+  description: string;
   kind: Kind;
   foods: string[];
   supplements: string[];

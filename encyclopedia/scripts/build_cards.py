@@ -75,6 +75,7 @@ def load_rows() -> list[dict]:
 
 def main() -> None:
     rows = load_rows()
+    descriptions = {row["id"]: row.get("description") or "" for row in rows}
     decisions = [extract.analyze(row) for row in rows]
     kept = [row for row in decisions if row["keep"]]
     dropped = [row for row in decisions if not row["keep"]]
@@ -96,6 +97,7 @@ def main() -> None:
             "id": row["id"],
             "titleRu": ru_title,
             "summaryRu": summary(row["kind"], ru_title, foods, supplements),
+            "description": descriptions.get(row["id"], ""),
             "kind": row["kind"],
             "foods": foods,
             "supplements": supplements,

@@ -49,6 +49,7 @@ function blob(card: Card): string {
     [
       card.titleRu,
       card.titleEn,
+      card.description,
       card.summaryRu,
       card.foods.join(" "),
       card.supplements.join(" "),

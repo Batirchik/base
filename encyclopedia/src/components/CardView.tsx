@@ -2,6 +2,22 @@ import { Link } from "react-router-dom";
 import { formatDate, partName, conditionName } from "../lib/model";
 import { KIND_LABEL, type Card } from "../types";
 
+function Description({ text }: { text: string }) {
+  const blocks = text
+    .replaceAll("\r\n", "\n")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+  if (blocks.length === 0) return null;
+  return (
+    <div className="description">
+      {blocks.map((block, index) => (
+        <p key={`${index}-${block.slice(0, 24)}`}>{block}</p>
+      ))}
+    </div>
+  );
+}
+
 export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
   const title = linked ? (
     <Link to={`/card/${card.id}`}>{card.titleRu}</Link>
@@ -12,7 +28,7 @@ export function CardView({ card, linked }: { card: Card; linked?: boolean }) {
     <article className="card" id={`card-${card.id}`} data-kind={card.kind}>
       <p className="kind">{KIND_LABEL[card.kind]}</p>
       <h2>{title}</h2>
-      <p className="summary">{card.summaryRu}</p>
+      <Description text={card.description} />
       {card.foods.length > 0 && (
         <section>
           <h3>Продукты</h3>

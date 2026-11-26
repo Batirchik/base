@@ -63,6 +63,10 @@ def main() -> None:
     targets = destination_map(reader)
     writer = PdfWriter()
     writer.append(reader)
+    # Chrome also bookmarks every heading, including card titles. Drop that
+    # outline and write only body-part and condition names.
+    if "/Outlines" in writer._root_object:
+        del writer._root_object["/Outlines"]
     added = 0
     missing = []
     for part in parts:
@@ -78,14 +82,11 @@ def main() -> None:
             title=part["nameRu"], page_number=target[0], fit=target[1]
         )
         added += 1
-        groups: dict[str, list] = {}
-        loose = False
+        groups: set[str] = set()
         for card in in_part:
-            related = [cid for cid in card["conditions"] if part["id"] in allow.get(cid, ())]
-            if not related:
-                loose = True
-            for condition_id in related:
-                groups.setdefault(condition_id, []).append(card)
+            for condition_id in card["conditions"]:
+                if part["id"] in allow.get(condition_id, ()):
+                    groups.add(condition_id)
         ordered = sorted(groups, key=lambda cid: condition_name.get(cid, cid))
         for condition_id in ordered:
             anchor = f"{part_id}--{condition_id}"
@@ -100,19 +101,6 @@ def main() -> None:
                 fit=child[1],
             )
             added += 1
-        if loose:
-            anchor = f"{part_id}--loose"
-            child = targets.get(anchor)
-            if child is None:
-                missing.append(anchor)
-            else:
-                writer.add_outline_item(
-                    title="Без отдельного состояния",
-                    page_number=child[0],
-                    parent=parent,
-                    fit=child[1],
-                )
-                added += 1
 
     tmp = pdf_path.with_suffix(".outline.pdf")
     with tmp.open("wb") as handle:

@@ -106,7 +106,7 @@ nav a.active { border-bottom: 2px solid var(--green); }
 .card[data-kind="recipe"] { border-left-color: var(--recipe); }
 .card[data-kind="recommendation"] { border-left-color: var(--recommendation); }
 .kind { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0; }
-.summary { margin-top: 0.4rem; }
+.description p { margin: 0.45rem 0; white-space: pre-wrap; }
 .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; list-style: none; }
 .chips li { background: #efe6d4; border-radius: 999px; padding: 0.2rem 0.7rem; }
 .card ol { margin: 0.2rem 0 0.6rem; padding-left: 1.2rem; }
@@ -136,7 +136,7 @@ nav a.active { border-bottom: 2px solid var(--green); }
   .no-print, .screen-only { display: none !important; }
   .print-only { display: block !important; }
   .shell { max-width: none; padding: 0; }
-  .card, .doors article { box-shadow: none; break-inside: avoid; }
+  .doors article { box-shadow: none; }
   a[href^="http"]::after {
     content: " (" attr(href) ")";
     font-size: 0.85em;
